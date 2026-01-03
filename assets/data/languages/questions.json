@@ -1,0 +1,729 @@
+[
+  {
+    "category": "languages",
+    "difficulty": "facile",
+    "text": "Quelle est la langue officielle de la France ?",
+    "image": "assets/images/languages/facile/q1.png",
+    "answers": [
+      { "text": "Français", "isCorrect": true },
+      { "text": "Espagnol", "isCorrect": false },
+      { "text": "Allemand", "isCorrect": false },
+      { "text": "Italien", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "languages",
+    "difficulty": "facile",
+    "text": "Quelle est la langue officielle de l'Allemagne ?",
+    "image": "assets/images/languages/facile/q2.png",
+    "answers": [
+      { "text": "Allemand", "isCorrect": true },
+      { "text": "Français", "isCorrect": false },
+      { "text": "Néerlandais", "isCorrect": false },
+      { "text": "Italien", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "languages",
+    "difficulty": "facile",
+    "text": "Quelle est la langue officielle de l'Espagne ?",
+    "image": "assets/images/languages/facile/q3.png",
+    "answers": [
+      { "text": "Espagnol", "isCorrect": true },
+      { "text": "Portugais", "isCorrect": false },
+      { "text": "Français", "isCorrect": false },
+      { "text": "Italien", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "languages",
+    "difficulty": "facile",
+    "text": "Quelle est la langue officielle de l'Italie ?",
+    "image": "assets/images/languages/facile/q4.png",
+    "answers": [
+      { "text": "Italien", "isCorrect": true },
+      { "text": "Français", "isCorrect": false },
+      { "text": "Allemand", "isCorrect": false },
+      { "text": "Espagnol", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "languages",
+    "difficulty": "facile",
+    "text": "Quelle est la langue officielle du Portugal ?",
+    "image": "assets/images/languages/facile/q5.png",
+    "answers": [
+      { "text": "Portugais", "isCorrect": true },
+      { "text": "Espagnol", "isCorrect": false },
+      { "text": "Français", "isCorrect": false },
+      { "text": "Italien", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "languages",
+    "difficulty": "facile",
+    "text": "Quelle est la langue officielle du Royaume-Uni ?",
+    "image": "assets/images/languages/facile/q6.png",
+    "answers": [
+      { "text": "Anglais", "isCorrect": true },
+      { "text": "Français", "isCorrect": false },
+      { "text": "Allemand", "isCorrect": false },
+      { "text": "Gallois", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "languages",
+    "difficulty": "facile",
+    "text": "Quelle est la langue officielle des États-Unis ?",
+    "image": "assets/images/languages/facile/q7.png",
+    "answers": [
+      { "text": "Anglais", "isCorrect": true },
+      { "text": "Espagnol", "isCorrect": false },
+      { "text": "Français", "isCorrect": false },
+      { "text": "Portugais", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "languages",
+    "difficulty": "facile",
+    "text": "Quelle est la langue officielle du Canada ?",
+    "image": "assets/images/languages/facile/q8.png",
+    "answers": [
+      { "text": "Anglais et Français", "isCorrect": true },
+      { "text": "Anglais seulement", "isCorrect": false },
+      { "text": "Français seulement", "isCorrect": false },
+      { "text": "Espagnol", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "languages",
+    "difficulty": "facile",
+    "text": "Quelle est la langue officielle du Brésil ?",
+    "image": "assets/images/languages/facile/q9.png",
+    "answers": [
+      { "text": "Portugais", "isCorrect": true },
+      { "text": "Espagnol", "isCorrect": false },
+      { "text": "Anglais", "isCorrect": false },
+      { "text": "Français", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "languages",
+    "difficulty": "facile",
+    "text": "Quelle est la langue officielle de l'Argentine ?",
+    "image": "assets/images/languages/facile/q10.png",
+    "answers": [
+      { "text": "Espagnol", "isCorrect": true },
+      { "text": "Portugais", "isCorrect": false },
+      { "text": "Italien", "isCorrect": false },
+      { "text": "Français", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "languages",
+    "difficulty": "facile",
+    "text": "Quelle est la langue officielle de la Tunisie ?",
+    "image": "assets/images/languages/facile/q11.png",
+    "answers": [
+      { "text": "Arabe", "isCorrect": true },
+      { "text": "Français", "isCorrect": false },
+      { "text": "Anglais", "isCorrect": false },
+      { "text": "Italien", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "languages",
+    "difficulty": "facile",
+    "text": "Quelle est la langue officielle de l'Égypte ?",
+    "image": "assets/images/languages/facile/q12.png",
+    "answers": [
+      { "text": "Arabe", "isCorrect": true },
+      { "text": "Français", "isCorrect": false },
+      { "text": "Anglais", "isCorrect": false },
+      { "text": "Italien", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "languages",
+    "difficulty": "facile",
+    "text": "Quelle est la langue officielle de l'Algérie ?",
+    "image": "assets/images/languages/facile/q13.png",
+    "answers": [
+      { "text": "Arabe", "isCorrect": true },
+      { "text": "Berbère", "isCorrect": false },
+      { "text": "Français", "isCorrect": false },
+      { "text": "Espagnol", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "languages",
+    "difficulty": "facile",
+    "text": "Quelle est la langue officielle du Maroc ?",
+    "image": "assets/images/languages/facile/q14.png",
+    "answers": [
+      { "text": "Arabe", "isCorrect": true },
+      { "text": "Berbère", "isCorrect": false },
+      { "text": "Français", "isCorrect": false },
+      { "text": "Espagnol", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "languages",
+    "difficulty": "facile",
+    "text": "Quelle est la langue officielle de l'Italie ?",
+    "image": "assets/images/languages/facile/q15.png",
+    "answers": [
+      { "text": "Italien", "isCorrect": true },
+      { "text": "Français", "isCorrect": false },
+      { "text": "Espagnol", "isCorrect": false },
+      { "text": "Allemand", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "languages",
+    "difficulty": "facile",
+    "text": "Quelle est la langue officielle de la Russie ?",
+    "image": "assets/images/languages/facile/q16.png",
+    "answers": [
+      { "text": "Russe", "isCorrect": true },
+      { "text": "Ukrainien", "isCorrect": false },
+      { "text": "Polonais", "isCorrect": false },
+      { "text": "Biélorusse", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "languages",
+    "difficulty": "facile",
+    "text": "Quelle est la langue officielle de la Chine ?",
+    "image": "assets/images/languages/facile/q17.png",
+    "answers": [
+      { "text": "Mandarin", "isCorrect": true },
+      { "text": "Cantonais", "isCorrect": false },
+      { "text": "Anglais", "isCorrect": false },
+      { "text": "Japonais", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "languages",
+    "difficulty": "facile",
+    "text": "Quelle est la langue officielle du Japon ?",
+    "image": "assets/images/languages/facile/q18.png",
+    "answers": [
+      { "text": "Japonais", "isCorrect": true },
+      { "text": "Coréen", "isCorrect": false },
+      { "text": "Mandarin", "isCorrect": false },
+      { "text": "Anglais", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "languages",
+    "difficulty": "facile",
+    "text": "Quelle est la langue officielle de l'Inde ?",
+    "image": "assets/images/languages/facile/q19.png",
+    "answers": [
+      { "text": "Hindi", "isCorrect": true },
+      { "text": "Anglais", "isCorrect": false },
+      { "text": "Bengali", "isCorrect": false },
+      { "text": "Tamoul", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "languages",
+    "difficulty": "facile",
+    "text": "Quelle est la langue officielle de l'Australie ?",
+    "image": "assets/images/languages/facile/q20.png",
+    "answers": [
+      { "text": "Anglais", "isCorrect": true },
+      { "text": "Français", "isCorrect": false },
+      { "text": "Espagnol", "isCorrect": false },
+      { "text": "Italien", "isCorrect": false }
+    ]
+  },
+
+    {
+      "category": "languages",
+      "difficulty": "moyenne",
+      "text": "Quelle est la langue officielle de l'Afrique du Sud ?",
+      "image": "assets/images/languages/moyenne/q1.png",
+      "answers": [
+        { "text": "Afrikaans", "isCorrect": true },
+        { "text": "Swahili", "isCorrect": false },
+        { "text": "Anglais seulement", "isCorrect": false },
+        { "text": "Zoulou seulement", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "languages",
+      "difficulty": "moyenne",
+      "text": "Quelle est la langue officielle du Kenya ?",
+      "image": "assets/images/languages/moyenne/q2.png",
+      "answers": [
+        { "text": "Swahili", "isCorrect": true },
+        { "text": "Anglais", "isCorrect": false },
+        { "text": "Afrikaans", "isCorrect": false },
+        { "text": "Zoulou", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "languages",
+      "difficulty": "moyenne",
+      "text": "Quelle est la langue officielle de la Belgique ?",
+      "image": "assets/images/languages/moyenne/q3.png",
+      "answers": [
+        { "text": "Français, Néerlandais et Allemand", "isCorrect": true },
+        { "text": "Français seulement", "isCorrect": false },
+        { "text": "Néerlandais seulement", "isCorrect": false },
+        { "text": "Allemand seulement", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "languages",
+      "difficulty": "moyenne",
+      "text": "Quelle est la langue officielle de la Suisse ?",
+      "image": "assets/images/languages/moyenne/q4.png",
+      "answers": [
+        { "text": "Allemand, Français, Italien et Romanche", "isCorrect": true },
+        { "text": "Allemand seulement", "isCorrect": false },
+        { "text": "Français seulement", "isCorrect": false },
+        { "text": "Italien seulement", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "languages",
+      "difficulty": "moyenne",
+      "text": "Quelle est la langue officielle de Singapour ?",
+      "image": "assets/images/languages/moyenne/q5.png",
+      "answers": [
+        { "text": "Anglais, Malais, Mandarin et Tamoul", "isCorrect": true },
+        { "text": "Anglais seulement", "isCorrect": false },
+        { "text": "Mandarin seulement", "isCorrect": false },
+        { "text": "Malais seulement", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "languages",
+      "difficulty": "moyenne",
+      "text": "Quelle est la langue officielle de la Turquie ?",
+      "image": "assets/images/languages/moyenne/q6.png",
+      "answers": [
+        { "text": "Turc", "isCorrect": true },
+        { "text": "Kurde", "isCorrect": false },
+        { "text": "Arabe", "isCorrect": false },
+        { "text": "Persan", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "languages",
+      "difficulty": "moyenne",
+      "text": "Quelle est la langue officielle de la Grèce ?",
+      "image": "assets/images/languages/moyenne/q7.png",
+      "answers": [
+        { "text": "Grec", "isCorrect": true },
+        { "text": "Turc", "isCorrect": false },
+        { "text": "Italien", "isCorrect": false },
+        { "text": "Anglais", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "languages",
+      "difficulty": "moyenne",
+      "text": "Quelle est la langue officielle de l'Iran ?",
+      "image": "assets/images/languages/moyenne/q8.png",
+      "answers": [
+        { "text": "Persan (Farsi)", "isCorrect": true },
+        { "text": "Arabe", "isCorrect": false },
+        { "text": "Kurdes", "isCorrect": false },
+        { "text": "Turc", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "languages",
+      "difficulty": "moyenne",
+      "text": "Quelle est la langue officielle de la Thaïlande ?",
+      "image": "assets/images/languages/moyenne/q9.png",
+      "answers": [
+        { "text": "Thaï", "isCorrect": true },
+        { "text": "Vietnamien", "isCorrect": false },
+        { "text": "Laotien", "isCorrect": false },
+        { "text": "Khmer", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "languages",
+      "difficulty": "moyenne",
+      "text": "Quelle est la langue officielle de l'Indonésie ?",
+      "image": "assets/images/languages/moyenne/q10.png",
+      "answers": [
+        { "text": "Indonésien", "isCorrect": true },
+        { "text": "Javanais", "isCorrect": false },
+        { "text": "Malais", "isCorrect": false },
+        { "text": "Anglais", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "languages",
+      "difficulty": "moyenne",
+      "text": "Quelle est la langue officielle de la Malaisie ?",
+      "image": "assets/images/languages/moyenne/q11.png",
+      "answers": [
+        { "text": "Malais", "isCorrect": true },
+        { "text": "Anglais", "isCorrect": false },
+        { "text": "Mandarin", "isCorrect": false },
+        { "text": "Tamoul", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "languages",
+      "difficulty": "moyenne",
+      "text": "Quelle est la langue officielle de l'Irlande ?",
+      "image": "assets/images/languages/moyenne/q12.png",
+      "answers": [
+        { "text": "Anglais et Irlandais (Gaélique)", "isCorrect": true },
+        { "text": "Anglais seulement", "isCorrect": false },
+        { "text": "Irlandais seulement", "isCorrect": false },
+        { "text": "Français", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "languages",
+      "difficulty": "moyenne",
+      "text": "Quelle est la langue officielle de la Norvège ?",
+      "image": "assets/images/languages/moyenne/q13.png",
+      "answers": [
+        { "text": "Norvégien", "isCorrect": true },
+        { "text": "Suédois", "isCorrect": false },
+        { "text": "Danois", "isCorrect": false },
+        { "text": "Finnois", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "languages",
+      "difficulty": "moyenne",
+      "text": "Quelle est la langue officielle de la Finlande ?",
+      "image": "assets/images/languages/moyenne/q14.png",
+      "answers": [
+        { "text": "Finnois et Suédois", "isCorrect": true },
+        { "text": "Finnois seulement", "isCorrect": false },
+        { "text": "Suédois seulement", "isCorrect": false },
+        { "text": "Norvégien", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "languages",
+      "difficulty": "moyenne",
+      "text": "Quelle est la langue officielle de la Hongrie ?",
+      "image": "assets/images/languages/moyenne/q15.png",
+      "answers": [
+        { "text": "Hongrois", "isCorrect": true },
+        { "text": "Roumain", "isCorrect": false },
+        { "text": "Slovaque", "isCorrect": false },
+        { "text": "Allemand", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "languages",
+      "difficulty": "moyenne",
+      "text": "Quelle est la langue officielle de la Pologne ?",
+      "image": "assets/images/languages/moyenne/q16.png",
+      "answers": [
+        { "text": "Polonais", "isCorrect": true },
+        { "text": "Slovaque", "isCorrect": false },
+        { "text": "Tchèque", "isCorrect": false },
+        { "text": "Allemand", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "languages",
+      "difficulty": "moyenne",
+      "text": "Quelle est la langue officielle de la République tchèque ?",
+      "image": "assets/images/languages/moyenne/q17.png",
+      "answers": [
+        { "text": "Tchèque", "isCorrect": true },
+        { "text": "Slovaque", "isCorrect": false },
+        { "text": "Polonais", "isCorrect": false },
+        { "text": "Allemand", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "languages",
+      "difficulty": "moyenne",
+      "text": "Quelle est la langue officielle de l'Éthiopie ?",
+      "image": "assets/images/languages/moyenne/q18.png",
+      "answers": [
+        { "text": "Amharique", "isCorrect": true },
+        { "text": "Oromo", "isCorrect": false },
+        { "text": "Tigrinya", "isCorrect": false },
+        { "text": "Somali", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "languages",
+      "difficulty": "moyenne",
+      "text": "Quelle est la langue officielle de l'Israël ?",
+      "image": "assets/images/languages/moyenne/q19.png",
+      "answers": [
+        { "text": "Hébreu", "isCorrect": true },
+        { "text": "Arabe", "isCorrect": false },
+        { "text": "Anglais", "isCorrect": false },
+        { "text": "Français", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "languages",
+      "difficulty": "moyenne",
+      "text": "Quelle est la langue officielle de l'Arabie Saoudite ?",
+      "image": "assets/images/languages/moyenne/q20.png",
+      "answers": [
+        { "text": "Arabe", "isCorrect": true },
+        { "text": "Persan", "isCorrect": false },
+        { "text": "Anglais", "isCorrect": false },
+        { "text": "Turc", "isCorrect": false }
+      ]
+    },
+
+    {
+      "category": "languages",
+      "difficulty": "difficile",
+      "text": "Quelle est la langue officielle du Bhoutan ?",
+      "image": "assets/images/languages/difficile/q1.png",
+      "answers": [
+        { "text": "Dzongkha", "isCorrect": true },
+        { "text": "Népalais", "isCorrect": false },
+        { "text": "Bengali", "isCorrect": false },
+        { "text": "Hindi", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "languages",
+      "difficulty": "difficile",
+      "text": "Quelle est la langue officielle du Luxembourg ?",
+      "image": "assets/images/languages/difficile/q2.png",
+      "answers": [
+        { "text": "Luxembourgeois", "isCorrect": true },
+        { "text": "Français", "isCorrect": false },
+        { "text": "Allemand", "isCorrect": false },
+        { "text": "Néerlandais", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "languages",
+      "difficulty": "difficile",
+      "text": "Quelle est la langue officielle du Suriname ?",
+      "image": "assets/images/languages/difficile/q3.png",
+      "answers": [
+        { "text": "Néerlandais", "isCorrect": true },
+        { "text": "Portugais", "isCorrect": false },
+        { "text": "Espagnol", "isCorrect": false },
+        { "text": "Anglais", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "languages",
+      "difficulty": "difficile",
+      "text": "Quelle est la langue officielle de la Papouasie-Nouvelle-Guinée ?",
+      "image": "assets/images/languages/difficile/q4.png",
+      "answers": [
+        { "text": "Anglais", "isCorrect": true },
+        { "text": "Hiri Motu", "isCorrect": false },
+        { "text": "Tok Pisin", "isCorrect": false },
+        { "text": "Français", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "languages",
+      "difficulty": "difficile",
+      "text": "Quelle est la langue officielle du Liechtenstein ?",
+      "image": "assets/images/languages/difficile/q5.png",
+      "answers": [
+        { "text": "Allemand", "isCorrect": true },
+        { "text": "Italien", "isCorrect": false },
+        { "text": "Français", "isCorrect": false },
+        { "text": "Luxembourgeois", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "languages",
+      "difficulty": "difficile",
+      "text": "Quelle est la langue officielle de Malte ?",
+      "image": "assets/images/languages/difficile/q6.png",
+      "answers": [
+        { "text": "Maltais et Anglais", "isCorrect": true },
+        { "text": "Italien", "isCorrect": false },
+        { "text": "Français", "isCorrect": false },
+        { "text": "Espagnol", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "languages",
+      "difficulty": "difficile",
+      "text": "Quelle est la langue officielle de la Namibie ?",
+      "image": "assets/images/languages/difficile/q7.png",
+      "answers": [
+        { "text": "Anglais", "isCorrect": true },
+        { "text": "Afrikaans", "isCorrect": false },
+        { "text": "Oshiwambo", "isCorrect": false },
+        { "text": "Allemand", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "languages",
+      "difficulty": "difficile",
+      "text": "Quelle est la langue officielle du Vanuatu ?",
+      "image": "assets/images/languages/difficile/q8.png",
+      "answers": [
+        { "text": "Bichelamar, Français et Anglais", "isCorrect": true },
+        { "text": "Français seulement", "isCorrect": false },
+        { "text": "Anglais seulement", "isCorrect": false },
+        { "text": "Espagnol", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "languages",
+      "difficulty": "difficile",
+      "text": "Quelle est la langue officielle de l'Érythrée ?",
+      "image": "assets/images/languages/difficile/q9.png",
+      "answers": [
+        { "text": "Tigrinya", "isCorrect": true },
+        { "text": "Amharique", "isCorrect": false },
+        { "text": "Oromo", "isCorrect": false },
+        { "text": "Somali", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "languages",
+      "difficulty": "difficile",
+      "text": "Quelle est la langue officielle du Belize ?",
+      "image": "assets/images/languages/difficile/q10.png",
+      "answers": [
+        { "text": "Anglais", "isCorrect": true },
+        { "text": "Espagnol", "isCorrect": false },
+        { "text": "Garifuna", "isCorrect": false },
+        { "text": "Maya", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "languages",
+      "difficulty": "difficile",
+      "text": "Quelle est la langue officielle du Lesotho ?",
+      "image": "assets/images/languages/difficile/q11.png",
+      "answers": [
+        { "text": "Sesotho et Anglais", "isCorrect": true },
+        { "text": "Afrikaans", "isCorrect": false },
+        { "text": "Zoulou", "isCorrect": false },
+        { "text": "Swahili", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "languages",
+      "difficulty": "difficile",
+      "text": "Quelle est la langue officielle de la Micronésie ?",
+      "image": "assets/images/languages/difficile/q12.png",
+      "answers": [
+        { "text": "Anglais", "isCorrect": true },
+        { "text": "Chuukese", "isCorrect": false },
+        { "text": "Pohnpeian", "isCorrect": false },
+        { "text": "Yapese", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "languages",
+      "difficulty": "difficile",
+      "text": "Quelle est la langue officielle de Palau ?",
+      "image": "assets/images/languages/difficile/q13.png",
+      "answers": [
+        { "text": "Anglais et Paluan", "isCorrect": true },
+        { "text": "Filipino", "isCorrect": false },
+        { "text": "Japonais", "isCorrect": false },
+        { "text": "Chinois", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "languages",
+      "difficulty": "difficile",
+      "text": "Quelle est la langue officielle du Kiribati ?",
+      "image": "assets/images/languages/difficile/q14.png",
+      "answers": [
+        { "text": "Gilbertese et Anglais", "isCorrect": true },
+        { "text": "Fidjien", "isCorrect": false },
+        { "text": "Samoan", "isCorrect": false },
+        { "text": "Tongan", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "languages",
+      "difficulty": "difficile",
+      "text": "Quelle est la langue officielle des Îles Salomon ?",
+      "image": "assets/images/languages/difficile/q15.png",
+      "answers": [
+        { "text": "Anglais", "isCorrect": true },
+        { "text": "Pijin", "isCorrect": false },
+        { "text": "Tongan", "isCorrect": false },
+        { "text": "Fidjien", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "languages",
+      "difficulty": "difficile",
+      "text": "Quelle est la langue officielle du Cap-Vert ?",
+      "image": "assets/images/languages/difficile/q16.png",
+      "answers": [
+        { "text": "Portugais", "isCorrect": true },
+        { "text": "Créole capverdien", "isCorrect": false },
+        { "text": "Espagnol", "isCorrect": false },
+        { "text": "Français", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "languages",
+      "difficulty": "difficile",
+      "text": "Quelle est la langue officielle de l'Équateur ?",
+      "image": "assets/images/languages/difficile/q17.png",
+      "answers": [
+        { "text": "Espagnol", "isCorrect": true },
+        { "text": "Quechua", "isCorrect": false },
+        { "text": "Shuar", "isCorrect": false },
+        { "text": "Français", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "languages",
+      "difficulty": "difficile",
+      "text": "Quelle est la langue officielle du Suriname ?",
+      "image": "assets/images/languages/difficile/q18.png",
+      "answers": [
+        { "text": "Néerlandais", "isCorrect": true },
+        { "text": "Sranan Tongo", "isCorrect": false },
+        { "text": "Anglais", "isCorrect": false },
+        { "text": "Espagnol", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "languages",
+      "difficulty": "difficile",
+      "text": "Quelle est la langue officielle de la Mongolie ?",
+      "image": "assets/images/languages/difficile/q19.png",
+      "answers": [
+        { "text": "Mongol", "isCorrect": true },
+        { "text": "Russe", "isCorrect": false },
+        { "text": "Chinois", "isCorrect": false },
+        { "text": "Kazakh", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "languages",
+      "difficulty": "difficile",
+      "text": "Quelle est la langue officielle du Tadjikistan ?",
+      "image": "assets/images/languages/difficile/q20.png",
+      "answers": [
+        { "text": "Tadjik", "isCorrect": true },
+        { "text": "Ouzbek", "isCorrect": false },
+        { "text": "Russe", "isCorrect": false },
+        { "text": "Kazakh", "isCorrect": false }
+      ]
+    }
+
+
+
+
+
+]

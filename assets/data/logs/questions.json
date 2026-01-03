@@ -1,0 +1,733 @@
+[
+  {
+    "category": "logs",
+    "difficulty": "facile",
+    "text": "Quel logo est représenté sur l'image ?",
+    "image": "assets/images/logs/facile/q1.png",
+    "answers": [
+      { "text": "Nike", "isCorrect": true },
+      { "text": "Adidas", "isCorrect": false },
+      { "text": "Puma", "isCorrect": false },
+      { "text": "Reebok", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "logs",
+    "difficulty": "facile",
+    "text": "Quel logo est représenté sur l'image ?",
+    "image": "assets/images/logs/facile/q2.png",
+    "answers": [
+      { "text": "Apple", "isCorrect": true },
+      { "text": "Microsoft", "isCorrect": false },
+      { "text": "Samsung", "isCorrect": false },
+      { "text": "Sony", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "logs",
+    "difficulty": "facile",
+    "text": "Quel logo est représenté sur l'image ?",
+    "image": "assets/images/logs/facile/q3.png",
+    "answers": [
+      { "text": "McDonald's", "isCorrect": true },
+      { "text": "Burger King", "isCorrect": false },
+      { "text": "KFC", "isCorrect": false },
+      { "text": "Subway", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "logs",
+    "difficulty": "facile",
+    "text": "Quel logo est représenté sur l'image ?",
+    "image": "assets/images/logs/facile/q4.png",
+    "answers": [
+      { "text": "Coca-Cola", "isCorrect": true },
+      { "text": "Pepsi", "isCorrect": false },
+      { "text": "Sprite", "isCorrect": false },
+      { "text": "Fanta", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "logs",
+    "difficulty": "facile",
+    "text": "Quel logo est représenté sur l'image ?",
+    "image": "assets/images/logs/facile/q5.png",
+    "answers": [
+      { "text": "Adidas", "isCorrect": true },
+      { "text": "Nike", "isCorrect": false },
+      { "text": "Puma", "isCorrect": false },
+      { "text": "Reebok", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "logs",
+    "difficulty": "facile",
+    "text": "Quel logo est représenté sur l'image ?",
+    "image": "assets/images/logs/facile/q6.png",
+    "answers": [
+      { "text": "Pepsi", "isCorrect": true },
+      { "text": "Coca-Cola", "isCorrect": false },
+      { "text": "Sprite", "isCorrect": false },
+      { "text": "Fanta", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "logs",
+    "difficulty": "facile",
+    "text": "Quel logo est représenté sur l'image ?",
+    "image": "assets/images/logs/facile/q7.png",
+    "answers": [
+      { "text": "Google", "isCorrect": true },
+      { "text": "Microsoft", "isCorrect": false },
+      { "text": "Yahoo", "isCorrect": false },
+      { "text": "Apple", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "logs",
+    "difficulty": "facile",
+    "text": "Quel logo est représenté sur l'image ?",
+    "image": "assets/images/logs/facile/q8.png",
+    "answers": [
+      { "text": "Samsung", "isCorrect": true },
+      { "text": "LG", "isCorrect": false },
+      { "text": "Sony", "isCorrect": false },
+      { "text": "Huawei", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "logs",
+    "difficulty": "facile",
+    "text": "Quel logo est représenté sur l'image ?",
+    "image": "assets/images/logs/facile/q9.png",
+    "answers": [
+      { "text": "Starbucks", "isCorrect": true },
+      { "text": "Costa Coffee", "isCorrect": false },
+      { "text": "Dunkin' Donuts", "isCorrect": false },
+      { "text": "McCafé", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "logs",
+    "difficulty": "facile",
+    "text": "Quel logo est représenté sur l'image ?",
+    "image": "assets/images/logs/facile/q10.png",
+    "answers": [
+      { "text": "Toyota", "isCorrect": true },
+      { "text": "Honda", "isCorrect": false },
+      { "text": "Nissan", "isCorrect": false },
+      { "text": "Hyundai", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "logs",
+    "difficulty": "facile",
+    "text": "Quel logo est représenté sur l'image ?",
+    "image": "assets/images/logs/facile/q11.png",
+    "answers": [
+      { "text": "Ferrari", "isCorrect": true },
+      { "text": "Lamborghini", "isCorrect": false },
+      { "text": "Porsche", "isCorrect": false },
+      { "text": "Maserati", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "logs",
+    "difficulty": "facile",
+    "text": "Quel logo est représenté sur l'image ?",
+    "image": "assets/images/logs/facile/q12.png",
+    "answers": [
+      { "text": "Microsoft", "isCorrect": true },
+      { "text": "Apple", "isCorrect": false },
+      { "text": "Google", "isCorrect": false },
+      { "text": "IBM", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "logs",
+    "difficulty": "facile",
+    "text": "Quel logo est représenté sur l'image ?",
+    "image": "assets/images/logs/facile/q13.png",
+    "answers": [
+      { "text": "Facebook", "isCorrect": true },
+      { "text": "Instagram", "isCorrect": false },
+      { "text": "Twitter", "isCorrect": false },
+      { "text": "Snapchat", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "logs",
+    "difficulty": "facile",
+    "text": "Quel logo est représenté sur l'image ?",
+    "image": "assets/images/logs/facile/q14.png",
+    "answers": [
+      { "text": "Instagram", "isCorrect": true },
+      { "text": "Facebook", "isCorrect": false },
+      { "text": "Snapchat", "isCorrect": false },
+      { "text": "TikTok", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "logs",
+    "difficulty": "facile",
+    "text": "Quel logo est représenté sur l'image ?",
+    "image": "assets/images/logs/facile/q15.png",
+    "answers": [
+      { "text": "Honda", "isCorrect": true },
+      { "text": "Toyota", "isCorrect": false },
+      { "text": "Hyundai", "isCorrect": false },
+      { "text": "Nissan", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "logs",
+    "difficulty": "facile",
+    "text": "Quel logo est représenté sur l'image ?",
+    "image": "assets/images/logs/facile/q16.png",
+    "answers": [
+      { "text": "Nike", "isCorrect": true },
+      { "text": "Adidas", "isCorrect": false },
+      { "text": "Puma", "isCorrect": false },
+      { "text": "Reebok", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "logs",
+    "difficulty": "facile",
+    "text": "Quel logo est représenté sur l'image ?",
+    "image": "assets/images/logs/facile/q17.png",
+    "answers": [
+      { "text": "Twitter", "isCorrect": true },
+      { "text": "Facebook", "isCorrect": false },
+      { "text": "Instagram", "isCorrect": false },
+      { "text": "LinkedIn", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "logs",
+    "difficulty": "facile",
+    "text": "Quel logo est représenté sur l'image ?",
+    "image": "assets/images/logs/facile/q18.png",
+    "answers": [
+      { "text": "YouTube", "isCorrect": true },
+      { "text": "Vimeo", "isCorrect": false },
+      { "text": "Dailymotion", "isCorrect": false },
+      { "text": "Netflix", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "logs",
+    "difficulty": "facile",
+    "text": "Quel logo est représenté sur l'image ?",
+    "image": "assets/images/logs/facile/q19.png",
+    "answers": [
+      { "text": "Amazon", "isCorrect": true },
+      { "text": "eBay", "isCorrect": false },
+      { "text": "Alibaba", "isCorrect": false },
+      { "text": "Walmart", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "logs",
+    "difficulty": "facile",
+    "text": "Quel logo est représenté sur l'image ?",
+    "image": "assets/images/logs/facile/q20.png",
+    "answers": [
+      { "text": "Lego", "isCorrect": true },
+      { "text": "Playmobil", "isCorrect": false },
+      { "text": "Mattel", "isCorrect": false },
+      { "text": "Hasbro", "isCorrect": false }
+    ]
+  },
+
+
+
+    {
+      "category": "logs",
+      "difficulty": "moyenne",
+      "text": "Quel logo est représenté sur l'image ?",
+      "image": "assets/images/logs/moyenne/q1.png",
+      "answers": [
+        { "text": "Spotify", "isCorrect": true },
+        { "text": "SoundCloud", "isCorrect": false },
+        { "text": "Apple Music", "isCorrect": false },
+        { "text": "Deezer", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "logs",
+      "difficulty": "moyenne",
+      "text": "Quel logo est représenté sur l'image ?",
+      "image": "assets/images/logs/moyenne/q2.png",
+      "answers": [
+        { "text": "TikTok", "isCorrect": true },
+        { "text": "Instagram", "isCorrect": false },
+        { "text": "Snapchat", "isCorrect": false },
+        { "text": "YouTube", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "logs",
+      "difficulty": "moyenne",
+      "text": "Quel logo est représenté sur l'image ?",
+      "image": "assets/images/logs/moyenne/q3.png",
+      "answers": [
+        { "text": "FedEx", "isCorrect": true },
+        { "text": "UPS", "isCorrect": false },
+        { "text": "DHL", "isCorrect": false },
+        { "text": "TNT", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "logs",
+      "difficulty": "moyenne",
+      "text": "Quel logo est représenté sur l'image ?",
+      "image": "assets/images/logs/moyenne/q4.png",
+      "answers": [
+        { "text": "IKEA", "isCorrect": true },
+        { "text": "Leroy Merlin", "isCorrect": false },
+        { "text": "Home Depot", "isCorrect": false },
+        { "text": "Castorama", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "logs",
+      "difficulty": "moyenne",
+      "text": "Quel logo est représenté sur l'image ?",
+      "image": "assets/images/logs/moyenne/q5.png",
+      "answers": [
+        { "text": "Shell", "isCorrect": true },
+        { "text": "BP", "isCorrect": false },
+        { "text": "Total", "isCorrect": false },
+        { "text": "Exxon", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "logs",
+      "difficulty": "moyenne",
+      "text": "Quel logo est représenté sur l'image ?",
+      "image": "assets/images/logs/moyenne/q6.png",
+      "answers": [
+        { "text": "BMW", "isCorrect": true },
+        { "text": "Audi", "isCorrect": false },
+        { "text": "Mercedes", "isCorrect": false },
+        { "text": "Volkswagen", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "logs",
+      "difficulty": "moyenne",
+      "text": "Quel logo est représenté sur l'image ?",
+      "image": "assets/images/logs/moyenne/q7.png",
+      "answers": [
+        { "text": "Heineken", "isCorrect": true },
+        { "text": "Budweiser", "isCorrect": false },
+        { "text": "Carlsberg", "isCorrect": false },
+        { "text": "Corona", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "logs",
+      "difficulty": "moyenne",
+      "text": "Quel logo est représenté sur l'image ?",
+      "image": "assets/images/logs/moyenne/q8.png",
+      "answers": [
+        { "text": "Nestlé", "isCorrect": true },
+        { "text": "Danone", "isCorrect": false },
+        { "text": "Unilever", "isCorrect": false },
+        { "text": "Kraft", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "logs",
+      "difficulty": "moyenne",
+      "text": "Quel logo est représenté sur l'image ?",
+      "image": "assets/images/logs/moyenne/q9.png",
+      "answers": [
+        { "text": "Lacoste", "isCorrect": true },
+        { "text": "Polo Ralph Lauren", "isCorrect": false },
+        { "text": "Tommy Hilfiger", "isCorrect": false },
+        { "text": "Hugo Boss", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "logs",
+      "difficulty": "moyenne",
+      "text": "Quel logo est représenté sur l'image ?",
+      "image": "assets/images/logs/moyenne/q10.png",
+      "answers": [
+        { "text": "Audi", "isCorrect": true },
+        { "text": "BMW", "isCorrect": false },
+        { "text": "Mercedes", "isCorrect": false },
+        { "text": "Volkswagen", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "logs",
+      "difficulty": "moyenne",
+      "text": "Quel logo est représenté sur l'image ?",
+      "image": "assets/images/logs/moyenne/q11.png",
+      "answers": [
+        { "text": "Red Bull", "isCorrect": true },
+        { "text": "Monster", "isCorrect": false },
+        { "text": "Coca-Cola Energy", "isCorrect": false },
+        { "text": "Pepsi Energy", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "logs",
+      "difficulty": "moyenne",
+      "text": "Quel logo est représenté sur l'image ?",
+      "image": "assets/images/logs/moyenne/q12.png",
+      "answers": [
+        { "text": "Pringles", "isCorrect": true },
+        { "text": "Lay's", "isCorrect": false },
+        { "text": "Doritos", "isCorrect": false },
+        { "text": "Cheetos", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "logs",
+      "difficulty": "moyenne",
+      "text": "Quel logo est représenté sur l'image ?",
+      "image": "assets/images/logs/moyenne/q13.png",
+      "answers": [
+        { "text": "KFC", "isCorrect": true },
+        { "text": "McDonald's", "isCorrect": false },
+        { "text": "Burger King", "isCorrect": false },
+        { "text": "Subway", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "logs",
+      "difficulty": "moyenne",
+      "text": "Quel logo est représenté sur l'image ?",
+      "image": "assets/images/logs/moyenne/q14.png",
+      "answers": [
+        { "text": "Puma", "isCorrect": true },
+        { "text": "Nike", "isCorrect": false },
+        { "text": "Adidas", "isCorrect": false },
+        { "text": "Reebok", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "logs",
+      "difficulty": "moyenne",
+      "text": "Quel logo est représenté sur l'image ?",
+      "image": "assets/images/logs/moyenne/q15.png",
+      "answers": [
+        { "text": "Dell", "isCorrect": true },
+        { "text": "HP", "isCorrect": false },
+        { "text": "Lenovo", "isCorrect": false },
+        { "text": "Acer", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "logs",
+      "difficulty": "moyenne",
+      "text": "Quel logo est représenté sur l'image ?",
+      "image": "assets/images/logs/moyenne/q16.png",
+      "answers": [
+        { "text": "Canon", "isCorrect": true },
+        { "text": "Nikon", "isCorrect": false },
+        { "text": "Sony", "isCorrect": false },
+        { "text": "Panasonic", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "logs",
+      "difficulty": "moyenne",
+      "text": "Quel logo est représenté sur l'image ?",
+      "image": "assets/images/logs/moyenne/q17.png",
+      "answers": [
+        { "text": "Levi's", "isCorrect": true },
+        { "text": "Wrangler", "isCorrect": false },
+        { "text": "Lee", "isCorrect": false },
+        { "text": "Diesel", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "logs",
+      "difficulty": "moyenne",
+      "text": "Quel logo est représenté sur l'image ?",
+      "image": "assets/images/logs/moyenne/q18.png",
+      "answers": [
+        { "text": "Volkswagen", "isCorrect": true },
+        { "text": "Audi", "isCorrect": false },
+        { "text": "BMW", "isCorrect": false },
+        { "text": "Mercedes", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "logs",
+      "difficulty": "moyenne",
+      "text": "Quel logo est représenté sur l'image ?",
+      "image": "assets/images/logs/moyenne/q19.png",
+      "answers": [
+        { "text": "Adidas", "isCorrect": true },
+        { "text": "Nike", "isCorrect": false },
+        { "text": "Puma", "isCorrect": false },
+        { "text": "Reebok", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "logs",
+      "difficulty": "moyenne",
+      "text": "Quel logo est représenté sur l'image ?",
+      "image": "assets/images/logs/moyenne/q20.png",
+      "answers": [
+        { "text": "Toyota", "isCorrect": true },
+        { "text": "Honda", "isCorrect": false },
+        { "text": "Nissan", "isCorrect": false },
+        { "text": "Mazda", "isCorrect": false }
+      ]
+    },
+
+
+
+    {
+      "category": "logs",
+      "difficulty": "difficile",
+      "text": "Quel logo est représenté sur l'image ?",
+      "image": "assets/images/logs/difficile/q1.png",
+      "answers": [
+        { "text": "Kia", "isCorrect": true },
+        { "text": "Hyundai", "isCorrect": false },
+        { "text": "Tata", "isCorrect": false },
+        { "text": "Suzuki", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "logs",
+      "difficulty": "difficile",
+      "text": "Quel logo est représenté sur l'image ?",
+      "image": "assets/images/logs/difficile/q2.png",
+      "answers": [
+        { "text": "Asus", "isCorrect": true },
+        { "text": "Acer", "isCorrect": false },
+        { "text": "Dell", "isCorrect": false },
+        { "text": "Lenovo", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "logs",
+      "difficulty": "difficile",
+      "text": "Quel logo est représenté sur l'image ?",
+      "image": "assets/images/logs/difficile/q3.png",
+      "answers": [
+        { "text": "Fujifilm", "isCorrect": true },
+        { "text": "Kodak", "isCorrect": false },
+        { "text": "Canon", "isCorrect": false },
+        { "text": "Nikon", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "logs",
+      "difficulty": "difficile",
+      "text": "Quel logo est représenté sur l'image ?",
+      "image": "assets/images/logs/difficile/q4.png",
+      "answers": [
+        { "text": "Heinz", "isCorrect": true },
+        { "text": "Kraft", "isCorrect": false },
+        { "text": "Nestlé", "isCorrect": false },
+        { "text": "Unilever", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "logs",
+      "difficulty": "difficile",
+      "text": "Quel logo est représenté sur l'image ?",
+      "image": "assets/images/logs/difficile/q5.png",
+      "answers": [
+        { "text": "PayPal", "isCorrect": true },
+        { "text": "Stripe", "isCorrect": false },
+        { "text": "Visa", "isCorrect": false },
+        { "text": "Mastercard", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "logs",
+      "difficulty": "difficile",
+      "text": "Quel logo est représenté sur l'image ?",
+      "image": "assets/images/logs/difficile/q6.png",
+      "answers": [
+        { "text": "Dropbox", "isCorrect": true },
+        { "text": "Google Drive", "isCorrect": false },
+        { "text": "OneDrive", "isCorrect": false },
+        { "text": "Box", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "logs",
+      "difficulty": "difficile",
+      "text": "Quel logo est représenté sur l'image ?",
+      "image": "assets/images/logs/difficile/q7.png",
+      "answers": [
+        { "text": "Airbnb", "isCorrect": true },
+        { "text": "Booking.com", "isCorrect": false },
+        { "text": "Tripadvisor", "isCorrect": false },
+        { "text": "Expedia", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "logs",
+      "difficulty": "difficile",
+      "text": "Quel logo est représenté sur l'image ?",
+      "image": "assets/images/logs/difficile/q8.png",
+      "answers": [
+        { "text": "Slack", "isCorrect": true },
+        { "text": "Microsoft Teams", "isCorrect": false },
+        { "text": "Zoom", "isCorrect": false },
+        { "text": "Discord", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "logs",
+      "difficulty": "difficile",
+      "text": "Quel logo est représenté sur l'image ?",
+      "image": "assets/images/logs/difficile/q9.png",
+      "answers": [
+        { "text": "Spotify", "isCorrect": true },
+        { "text": "Apple Music", "isCorrect": false },
+        { "text": "Tidal", "isCorrect": false },
+        { "text": "Deezer", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "logs",
+      "difficulty": "difficile",
+      "text": "Quel logo est représenté sur l'image ?",
+      "image": "assets/images/logs/difficile/q10.png",
+      "answers": [
+        { "text": "Red Bull", "isCorrect": true },
+        { "text": "Monster", "isCorrect": false },
+        { "text": "Rockstar", "isCorrect": false },
+        { "text": "Burn", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "logs",
+      "difficulty": "difficile",
+      "text": "Quel logo est représenté sur l'image ?",
+      "image": "assets/images/logs/difficile/q11.png",
+      "answers": [
+        { "text": "Levi's", "isCorrect": true },
+        { "text": "Wrangler", "isCorrect": false },
+        { "text": "Diesel", "isCorrect": false },
+        { "text": "Lee", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "logs",
+      "difficulty": "difficile",
+      "text": "Quel logo est représenté sur l'image ?",
+      "image": "assets/images/logs/difficile/q12.png",
+      "answers": [
+        { "text": "Nestlé", "isCorrect": true },
+        { "text": "Danone", "isCorrect": false },
+        { "text": "Unilever", "isCorrect": false },
+        { "text": "Kraft", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "logs",
+      "difficulty": "difficile",
+      "text": "Quel logo est représenté sur l'image ?",
+      "image": "assets/images/logs/difficile/q13.png",
+      "answers": [
+        { "text": "Nvidia", "isCorrect": true },
+        { "text": "AMD", "isCorrect": false },
+        { "text": "Intel", "isCorrect": false },
+        { "text": "Qualcomm", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "logs",
+      "difficulty": "difficile",
+      "text": "Quel logo est représenté sur l'image ?",
+      "image": "assets/images/logs/difficile/q14.png",
+      "answers": [
+        { "text": "Monster", "isCorrect": true },
+        { "text": "Red Bull", "isCorrect": false },
+        { "text": "Rockstar", "isCorrect": false },
+        { "text": "Burn", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "logs",
+      "difficulty": "difficile",
+      "text": "Quel logo est représenté sur l'image ?",
+      "image": "assets/images/logs/difficile/q15.png",
+      "answers": [
+        { "text": "LG", "isCorrect": true },
+        { "text": "Samsung", "isCorrect": false },
+        { "text": "Sony", "isCorrect": false },
+        { "text": "Panasonic", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "logs",
+      "difficulty": "difficile",
+      "text": "Quel logo est représenté sur l'image ?",
+      "image": "assets/images/logs/difficile/q16.png",
+      "answers": [
+        { "text": "Unilever", "isCorrect": true },
+        { "text": "Nestlé", "isCorrect": false },
+        { "text": "Kraft", "isCorrect": false },
+        { "text": "Procter & Gamble", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "logs",
+      "difficulty": "difficile",
+      "text": "Quel logo est représenté sur l'image ?",
+      "image": "assets/images/logs/difficile/q17.png",
+      "answers": [
+        { "text": "Shell", "isCorrect": true },
+        { "text": "BP", "isCorrect": false },
+        { "text": "Exxon", "isCorrect": false },
+        { "text": "Total", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "logs",
+      "difficulty": "difficile",
+      "text": "Quel logo est représenté sur l'image ?",
+      "image": "assets/images/logs/difficile/q18.png",
+      "answers": [
+        { "text": "Spotify", "isCorrect": true },
+        { "text": "Tidal", "isCorrect": false },
+        { "text": "Apple Music", "isCorrect": false },
+        { "text": "Deezer", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "logs",
+      "difficulty": "difficile",
+      "text": "Quel logo est représenté sur l'image ?",
+      "image": "assets/images/logs/difficile/q19.png",
+      "answers": [
+        { "text": "Monster Energy", "isCorrect": true },
+        { "text": "Red Bull", "isCorrect": false },
+        { "text": "Rockstar", "isCorrect": false },
+        { "text": "Burn", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "logs",
+      "difficulty": "difficile",
+      "text": "Quel logo est représenté sur l'image ?",
+      "image": "assets/images/logs/difficile/q20.png",
+      "answers": [
+        { "text": "Dropbox", "isCorrect": true },
+        { "text": "Google Drive", "isCorrect": false },
+        { "text": "OneDrive", "isCorrect": false },
+        { "text": "Box", "isCorrect": false }
+      ]
+    }
+
+
+
+
+
+]

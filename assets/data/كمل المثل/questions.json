@@ -1,0 +1,726 @@
+[
+   {
+    "category": "كمل المثل",
+    "difficulty": "facile",
+    "text": "كمّل المثل: اللي فاتك بليلة...",
+    "image": "assets/images/kammel_mathal/facile/q1.png",
+    "answers": [
+      { "text": "فاتك بحيلة", "isCorrect": true },
+      { "text": "خير منه", "isCorrect": false },
+      { "text": "ما يرجعش", "isCorrect": false },
+      { "text": "يضيع", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "facile",
+    "text": "كمّل المثل: اللي ما يعرفك...",
+    "image": "assets/images/kammel_mathal/facile/q2.png",
+    "answers": [
+      { "text": "يجهلك", "isCorrect": true },
+      { "text": "يحبك", "isCorrect": false },
+      { "text": "يحترمك", "isCorrect": false },
+      { "text": "يتبعك", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "facile",
+    "text": "كمّل المثل: الصبر مفتاح...",
+    "image": "assets/images/kammel_mathal/facile/q3.png",
+    "answers": [
+      { "text": "الفرج", "isCorrect": true },
+      { "text": "النجاح", "isCorrect": false },
+      { "text": "الراحة", "isCorrect": false },
+      { "text": "القوة", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "facile",
+    "text": "كمّل المثل: كل تأخيرة...",
+    "image": "assets/images/kammel_mathal/facile/q4.png",
+    "answers": [
+      { "text": "وفيها خيرة", "isCorrect": true },
+      { "text": "وفيها خسارة", "isCorrect": false },
+      { "text": "تنساها", "isCorrect": false },
+      { "text": "توجع", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "facile",
+    "text": "كمّل المثل: اليد الواحدة...",
+    "image": "assets/images/kammel_mathal/facile/q5.png",
+    "answers": [
+      { "text": "ما تصفقش", "isCorrect": true },
+      { "text": "تكفي", "isCorrect": false },
+      { "text": "تربح", "isCorrect": false },
+      { "text": "تغلب", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "facile",
+    "text": "كمّل المثل: ما يحس بالجمرة...",
+    "image": "assets/images/kammel_mathal/facile/q6.png",
+    "answers": [
+      { "text": "كان اللي عافس عليها", "isCorrect": true },
+      { "text": "اللي شافها", "isCorrect": false },
+      { "text": "اللي سمع بيها", "isCorrect": false },
+      { "text": "اللي حكا عليها", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "facile",
+    "text": "كمّل المثل: الكلام اللي يطلع...",
+    "image": "assets/images/kammel_mathal/facile/q7.png",
+    "answers": [
+      { "text": "ما يرجعش", "isCorrect": true },
+      { "text": "يتصلّح", "isCorrect": false },
+      { "text": "ينسى", "isCorrect": false },
+      { "text": "يتبدّل", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "facile",
+    "text": "كمّل المثل: اللي يحب العسل...",
+    "image": "assets/images/kammel_mathal/facile/q8.png",
+    "answers": [
+      { "text": "يصبر لقريس النحل", "isCorrect": true },
+      { "text": "يلقى السكر", "isCorrect": false },
+      { "text": "يشريه", "isCorrect": false },
+      { "text": "ياكل وحده", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "facile",
+    "text": "كمّل المثل: اللي فات مات...",
+    "image": "assets/images/kammel_mathal/facile/q9.png",
+    "answers": [
+      { "text": "واللي جا غيب", "isCorrect": true },
+      { "text": "والحاضر ثابت", "isCorrect": false },
+      { "text": "والعيش صعيب", "isCorrect": false },
+      { "text": "والمستقبل قريب", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "facile",
+    "text": "كمّل المثل: اللي يعشق ما...",
+    "image": "assets/images/kammel_mathal/facile/q10.png",
+    "answers": [
+      { "text": "ينساش", "isCorrect": true },
+      { "text": "يرتاح", "isCorrect": false },
+      { "text": "يربح", "isCorrect": false },
+      { "text": "يعيش", "isCorrect": false }
+    ]
+  },
+
+  {
+    "category": "كمل المثل",
+    "difficulty": "facile",
+    "text": "كمّل المثل: اللي ما عندوش قديم...",
+    "image": "assets/images/kammel_mathal/facile/q11.png",
+    "answers": [
+      { "text": "ما عندوش جديد", "isCorrect": true },
+      { "text": "يضيع", "isCorrect": false },
+      { "text": "ما يعيش", "isCorrect": false },
+      { "text": "يتعب", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "facile",
+    "text": "كمّل المثل: جا يكحلها...",
+    "image": "assets/images/kammel_mathal/facile/q12.png",
+    "answers": [
+      { "text": "عماها", "isCorrect": true },
+      { "text": "صلحها", "isCorrect": false },
+      { "text": "زينها", "isCorrect": false },
+      { "text": "بدلها", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "facile",
+    "text": "كمّل المثل: اللي يحفر حفرة لغيرو...",
+    "image": "assets/images/kammel_mathal/facile/q13.png",
+    "answers": [
+      { "text": "يطيح فيها", "isCorrect": true },
+      { "text": "ينجح", "isCorrect": false },
+      { "text": "يفلت", "isCorrect": false },
+      { "text": "يربح", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "facile",
+    "text": "كمّل المثل: قول الحق...",
+    "image": "assets/images/kammel_mathal/facile/q14.png",
+    "answers": [
+      { "text": "ولو كان مر", "isCorrect": true },
+      { "text": "ولو تخسر", "isCorrect": false },
+      { "text": "ولو تتعب", "isCorrect": false },
+      { "text": "ولو تخاف", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "facile",
+    "text": "كمّل المثل: اللي يحسب وحدو...",
+    "image": "assets/images/kammel_mathal/facile/q15.png",
+    "answers": [
+      { "text": "يفضل مغبون", "isCorrect": true },
+      { "text": "يربح دايمًا", "isCorrect": false },
+      { "text": "ما يغلطش", "isCorrect": false },
+      { "text": "ينجح", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "facile",
+    "text": "كمّل المثل: باب النجار...",
+    "image": "assets/images/kammel_mathal/facile/q16.png",
+    "answers": [
+      { "text": "مخلّع", "isCorrect": true },
+      { "text": "مسكّر", "isCorrect": false },
+      { "text": "جديد", "isCorrect": false },
+      { "text": "قوي", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "facile",
+    "text": "كمّل المثل: اللي فاتك مات...",
+    "image": "assets/images/kammel_mathal/facile/q17.png",
+    "answers": [
+      { "text": "واللي جا غيب", "isCorrect": true },
+      { "text": "والحاضر ثابت", "isCorrect": false },
+      { "text": "والعيش صعيب", "isCorrect": false },
+      { "text": "والفرح قريب", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "facile",
+    "text": "كمّل المثل: اللي يتعدّى حدّو...",
+    "image": "assets/images/kammel_mathal/facile/q18.png",
+    "answers": [
+      { "text": "ينقلب ضدّو", "isCorrect": true },
+      { "text": "يربح", "isCorrect": false },
+      { "text": "يعيش", "isCorrect": false },
+      { "text": "يرتاح", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "facile",
+    "text": "كمّل المثل: الوقت كالسيف...",
+    "image": "assets/images/kammel_mathal/facile/q19.png",
+    "answers": [
+      { "text": "إن لم تقطعه قطعك", "isCorrect": true },
+      { "text": "إن نسيته خانك", "isCorrect": false },
+      { "text": "إن خفتو قتلك", "isCorrect": false },
+      { "text": "إن مسكتو جرحك", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "facile",
+    "text": "كمّل المثل: اعمل الخير...",
+    "image": "assets/images/kammel_mathal/facile/q20.png",
+    "answers": [
+      { "text": "وارميه في البحر", "isCorrect": true },
+      { "text": "وتفاخر بيه", "isCorrect": false },
+      { "text": "وتكلم عليه", "isCorrect": false },
+      { "text": "وخليه ليك", "isCorrect": false }
+    ]
+  },
+
+  {
+    "category": "كمل المثل",
+    "difficulty": "moyenne",
+    "text": "كمّل المثل: اضرب الحديد...",
+    "image": "assets/images/kammel_mathal/moyenne/q1.png",
+    "answers": [
+      { "text": "وهو سخون", "isCorrect": true },
+      { "text": "بعد ما يبرد", "isCorrect": false },
+      { "text": "وقت تحب", "isCorrect": false },
+      { "text": "كان تلقاه", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "moyenne",
+    "text": "كمّل المثل: اللي يحسب وحدو...",
+    "image": "assets/images/kammel_mathal/moyenne/q2.png",
+    "answers": [
+      { "text": "يفضل مغبون", "isCorrect": true },
+      { "text": "يربح ديما", "isCorrect": false },
+      { "text": "ما يغلطش", "isCorrect": false },
+      { "text": "ينجح", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "moyenne",
+    "text": "كمّل المثل: قول الحق...",
+    "image": "assets/images/kammel_mathal/moyenne/q3.png",
+    "answers": [
+      { "text": "ولو كان مر", "isCorrect": true },
+      { "text": "ولو تخسر", "isCorrect": false },
+      { "text": "ولو تتعب", "isCorrect": false },
+      { "text": "ولو تخاف", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "moyenne",
+    "text": "كمّل المثل: اللي ما يرضى بالقليل...",
+    "image": "assets/images/kammel_mathal/moyenne/q4.png",
+    "answers": [
+      { "text": "يحرم من الكثير", "isCorrect": true },
+      { "text": "يبقى فقير", "isCorrect": false },
+      { "text": "ما يعيش", "isCorrect": false },
+      { "text": "يتعب برشة", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "moyenne",
+    "text": "كمّل المثل: اللي يحبك...",
+    "image": "assets/images/kammel_mathal/moyenne/q5.png",
+    "answers": [
+      { "text": "يبكي عليك", "isCorrect": true },
+      { "text": "يضحكلك", "isCorrect": false },
+      { "text": "يجاملك", "isCorrect": false },
+      { "text": "يسامحك ديما", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "moyenne",
+    "text": "كمّل المثل: باب النجار...",
+    "image": "assets/images/kammel_mathal/moyenne/q6.png",
+    "answers": [
+      { "text": "مخلّع", "isCorrect": true },
+      { "text": "مسكّر", "isCorrect": false },
+      { "text": "جديد", "isCorrect": false },
+      { "text": "قوي", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "moyenne",
+    "text": "كمّل المثل: اللي فات مات...",
+    "image": "assets/images/kammel_mathal/moyenne/q7.png",
+    "answers": [
+      { "text": "واللي جا غيب", "isCorrect": true },
+      { "text": "والحاضر ثابت", "isCorrect": false },
+      { "text": "والمستقبل بعيد", "isCorrect": false },
+      { "text": "والعيش صعيب", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "moyenne",
+    "text": "كمّل المثل: اعمل الخير...",
+    "image": "assets/images/kammel_mathal/moyenne/q8.png",
+    "answers": [
+      { "text": "وارميه في البحر", "isCorrect": true },
+      { "text": "وتفاخر بيه", "isCorrect": false },
+      { "text": "واحكي عليه", "isCorrect": false },
+      { "text": "وخليه ليك", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "moyenne",
+    "text": "كمّل المثل: اللي يعشق ما...",
+    "image": "assets/images/kammel_mathal/moyenne/q9.png",
+    "answers": [
+      { "text": "ينساش", "isCorrect": true },
+      { "text": "يرتاح", "isCorrect": false },
+      { "text": "يكره", "isCorrect": false },
+      { "text": "يملّ", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "moyenne",
+    "text": "كمّل المثل: اللي ما يعرفك...",
+    "image": "assets/images/kammel_mathal/moyenne/q10.png",
+    "answers": [
+      { "text": "يجهلك", "isCorrect": true },
+      { "text": "يحترمك", "isCorrect": false },
+      { "text": "يحبك", "isCorrect": false },
+      { "text": "يتبعك", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "moyenne",
+    "text": "كمّل المثل: ما يحس بالجمرة...",
+    "image": "assets/images/kammel_mathal/moyenne/q11.png",
+    "answers": [
+      { "text": "كان اللي عافس عليها", "isCorrect": true },
+      { "text": "اللي شافها", "isCorrect": false },
+      { "text": "اللي سمع بيها", "isCorrect": false },
+      { "text": "اللي حكا عليها", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "moyenne",
+    "text": "كمّل المثل: الوقت كالسيف...",
+    "image": "assets/images/kammel_mathal/moyenne/q12.png",
+    "answers": [
+      { "text": "إن لم تقطعه قطعك", "isCorrect": true },
+      { "text": "إن نسيته خانك", "isCorrect": false },
+      { "text": "إن خفتو جرحك", "isCorrect": false },
+      { "text": "إن هربت منو لحقك", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "moyenne",
+    "text": "كمّل المثل: اللي يتعدّى حدّو...",
+    "image": "assets/images/kammel_mathal/moyenne/q13.png",
+    "answers": [
+      { "text": "ينقلب ضدّو", "isCorrect": true },
+      { "text": "يربح", "isCorrect": false },
+      { "text": "يرتاح", "isCorrect": false },
+      { "text": "يعيش", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "moyenne",
+    "text": "كمّل المثل: اللي يحفر حفرة لغيرو...",
+    "image": "assets/images/kammel_mathal/moyenne/q14.png",
+    "answers": [
+      { "text": "يطيح فيها", "isCorrect": true },
+      { "text": "ينجو", "isCorrect": false },
+      { "text": "يربح", "isCorrect": false },
+      { "text": "يفلت", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "moyenne",
+    "text": "كمّل المثل: كل تأخيرة...",
+    "image": "assets/images/kammel_mathal/moyenne/q15.png",
+    "answers": [
+      { "text": "وفيها خيرة", "isCorrect": true },
+      { "text": "وفيها خسارة", "isCorrect": false },
+      { "text": "تنساها", "isCorrect": false },
+      { "text": "توجع", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "moyenne",
+    "text": "كمّل المثل: اللي فاتك بليلة...",
+    "image": "assets/images/kammel_mathal/moyenne/q16.png",
+    "answers": [
+      { "text": "فاتك بحيلة", "isCorrect": true },
+      { "text": "خير منه", "isCorrect": false },
+      { "text": "يضيع", "isCorrect": false },
+      { "text": "ما يرجعش", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "moyenne",
+    "text": "كمّل المثل: اللي ما عندوش قديم...",
+    "image": "assets/images/kammel_mathal/moyenne/q17.png",
+    "answers": [
+      { "text": "ما عندوش جديد", "isCorrect": true },
+      { "text": "يضيع", "isCorrect": false },
+      { "text": "ما يعيش", "isCorrect": false },
+      { "text": "يتعب", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "moyenne",
+    "text": "كمّل المثل: جا يكحلها...",
+    "image": "assets/images/kammel_mathal/moyenne/q18.png",
+    "answers": [
+      { "text": "عماها", "isCorrect": true },
+      { "text": "صلحها", "isCorrect": false },
+      { "text": "زينها", "isCorrect": false },
+      { "text": "بدلها", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "moyenne",
+    "text": "كمّل المثل: اللي قال كلمة...",
+    "image": "assets/images/kammel_mathal/moyenne/q19.png",
+    "answers": [
+      { "text": "يلزمها", "isCorrect": true },
+      { "text": "ينساها", "isCorrect": false },
+      { "text": "يبدلها", "isCorrect": false },
+      { "text": "يهرب منها", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "moyenne",
+    "text": "كمّل المثل: الصديق وقت...",
+    "image": "assets/images/kammel_mathal/moyenne/q20.png",
+    "answers": [
+      { "text": "الضيق", "isCorrect": true },
+      { "text": "الفرح", "isCorrect": false },
+      { "text": "اللعب", "isCorrect": false },
+      { "text": "الراحة", "isCorrect": false }
+    ]
+  },
+
+  {
+    "category": "كمل المثل",
+    "difficulty": "difficile",
+    "text": "كمّل المثل: قالولو اشبيك عريان...",
+    "image": "assets/images/kammel_mathal/difficile/q1.png",
+    "answers": [
+      { "text": "قالهم هكّا جاني النوم", "isCorrect": true },
+      { "text": "قالهم الصيف", "isCorrect": false },
+      { "text": "قالهم فقير", "isCorrect": false },
+      { "text": "قالهم بردان", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "difficile",
+    "text": "كمّل المثل: جا يكحلها...",
+    "image": "assets/images/kammel_mathal/difficile/q2.png",
+    "answers": [
+      { "text": "عماها", "isCorrect": true },
+      { "text": "زينها", "isCorrect": false },
+      { "text": "صلحها", "isCorrect": false },
+      { "text": "بدلها", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "difficile",
+    "text": "كمّل المثل: اللي يعمل الخير...",
+    "image": "assets/images/kammel_mathal/difficile/q3.png",
+    "answers": [
+      { "text": "يلقاه", "isCorrect": true },
+      { "text": "ينساه", "isCorrect": false },
+      { "text": "يضيع", "isCorrect": false },
+      { "text": "يتعب", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "difficile",
+    "text": "كمّل المثل: اللي قال كلمة...",
+    "image": "assets/images/kammel_mathal/difficile/q4.png",
+    "answers": [
+      { "text": "يلزمها", "isCorrect": true },
+      { "text": "ينساها", "isCorrect": false },
+      { "text": "يبدلها", "isCorrect": false },
+      { "text": "يهرب منها", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "difficile",
+    "text": "كمّل المثل: اللي شاف بلا...",
+    "image": "assets/images/kammel_mathal/difficile/q5.png",
+    "answers": [
+      { "text": "قلبو ما يحنش", "isCorrect": true },
+      { "text": "عينو ما تشبعش", "isCorrect": false },
+      { "text": "لسانو ما يسكتش", "isCorrect": false },
+      { "text": "ما يعيش", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "difficile",
+    "text": "كمّل المثل: اللي فاتك بليلة...",
+    "image": "assets/images/kammel_mathal/difficile/q6.png",
+    "answers": [
+      { "text": "فاتك بحيلة", "isCorrect": true },
+      { "text": "خير منه", "isCorrect": false },
+      { "text": "يضيع", "isCorrect": false },
+      { "text": "ما يرجعش", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "difficile",
+    "text": "كمّل المثل: اللي يحفر حفرة لغيرو...",
+    "image": "assets/images/kammel_mathal/difficile/q7.png",
+    "answers": [
+      { "text": "يطيح فيها", "isCorrect": true },
+      { "text": "ينجو", "isCorrect": false },
+      { "text": "يربح", "isCorrect": false },
+      { "text": "يفلت", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "difficile",
+    "text": "كمّل المثل: اللي يحب العلو...",
+    "image": "assets/images/kammel_mathal/difficile/q8.png",
+    "answers": [
+      { "text": "يصبر للبلاء", "isCorrect": true },
+      { "text": "يرتاح", "isCorrect": false },
+      { "text": "يربح", "isCorrect": false },
+      { "text": "يضحك", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "difficile",
+    "text": "كمّل المثل: اللي ما عندوش قديم...",
+    "image": "assets/images/kammel_mathal/difficile/q9.png",
+    "answers": [
+      { "text": "ما عندوش جديد", "isCorrect": true },
+      { "text": "يضيع", "isCorrect": false },
+      { "text": "ما يعيش", "isCorrect": false },
+      { "text": "يتعب", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "difficile",
+    "text": "كمّل المثل: اللي يتعدّى حدّو...",
+    "image": "assets/images/kammel_mathal/difficile/q10.png",
+    "answers": [
+      { "text": "ينقلب ضدّو", "isCorrect": true },
+      { "text": "يربح", "isCorrect": false },
+      { "text": "يرتاح", "isCorrect": false },
+      { "text": "يعيش", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "difficile",
+    "text": "كمّل المثل: اللي يحسب وحدو...",
+    "image": "assets/images/kammel_mathal/difficile/q11.png",
+    "answers": [
+      { "text": "يفضل مغبون", "isCorrect": true },
+      { "text": "يربح ديما", "isCorrect": false },
+      { "text": "ما يغلطش", "isCorrect": false },
+      { "text": "ينجح", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "difficile",
+    "text": "كمّل المثل: اللي قال كلمة حق...",
+    "image": "assets/images/kammel_mathal/difficile/q12.png",
+    "answers": [
+      { "text": "ما يخافش", "isCorrect": true },
+      { "text": "يندم", "isCorrect": false },
+      { "text": "يسكت", "isCorrect": false },
+      { "text": "يخسر", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "difficile",
+    "text": "كمّل المثل: باب النجار...",
+    "image": "assets/images/kammel_mathal/difficile/q13.png",
+    "answers": [
+      { "text": "مخلّع", "isCorrect": true },
+      { "text": "مسكّر", "isCorrect": false },
+      { "text": "جديد", "isCorrect": false },
+      { "text": "قوي", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "difficile",
+    "text": "كمّل المثل: اللي ما يرضى بالقليل...",
+    "image": "assets/images/kammel_mathal/difficile/q14.png",
+    "answers": [
+      { "text": "يحرم من الكثير", "isCorrect": true },
+      { "text": "يتعب برشة", "isCorrect": false },
+      { "text": "يبقى فقير", "isCorrect": false },
+      { "text": "يضيع", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "difficile",
+    "text": "كمّل المثل: اعمل الخير...",
+    "image": "assets/images/kammel_mathal/difficile/q15.png",
+    "answers": [
+      { "text": "وارميه في البحر", "isCorrect": true },
+      { "text": "وتفاخر بيه", "isCorrect": false },
+      { "text": "واحكي عليه", "isCorrect": false },
+      { "text": "وخليه ليك", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "difficile",
+    "text": "كمّل المثل: اللي يحبك...",
+    "image": "assets/images/kammel_mathal/difficile/q16.png",
+    "answers": [
+      { "text": "يبكي عليك", "isCorrect": true },
+      { "text": "يضحكلك", "isCorrect": false },
+      { "text": "يجاملك", "isCorrect": false },
+      { "text": "يسامحك ديما", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "difficile",
+    "text": "كمّل المثل: اللي شاف المر...",
+    "image": "assets/images/kammel_mathal/difficile/q17.png",
+    "answers": [
+      { "text": "يضحك للحلو", "isCorrect": true },
+      { "text": "ما يفرحش", "isCorrect": false },
+      { "text": "ما يرتاحش", "isCorrect": false },
+      { "text": "يندم", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "difficile",
+    "text": "كمّل المثل: اللي يزرع الريح...",
+    "image": "assets/images/kammel_mathal/difficile/q18.png",
+    "answers": [
+      { "text": "يحصد العاصفة", "isCorrect": true },
+      { "text": "يرتاح", "isCorrect": false },
+      { "text": "يربح", "isCorrect": false },
+      { "text": "ينسى", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "difficile",
+    "text": "كمّل المثل: اللي ما عندوش لسان...",
+    "image": "assets/images/kammel_mathal/difficile/q19.png",
+    "answers": [
+      { "text": "يضيع حقو", "isCorrect": true },
+      { "text": "يرتاح", "isCorrect": false },
+      { "text": "يربح", "isCorrect": false },
+      { "text": "يعيش", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "كمل المثل",
+    "difficulty": "difficile",
+    "text": "كمّل المثل: الصديق وقت...",
+    "image": "assets/images/kammel_mathal/difficile/q20.png",
+    "answers": [
+      { "text": "الضيق", "isCorrect": true },
+      { "text": "الفرح", "isCorrect": false },
+      { "text": "اللعب", "isCorrect": false },
+      { "text": "الراحة", "isCorrect": false }
+    ]
+  }
+
+]

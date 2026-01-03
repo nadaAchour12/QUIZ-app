@@ -1,0 +1,730 @@
+[
+  {
+    "category": "stades",
+    "difficulty": "facile",
+    "text": "Quel club joue principalement dans le stade Camp Nou à Barcelone ?",
+    "image": "assets/images/stades/facile/q1.png",
+    "answers": [
+      { "text": "FC Barcelone", "isCorrect": true },
+      { "text": "Real Madrid", "isCorrect": false },
+      { "text": "Atlético Madrid", "isCorrect": false },
+      { "text": "Valence CF", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "stades",
+    "difficulty": "facile",
+    "text": "Quel club joue principalement dans le stade Santiago Bernabéu à Madrid ?",
+    "image": "assets/images/stades/facile/q2.png",
+    "answers": [
+      { "text": "Real Madrid", "isCorrect": true },
+      { "text": "FC Barcelone", "isCorrect": false },
+      { "text": "Atlético Madrid", "isCorrect": false },
+      { "text": "Sevilla FC", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "stades",
+    "difficulty": "facile",
+    "text": "Quel club joue principalement dans le stade Old Trafford à Manchester ?",
+    "image": "assets/images/stades/facile/q3.png",
+    "answers": [
+      { "text": "Manchester United", "isCorrect": true },
+      { "text": "Liverpool FC", "isCorrect": false },
+      { "text": "Chelsea FC", "isCorrect": false },
+      { "text": "Arsenal FC", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "stades",
+    "difficulty": "facile",
+    "text": "Quel club joue principalement dans le stade Anfield à Liverpool ?",
+    "image": "assets/images/stades/facile/q4.png",
+    "answers": [
+      { "text": "Liverpool FC", "isCorrect": true },
+      { "text": "Manchester United", "isCorrect": false },
+      { "text": "Manchester City", "isCorrect": false },
+      { "text": "Tottenham Hotspur", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "stades",
+    "difficulty": "facile",
+    "text": "Quel club joue principalement dans le stade Juventus Stadium à Turin ?",
+    "image": "assets/images/stades/facile/q5.png",
+    "answers": [
+      { "text": "Juventus", "isCorrect": true },
+      { "text": "AC Milan", "isCorrect": false },
+      { "text": "Inter Milan", "isCorrect": false },
+      { "text": "Roma", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "stades",
+    "difficulty": "facile",
+    "text": "Quel club joue principalement dans le stade San Siro à Milan ?",
+    "image": "assets/images/stades/facile/q6.png",
+    "answers": [
+      { "text": "AC Milan", "isCorrect": true },
+      { "text": "Inter Milan", "isCorrect": false },
+      { "text": "Juventus", "isCorrect": false },
+      { "text": "Roma", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "stades",
+    "difficulty": "facile",
+    "text": "Quel club joue principalement dans le stade Parc des Princes à Paris ?",
+    "image": "assets/images/stades/facile/q7.png",
+    "answers": [
+      { "text": "Paris Saint-Germain", "isCorrect": true },
+      { "text": "Olympique Lyonnais", "isCorrect": false },
+      { "text": "Marseille", "isCorrect": false },
+      { "text": "Monaco", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "stades",
+    "difficulty": "facile",
+    "text": "Quel club joue principalement dans le stade Vélodrome à Marseille ?",
+    "image": "assets/images/stades/facile/q8.png",
+    "answers": [
+      { "text": "Marseille", "isCorrect": true },
+      { "text": "Paris Saint-Germain", "isCorrect": false },
+      { "text": "Lille", "isCorrect": false },
+      { "text": "Monaco", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "stades",
+    "difficulty": "facile",
+    "text": "Quel club joue principalement dans le stade Allianz Arena à Munich ?",
+    "image": "assets/images/stades/facile/q9.png",
+    "answers": [
+      { "text": "Bayern Munich", "isCorrect": true },
+      { "text": "Borussia Dortmund", "isCorrect": false },
+      { "text": "RB Leipzig", "isCorrect": false },
+      { "text": "Schalke 04", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "stades",
+    "difficulty": "facile",
+    "text": "Quel club joue principalement dans le stade Signal Iduna Park à Dortmund ?",
+    "image": "assets/images/stades/facile/q10.png",
+    "answers": [
+      { "text": "Borussia Dortmund", "isCorrect": true },
+      { "text": "Bayern Munich", "isCorrect": false },
+      { "text": "RB Leipzig", "isCorrect": false },
+      { "text": "Schalke 04", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "stades",
+    "difficulty": "facile",
+    "text": "Quel club joue principalement dans le stade Emirates à Londres ?",
+    "image": "assets/images/stades/facile/q11.png",
+    "answers": [
+      { "text": "Arsenal FC", "isCorrect": true },
+      { "text": "Chelsea FC", "isCorrect": false },
+      { "text": "Tottenham Hotspur", "isCorrect": false },
+      { "text": "Manchester United", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "stades",
+    "difficulty": "facile",
+    "text": "Quel club joue principalement dans le stade Stamford Bridge à Londres ?",
+    "image": "assets/images/stades/facile/q12.png",
+    "answers": [
+      { "text": "Chelsea FC", "isCorrect": true },
+      { "text": "Arsenal FC", "isCorrect": false },
+      { "text": "Tottenham Hotspur", "isCorrect": false },
+      { "text": "Manchester United", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "stades",
+    "difficulty": "facile",
+    "text": "Quel club joue principalement dans le stade Etihad à Manchester ?",
+    "image": "assets/images/stades/facile/q13.png",
+    "answers": [
+      { "text": "Manchester City", "isCorrect": true },
+      { "text": "Manchester United", "isCorrect": false },
+      { "text": "Liverpool FC", "isCorrect": false },
+      { "text": "Tottenham Hotspur", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "stades",
+    "difficulty": "facile",
+    "text": "Quel club joue principalement dans le stade Olimpico à Rome ?",
+    "image": "assets/images/stades/facile/q14.png",
+    "answers": [
+      { "text": "AS Roma", "isCorrect": true },
+      { "text": "Lazio", "isCorrect": false },
+      { "text": "Juventus", "isCorrect": false },
+      { "text": "Inter Milan", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "stades",
+    "difficulty": "facile",
+    "text": "Quel club joue principalement dans le stade Stadio Olimpico à Turin ?",
+    "image": "assets/images/stades/facile/q15.png",
+    "answers": [
+      { "text": "Juventus", "isCorrect": true },
+      { "text": "Torino", "isCorrect": false },
+      { "text": "AC Milan", "isCorrect": false },
+      { "text": "Inter Milan", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "stades",
+    "difficulty": "facile",
+    "text": "Quel club joue principalement dans le stade Philips Stadion à Eindhoven ?",
+    "image": "assets/images/stades/facile/q16.png",
+    "answers": [
+      { "text": "PSV Eindhoven", "isCorrect": true },
+      { "text": "Ajax Amsterdam", "isCorrect": false },
+      { "text": "Feyenoord", "isCorrect": false },
+      { "text": "AZ Alkmaar", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "stades",
+    "difficulty": "facile",
+    "text": "Quel club joue principalement dans le stade Johan Cruijff Arena à Amsterdam ?",
+    "image": "assets/images/stades/facile/q17.png",
+    "answers": [
+      { "text": "Ajax Amsterdam", "isCorrect": true },
+      { "text": "PSV Eindhoven", "isCorrect": false },
+      { "text": "Feyenoord", "isCorrect": false },
+      { "text": "AZ Alkmaar", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "stades",
+    "difficulty": "facile",
+    "text": "Quel club joue principalement dans le stade De Kuip à Rotterdam ?",
+    "image": "assets/images/stades/facile/q18.png",
+    "answers": [
+      { "text": "Feyenoord", "isCorrect": true },
+      { "text": "Ajax Amsterdam", "isCorrect": false },
+      { "text": "PSV Eindhoven", "isCorrect": false },
+      { "text": "AZ Alkmaar", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "stades",
+    "difficulty": "facile",
+    "text": "Quel club joue principalement dans le stade Celtic Park à Glasgow ?",
+    "image": "assets/images/stades/facile/q19.png",
+    "answers": [
+      { "text": "Celtic Glasgow", "isCorrect": true },
+      { "text": "Rangers", "isCorrect": false },
+      { "text": "Aberdeen", "isCorrect": false },
+      { "text": "Hearts of Midlothian", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "stades",
+    "difficulty": "facile",
+    "text": "Quel club joue principalement dans le stade Ibrox à Glasgow ?",
+    "image": "assets/images/stades/facile/q20.png",
+    "answers": [
+      { "text": "Rangers", "isCorrect": true },
+      { "text": "Celtic Glasgow", "isCorrect": false },
+      { "text": "Aberdeen", "isCorrect": false },
+      { "text": "Hearts of Midlothian", "isCorrect": false }
+    ]
+  },
+
+
+    {
+      "category": "stades",
+      "difficulty": "moyenne",
+      "text": "Quel club joue principalement dans le stade Wanda Metropolitano à Madrid ?",
+      "image": "assets/images/stades/moyenne/q1.png",
+      "answers": [
+        { "text": "Atlético Madrid", "isCorrect": true },
+        { "text": "Real Madrid", "isCorrect": false },
+        { "text": "Sevilla FC", "isCorrect": false },
+        { "text": "Valence CF", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "stades",
+      "difficulty": "moyenne",
+      "text": "Quel club joue principalement dans le stade Mestalla à Valence ?",
+      "image": "assets/images/stades/moyenne/q2.png",
+      "answers": [
+        { "text": "Valence CF", "isCorrect": true },
+        { "text": "Atlético Madrid", "isCorrect": false },
+        { "text": "Real Madrid", "isCorrect": false },
+        { "text": "Sevilla FC", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "stades",
+      "difficulty": "moyenne",
+      "text": "Quel club joue principalement dans le stade Estadio Benito Villamarín à Séville ?",
+      "image": "assets/images/stades/moyenne/q3.png",
+      "answers": [
+        { "text": "Real Betis", "isCorrect": true },
+        { "text": "Sevilla FC", "isCorrect": false },
+        { "text": "Atlético Madrid", "isCorrect": false },
+        { "text": "Valence CF", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "stades",
+      "difficulty": "moyenne",
+      "text": "Quel club joue principalement dans le stade Ramón Sánchez Pizjuán à Séville ?",
+      "image": "assets/images/stades/moyenne/q4.png",
+      "answers": [
+        { "text": "Sevilla FC", "isCorrect": true },
+        { "text": "Real Betis", "isCorrect": false },
+        { "text": "Atlético Madrid", "isCorrect": false },
+        { "text": "Valence CF", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "stades",
+      "difficulty": "moyenne",
+      "text": "Quel club joue principalement dans le stade St. James' Park à Newcastle ?",
+      "image": "assets/images/stades/moyenne/q5.png",
+      "answers": [
+        { "text": "Newcastle United", "isCorrect": true },
+        { "text": "Liverpool FC", "isCorrect": false },
+        { "text": "Manchester United", "isCorrect": false },
+        { "text": "Manchester City", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "stades",
+      "difficulty": "moyenne",
+      "text": "Quel club joue principalement dans le stade King Power Stadium à Leicester ?",
+      "image": "assets/images/stades/moyenne/q6.png",
+      "answers": [
+        { "text": "Leicester City", "isCorrect": true },
+        { "text": "Manchester United", "isCorrect": false },
+        { "text": "Liverpool FC", "isCorrect": false },
+        { "text": "Tottenham Hotspur", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "stades",
+      "difficulty": "moyenne",
+      "text": "Quel club joue principalement dans le stade Celtic Park à Glasgow ?",
+      "image": "assets/images/stades/moyenne/q7.png",
+      "answers": [
+        { "text": "Celtic Glasgow", "isCorrect": true },
+        { "text": "Rangers", "isCorrect": false },
+        { "text": "Aberdeen", "isCorrect": false },
+        { "text": "Hearts of Midlothian", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "stades",
+      "difficulty": "moyenne",
+      "text": "Quel club joue principalement dans le stade Ibrox à Glasgow ?",
+      "image": "assets/images/stades/moyenne/q8.png",
+      "answers": [
+        { "text": "Rangers", "isCorrect": true },
+        { "text": "Celtic Glasgow", "isCorrect": false },
+        { "text": "Aberdeen", "isCorrect": false },
+        { "text": "Hearts of Midlothian", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "stades",
+      "difficulty": "moyenne",
+      "text": "Quel club joue principalement dans le stade Ferenc Puskás à Budapest ?",
+      "image": "assets/images/stades/moyenne/q9.png",
+      "answers": [
+        { "text": "Ferencvárosi TC", "isCorrect": true },
+        { "text": "MTK Budapest", "isCorrect": false },
+        { "text": "Debreceni VSC", "isCorrect": false },
+        { "text": "Honvéd", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "stades",
+      "difficulty": "moyenne",
+      "text": "Quel club joue principalement dans le stade Puskás Aréna à Budapest ?",
+      "image": "assets/images/stades/moyenne/q10.png",
+      "answers": [
+        { "text": "Honvéd", "isCorrect": true },
+        { "text": "Ferencvárosi TC", "isCorrect": false },
+        { "text": "MTK Budapest", "isCorrect": false },
+        { "text": "Debreceni VSC", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "stades",
+      "difficulty": "moyenne",
+      "text": "Quel club joue principalement dans le stade BayArena à Leverkusen ?",
+      "image": "assets/images/stades/moyenne/q11.png",
+      "answers": [
+        { "text": "Bayer Leverkusen", "isCorrect": true },
+        { "text": "Borussia Dortmund", "isCorrect": false },
+        { "text": "Schalke 04", "isCorrect": false },
+        { "text": "Bayern Munich", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "stades",
+      "difficulty": "moyenne",
+      "text": "Quel club joue principalement dans le stade Red Bull Arena à Leipzig ?",
+      "image": "assets/images/stades/moyenne/q12.png",
+      "answers": [
+        { "text": "RB Leipzig", "isCorrect": true },
+        { "text": "Bayern Munich", "isCorrect": false },
+        { "text": "Borussia Dortmund", "isCorrect": false },
+        { "text": "Schalke 04", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "stades",
+      "difficulty": "moyenne",
+      "text": "Quel club joue principalement dans le stade Friends Arena à Stockholm ?",
+      "image": "assets/images/stades/moyenne/q13.png",
+      "answers": [
+        { "text": "AIK Stockholm", "isCorrect": true },
+        { "text": "Djurgårdens IF", "isCorrect": false },
+        { "text": "Hammarby IF", "isCorrect": false },
+        { "text": "IFK Göteborg", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "stades",
+      "difficulty": "moyenne",
+      "text": "Quel club joue principalement dans le stade Ullevi à Göteborg ?",
+      "image": "assets/images/stades/moyenne/q14.png",
+      "answers": [
+        { "text": "IFK Göteborg", "isCorrect": true },
+        { "text": "AIK Stockholm", "isCorrect": false },
+        { "text": "Djurgårdens IF", "isCorrect": false },
+        { "text": "Hammarby IF", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "stades",
+      "difficulty": "moyenne",
+      "text": "Quel club joue principalement dans le stade Estádio do Dragão à Porto ?",
+      "image": "assets/images/stades/moyenne/q15.png",
+      "answers": [
+        { "text": "FC Porto", "isCorrect": true },
+        { "text": "Benfica Lisbonne", "isCorrect": false },
+        { "text": "Sporting Lisbonne", "isCorrect": false },
+        { "text": "Braga", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "stades",
+      "difficulty": "moyenne",
+      "text": "Quel club joue principalement dans le stade Estádio da Luz à Lisbonne ?",
+      "image": "assets/images/stades/moyenne/q16.png",
+      "answers": [
+        { "text": "Benfica Lisbonne", "isCorrect": true },
+        { "text": "FC Porto", "isCorrect": false },
+        { "text": "Sporting Lisbonne", "isCorrect": false },
+        { "text": "Braga", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "stades",
+      "difficulty": "moyenne",
+      "text": "Quel club joue principalement dans le stade Estádio José Alvalade à Lisbonne ?",
+      "image": "assets/images/stades/moyenne/q17.png",
+      "answers": [
+        { "text": "Sporting Lisbonne", "isCorrect": true },
+        { "text": "Benfica Lisbonne", "isCorrect": false },
+        { "text": "FC Porto", "isCorrect": false },
+        { "text": "Braga", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "stades",
+      "difficulty": "moyenne",
+      "text": "Quel club joue principalement dans le stade Parc Olympique Lyonnais à Lyon ?",
+      "image": "assets/images/stades/moyenne/q18.png",
+      "answers": [
+        { "text": "Olympique Lyonnais", "isCorrect": true },
+        { "text": "Paris Saint-Germain", "isCorrect": false },
+        { "text": "Marseille", "isCorrect": false },
+        { "text": "Monaco", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "stades",
+      "difficulty": "moyenne",
+      "text": "Quel club joue principalement dans le stade Signal Iduna Park à Dortmund ?",
+      "image": "assets/images/stades/moyenne/q19.png",
+      "answers": [
+        { "text": "Borussia Dortmund", "isCorrect": true },
+        { "text": "Bayern Munich", "isCorrect": false },
+        { "text": "RB Leipzig", "isCorrect": false },
+        { "text": "Schalke 04", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "stades",
+      "difficulty": "moyenne",
+      "text": "Quel club joue principalement dans le stade Emirates à Londres ?",
+      "image": "assets/images/stades/moyenne/q20.png",
+      "answers": [
+        { "text": "Arsenal FC", "isCorrect": true },
+        { "text": "Chelsea FC", "isCorrect": false },
+        { "text": "Tottenham Hotspur", "isCorrect": false },
+        { "text": "Manchester United", "isCorrect": false }
+      ]
+    },
+
+
+
+    {
+      "category": "stades",
+      "difficulty": "difficile",
+      "text": "Quel club joue principalement dans le stade Jan Breydel à Bruges ?",
+      "image": "assets/images/stades/difficile/q1.png",
+      "answers": [
+        { "text": "Club Brugge", "isCorrect": true },
+        { "text": "Anderlecht", "isCorrect": false },
+        { "text": "Standard Liège", "isCorrect": false },
+        { "text": "Genk", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "stades",
+      "difficulty": "difficile",
+      "text": "Quel club joue principalement dans le stade Constant Vanden Stock à Anderlecht ?",
+      "image": "assets/images/stades/difficile/q2.png",
+      "answers": [
+        { "text": "RSC Anderlecht", "isCorrect": true },
+        { "text": "Club Brugge", "isCorrect": false },
+        { "text": "Standard Liège", "isCorrect": false },
+        { "text": "Genk", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "stades",
+      "difficulty": "difficile",
+      "text": "Quel club joue principalement dans le stade José Zorrilla à Valladolid ?",
+      "image": "assets/images/stades/difficile/q3.png",
+      "answers": [
+        { "text": "Real Valladolid", "isCorrect": true },
+        { "text": "Sporting Gijón", "isCorrect": false },
+        { "text": "Deportivo La Corogne", "isCorrect": false },
+        { "text": "Celta Vigo", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "stades",
+      "difficulty": "difficile",
+      "text": "Quel club joue principalement dans le stade La Romareda à Saragosse ?",
+      "image": "assets/images/stades/difficile/q4.png",
+      "answers": [
+        { "text": "Real Zaragoza", "isCorrect": true },
+        { "text": "Real Betis", "isCorrect": false },
+        { "text": "Sevilla FC", "isCorrect": false },
+        { "text": "Granada CF", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "stades",
+      "difficulty": "difficile",
+      "text": "Quel club joue principalement dans le stade BayArena à Leverkusen ?",
+      "image": "assets/images/stades/difficile/q5.png",
+      "answers": [
+        { "text": "Bayer Leverkusen", "isCorrect": true },
+        { "text": "Borussia Dortmund", "isCorrect": false },
+        { "text": "Schalke 04", "isCorrect": false },
+        { "text": "Bayern Munich", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "stades",
+      "difficulty": "difficile",
+      "text": "Quel club joue principalement dans le stade Red Bull Arena à Leipzig ?",
+      "image": "assets/images/stades/difficile/q6.png",
+      "answers": [
+        { "text": "RB Leipzig", "isCorrect": true },
+        { "text": "Bayern Munich", "isCorrect": false },
+        { "text": "Borussia Dortmund", "isCorrect": false },
+        { "text": "Schalke 04", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "stades",
+      "difficulty": "difficile",
+      "text": "Quel club joue principalement dans le stade Ferenc Puskás à Budapest ?",
+      "image": "assets/images/stades/difficile/q7.png",
+      "answers": [
+        { "text": "Ferencvárosi TC", "isCorrect": true },
+        { "text": "MTK Budapest", "isCorrect": false },
+        { "text": "Honvéd", "isCorrect": false },
+        { "text": "Debreceni VSC", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "stades",
+      "difficulty": "difficile",
+      "text": "Quel club joue principalement dans le stade Groupama Arena à Budapest ?",
+      "image": "assets/images/stades/difficile/q8.png",
+      "answers": [
+        { "text": "Honvéd", "isCorrect": true },
+        { "text": "Ferencvárosi TC", "isCorrect": false },
+        { "text": "MTK Budapest", "isCorrect": false },
+        { "text": "Debreceni VSC", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "stades",
+      "difficulty": "difficile",
+      "text": "Quel club joue principalement dans le stade Friends Arena à Stockholm ?",
+      "image": "assets/images/stades/difficile/q9.png",
+      "answers": [
+        { "text": "AIK Stockholm", "isCorrect": true },
+        { "text": "Djurgårdens IF", "isCorrect": false },
+        { "text": "Hammarby IF", "isCorrect": false },
+        { "text": "IFK Göteborg", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "stades",
+      "difficulty": "difficile",
+      "text": "Quel club joue principalement dans le stade Ullevi à Göteborg ?",
+      "image": "assets/images/stades/difficile/q10.png",
+      "answers": [
+        { "text": "IFK Göteborg", "isCorrect": true },
+        { "text": "AIK Stockholm", "isCorrect": false },
+        { "text": "Djurgårdens IF", "isCorrect": false },
+        { "text": "Hammarby IF", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "stades",
+      "difficulty": "difficile",
+      "text": "Quel club joue principalement dans le stade Estádio do Dragão à Porto ?",
+      "image": "assets/images/stades/difficile/q11.png",
+      "answers": [
+        { "text": "FC Porto", "isCorrect": true },
+        { "text": "Benfica Lisbonne", "isCorrect": false },
+        { "text": "Sporting Lisbonne", "isCorrect": false },
+        { "text": "Braga", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "stades",
+      "difficulty": "difficile",
+      "text": "Quel club joue principalement dans le stade Estádio da Luz à Lisbonne ?",
+      "image": "assets/images/stades/difficile/q12.png",
+      "answers": [
+        { "text": "Benfica Lisbonne", "isCorrect": true },
+        { "text": "FC Porto", "isCorrect": false },
+        { "text": "Sporting Lisbonne", "isCorrect": false },
+        { "text": "Braga", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "stades",
+      "difficulty": "difficile",
+      "text": "Quel club joue principalement dans le stade Estádio José Alvalade à Lisbonne ?",
+      "image": "assets/images/stades/difficile/q13.png",
+      "answers": [
+        { "text": "Sporting Lisbonne", "isCorrect": true },
+        { "text": "Benfica Lisbonne", "isCorrect": false },
+        { "text": "FC Porto", "isCorrect": false },
+        { "text": "Braga", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "stades",
+      "difficulty": "difficile",
+      "text": "Quel club joue principalement dans le stade Telia Parken à Copenhague ?",
+      "image": "assets/images/stades/difficile/q14.png",
+      "answers": [
+        { "text": "FC Copenhague", "isCorrect": true },
+        { "text": "Brøndby IF", "isCorrect": false },
+        { "text": "Odense BK", "isCorrect": false },
+        { "text": "Aalborg BK", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "stades",
+      "difficulty": "difficile",
+      "text": "Quel club joue principalement dans le stade Brøndby Stadium à Brøndby ?",
+      "image": "assets/images/stades/difficile/q15.png",
+      "answers": [
+        { "text": "Brøndby IF", "isCorrect": true },
+        { "text": "FC Copenhague", "isCorrect": false },
+        { "text": "Odense BK", "isCorrect": false },
+        { "text": "Aalborg BK", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "stades",
+      "difficulty": "difficile",
+      "text": "Quel club joue principalement dans le stade Groupama Stadium à Lyon ?",
+      "image": "assets/images/stades/difficile/q16.png",
+      "answers": [
+        { "text": "Olympique Lyonnais", "isCorrect": true },
+        { "text": "Paris Saint-Germain", "isCorrect": false },
+        { "text": "Marseille", "isCorrect": false },
+        { "text": "Monaco", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "stades",
+      "difficulty": "difficile",
+      "text": "Quel club joue principalement dans le stade Mapei Stadium à Reggio Emilia ?",
+      "image": "assets/images/stades/difficile/q17.png",
+      "answers": [
+        { "text": "US Sassuolo", "isCorrect": true },
+        { "text": "Parma", "isCorrect": false },
+        { "text": "SPAL", "isCorrect": false },
+        { "text": "Bologna", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "stades",
+      "difficulty": "difficile",
+      "text": "Quel club joue principalement dans le stade Stadio Renato Dall'Ara à Bologne ?",
+      "image": "assets/images/stades/difficile/q18.png",
+      "answers": [
+        { "text": "Bologna", "isCorrect": true },
+        { "text": "US Sassuolo", "isCorrect": false },
+        { "text": "Parma", "isCorrect": false },
+        { "text": "SPAL", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "stades",
+      "difficulty": "difficile",
+      "text": "Quel club joue principalement dans le stade Estádio Municipal de Braga à Braga ?",
+      "image": "assets/images/stades/difficile/q19.png",
+      "answers": [
+        { "text": "SC Braga", "isCorrect": true },
+        { "text": "Benfica Lisbonne", "isCorrect": false },
+        { "text": "FC Porto", "isCorrect": false },
+        { "text": "Sporting Lisbonne", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "stades",
+      "difficulty": "difficile",
+      "text": "Quel club joue principalement dans le stade Red Bull Arena à Salzbourg ?",
+      "image": "assets/images/stades/difficile/q20.png",
+      "answers": [
+        { "text": "Red Bull Salzbourg", "isCorrect": true },
+        { "text": "Rapid Vienne", "isCorrect": false },
+        { "text": "Austria Vienne", "isCorrect": false },
+        { "text": "Sturm Graz", "isCorrect": false }
+      ]
+    }
+
+
+
+]

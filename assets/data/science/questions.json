@@ -1,0 +1,730 @@
+[
+  {
+    "category": "science",
+    "difficulty": "facile",
+    "text": "De quoi est composée l’eau ?",
+    "image": "assets/images/science/facile/q1.png",
+    "answers": [
+      { "text": "H2O", "isCorrect": true },
+      { "text": "CO2", "isCorrect": false },
+      { "text": "O2", "isCorrect": false },
+      { "text": "NaCl", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "science",
+    "difficulty": "facile",
+    "text": "Combien de planètes compte le système solaire ?",
+    "image": "assets/images/science/facile/q2.png",
+    "answers": [
+      { "text": "7", "isCorrect": false },
+      { "text": "8", "isCorrect": true },
+      { "text": "9", "isCorrect": false },
+      { "text": "10", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "science",
+    "difficulty": "facile",
+    "text": "Quelle est la source principale d’énergie de la Terre ?",
+    "image": "assets/images/science/facile/q3.png",
+    "answers": [
+      { "text": "Soleil", "isCorrect": true },
+      { "text": "Lune", "isCorrect": false },
+      { "text": "Vent", "isCorrect": false },
+      { "text": "Volcans", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "science",
+    "difficulty": "facile",
+    "text": "Quel gaz les plantes produisent-elles lors de la photosynthèse ?",
+    "image": "assets/images/science/facile/q4.png",
+    "answers": [
+      { "text": "Oxygène", "isCorrect": true },
+      { "text": "Dioxyde de carbone", "isCorrect": false },
+      { "text": "Azote", "isCorrect": false },
+      { "text": "Hydrogène", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "science",
+    "difficulty": "facile",
+    "text": "Quel organe pompe le sang dans le corps humain ?",
+    "image": "assets/images/science/facile/q5.png",
+    "answers": [
+      { "text": "Cœur", "isCorrect": true },
+      { "text": "Poumon", "isCorrect": false },
+      { "text": "Foie", "isCorrect": false },
+      { "text": "Estomac", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "science",
+    "difficulty": "facile",
+    "text": "Quel est le métal le plus léger ?",
+    "image": "assets/images/science/facile/q6.png",
+    "answers": [
+      { "text": "Aluminium", "isCorrect": false },
+      { "text": "Lithium", "isCorrect": true },
+      { "text": "Fer", "isCorrect": false },
+      { "text": "Cuivre", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "science",
+    "difficulty": "facile",
+    "text": "Combien de sens possède l’être humain ?",
+    "image": "assets/images/science/facile/q7.png",
+    "answers": [
+      { "text": "4", "isCorrect": false },
+      { "text": "5", "isCorrect": true },
+      { "text": "6", "isCorrect": false },
+      { "text": "7", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "science",
+    "difficulty": "facile",
+    "text": "Quel est l’astre autour duquel tournent les planètes ?",
+    "image": "assets/images/science/facile/q8.png",
+    "answers": [
+      { "text": "Soleil", "isCorrect": true },
+      { "text": "Lune", "isCorrect": false },
+      { "text": "Mars", "isCorrect": false },
+      { "text": "Vénus", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "science",
+    "difficulty": "facile",
+    "text": "Quel est l’état de l’eau à 0°C ?",
+    "image": "assets/images/science/facile/q9.png",
+    "answers": [
+      { "text": "Liquide", "isCorrect": false },
+      { "text": "Solide", "isCorrect": true },
+      { "text": "Gaz", "isCorrect": false },
+      { "text": "Plasma", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "science",
+    "difficulty": "facile",
+    "text": "Quel animal pond des œufs ?",
+    "image": "assets/images/science/facile/q10.png",
+    "answers": [
+      { "text": "Oiseau", "isCorrect": true },
+      { "text": "Chien", "isCorrect": false },
+      { "text": "Chat", "isCorrect": false },
+      { "text": "Dauphin", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "science",
+    "difficulty": "facile",
+    "text": "Quel gaz est essentiel pour la respiration humaine ?",
+    "image": "assets/images/science/facile/q11.png",
+    "answers": [
+      { "text": "Oxygène", "isCorrect": true },
+      { "text": "Dioxyde de carbone", "isCorrect": false },
+      { "text": "Azote", "isCorrect": false },
+      { "text": "Hélium", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "science",
+    "difficulty": "facile",
+    "text": "Quel instrument sert à mesurer la température ?",
+    "image": "assets/images/science/facile/q12.png",
+    "answers": [
+      { "text": "Thermomètre", "isCorrect": true },
+      { "text": "Baromètre", "isCorrect": false },
+      { "text": "Anémomètre", "isCorrect": false },
+      { "text": "Hygromètre", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "science",
+    "difficulty": "facile",
+    "text": "Quel est l’élément chimique symbolisé par H ?",
+    "image": "assets/images/science/facile/q13.png",
+    "answers": [
+      { "text": "Hydrogène", "isCorrect": true },
+      { "text": "Hélium", "isCorrect": false },
+      { "text": "Holmium", "isCorrect": false },
+      { "text": "Hafnium", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "science",
+    "difficulty": "facile",
+    "text": "Quel est l’organe principal de la vision ?",
+    "image": "assets/images/science/facile/q14.png",
+    "answers": [
+      { "text": "Œil", "isCorrect": true },
+      { "text": "Oreille", "isCorrect": false },
+      { "text": "Cerveau", "isCorrect": false },
+      { "text": "Nez", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "science",
+    "difficulty": "facile",
+    "text": "Quelle planète est connue comme la planète rouge ?",
+    "image": "assets/images/science/facile/q15.png",
+    "answers": [
+      { "text": "Mars", "isCorrect": true },
+      { "text": "Jupiter", "isCorrect": false },
+      { "text": "Vénus", "isCorrect": false },
+      { "text": "Mercure", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "science",
+    "difficulty": "facile",
+    "text": "Quel est le corps céleste qui éclaire la Terre la nuit ?",
+    "image": "assets/images/science/facile/q16.png",
+    "answers": [
+      { "text": "Lune", "isCorrect": true },
+      { "text": "Soleil", "isCorrect": false },
+      { "text": "Mars", "isCorrect": false },
+      { "text": "Vénus", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "science",
+    "difficulty": "facile",
+    "text": "Quel gaz remplit principalement l’air que nous respirons ?",
+    "image": "assets/images/science/facile/q17.png",
+    "answers": [
+      { "text": "Azote", "isCorrect": true },
+      { "text": "Oxygène", "isCorrect": false },
+      { "text": "Dioxyde de carbone", "isCorrect": false },
+      { "text": "Hélium", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "science",
+    "difficulty": "facile",
+    "text": "Quel instrument permet de voir de très petits objets ?",
+    "image": "assets/images/science/facile/q18.png",
+    "answers": [
+      { "text": "Microscope", "isCorrect": true },
+      { "text": "Télescope", "isCorrect": false },
+      { "text": "Lunette", "isCorrect": false },
+      { "text": "Thermomètre", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "science",
+    "difficulty": "facile",
+    "text": "Quel organe est responsable de la digestion des aliments ?",
+    "image": "assets/images/science/facile/q19.png",
+    "answers": [
+      { "text": "Estomac", "isCorrect": true },
+      { "text": "Cœur", "isCorrect": false },
+      { "text": "Poumon", "isCorrect": false },
+      { "text": "Foie", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "science",
+    "difficulty": "facile",
+    "text": "Quelle planète est la plus proche du Soleil ?",
+    "image": "assets/images/science/facile/q20.png",
+    "answers": [
+      { "text": "Mercure", "isCorrect": true },
+      { "text": "Vénus", "isCorrect": false },
+      { "text": "Mars", "isCorrect": false },
+      { "text": "Terre", "isCorrect": false }
+    ]
+  },
+
+
+    {
+      "category": "science",
+      "difficulty": "moyenne",
+      "text": "Quel organe produit l’insuline ?",
+      "image": "assets/images/science/moyenne/q1.png",
+      "answers": [
+        { "text": "Pancréas", "isCorrect": true },
+        { "text": "Foie", "isCorrect": false },
+        { "text": "Rein", "isCorrect": false },
+        { "text": "Estomac", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "science",
+      "difficulty": "moyenne",
+      "text": "Quel est l’élément chimique représenté par Fe ?",
+      "image": "assets/images/science/moyenne/q2.png",
+      "answers": [
+        { "text": "Fer", "isCorrect": true },
+        { "text": "Fluor", "isCorrect": false },
+        { "text": "Fosfor", "isCorrect": false },
+        { "text": "Francium", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "science",
+      "difficulty": "moyenne",
+      "text": "Quel type de roche est le granite ?",
+      "image": "assets/images/science/moyenne/q3.png",
+      "answers": [
+        { "text": "Ignée", "isCorrect": true },
+        { "text": "Sédimentaire", "isCorrect": false },
+        { "text": "Métamorphique", "isCorrect": false },
+        { "text": "Carbonée", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "science",
+      "difficulty": "moyenne",
+      "text": "Quel est le plus grand organe du corps humain ?",
+      "image": "assets/images/science/moyenne/q4.png",
+      "answers": [
+        { "text": "Peau", "isCorrect": true },
+        { "text": "Cœur", "isCorrect": false },
+        { "text": "Foie", "isCorrect": false },
+        { "text": "Poumon", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "science",
+      "difficulty": "moyenne",
+      "text": "Quel gaz est utilisé dans les ampoules pour éviter l’oxydation du filament ?",
+      "image": "assets/images/science/moyenne/q5.png",
+      "answers": [
+        { "text": "Argon", "isCorrect": true },
+        { "text": "Oxygène", "isCorrect": false },
+        { "text": "Azote", "isCorrect": false },
+        { "text": "Hydrogène", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "science",
+      "difficulty": "moyenne",
+      "text": "Quelle particule subatomique a une charge négative ?",
+      "image": "assets/images/science/moyenne/q6.png",
+      "answers": [
+        { "text": "Électron", "isCorrect": true },
+        { "text": "Proton", "isCorrect": false },
+        { "text": "Neutron", "isCorrect": false },
+        { "text": "Photon", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "science",
+      "difficulty": "moyenne",
+      "text": "Quel organe filtre le sang pour produire l’urine ?",
+      "image": "assets/images/science/moyenne/q7.png",
+      "answers": [
+        { "text": "Rein", "isCorrect": true },
+        { "text": "Foie", "isCorrect": false },
+        { "text": "Cœur", "isCorrect": false },
+        { "text": "Poumon", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "science",
+      "difficulty": "moyenne",
+      "text": "Quel est le principal gaz à effet de serre ?",
+      "image": "assets/images/science/moyenne/q8.png",
+      "answers": [
+        { "text": "Dioxyde de carbone", "isCorrect": true },
+        { "text": "Oxygène", "isCorrect": false },
+        { "text": "Azote", "isCorrect": false },
+        { "text": "Hélium", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "science",
+      "difficulty": "moyenne",
+      "text": "Quel est le plus grand os du corps humain ?",
+      "image": "assets/images/science/moyenne/q9.png",
+      "answers": [
+        { "text": "Fémur", "isCorrect": true },
+        { "text": "Tibia", "isCorrect": false },
+        { "text": "Humérus", "isCorrect": false },
+        { "text": "Radius", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "science",
+      "difficulty": "moyenne",
+      "text": "Quel instrument est utilisé pour mesurer la pression atmosphérique ?",
+      "image": "assets/images/science/moyenne/q10.png",
+      "answers": [
+        { "text": "Baromètre", "isCorrect": true },
+        { "text": "Thermomètre", "isCorrect": false },
+        { "text": "Anémomètre", "isCorrect": false },
+        { "text": "Hygromètre", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "science",
+      "difficulty": "moyenne",
+      "text": "Quelle particule subatomique est neutre ?",
+      "image": "assets/images/science/moyenne/q11.png",
+      "answers": [
+        { "text": "Neutron", "isCorrect": true },
+        { "text": "Proton", "isCorrect": false },
+        { "text": "Électron", "isCorrect": false },
+        { "text": "Photon", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "science",
+      "difficulty": "moyenne",
+      "text": "Quel organe produit la bile ?",
+      "image": "assets/images/science/moyenne/q12.png",
+      "answers": [
+        { "text": "Foie", "isCorrect": true },
+        { "text": "Pancréas", "isCorrect": false },
+        { "text": "Estomac", "isCorrect": false },
+        { "text": "Intestin", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "science",
+      "difficulty": "moyenne",
+      "text": "Quel est l’organe principal de l’audition ?",
+      "image": "assets/images/science/moyenne/q13.png",
+      "answers": [
+        { "text": "Oreille", "isCorrect": true },
+        { "text": "Cœur", "isCorrect": false },
+        { "text": "Nez", "isCorrect": false },
+        { "text": "Œil", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "science",
+      "difficulty": "moyenne",
+      "text": "Quel gaz est utilisé pour gonfler les ballons sans danger ?",
+      "image": "assets/images/science/moyenne/q14.png",
+      "answers": [
+        { "text": "Hélium", "isCorrect": true },
+        { "text": "Hydrogène", "isCorrect": false },
+        { "text": "Oxygène", "isCorrect": false },
+        { "text": "Azote", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "science",
+      "difficulty": "moyenne",
+      "text": "Quel est le type de nuage le plus bas dans l’atmosphère ?",
+      "image": "assets/images/science/moyenne/q15.png",
+      "answers": [
+        { "text": "Stratus", "isCorrect": true },
+        { "text": "Cumulus", "isCorrect": false },
+        { "text": "Cirrus", "isCorrect": false },
+        { "text": "Nimbus", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "science",
+      "difficulty": "moyenne",
+      "text": "Quel organe est responsable de la filtration du sang ?",
+      "image": "assets/images/science/moyenne/q16.png",
+      "answers": [
+        { "text": "Rein", "isCorrect": true },
+        { "text": "Foie", "isCorrect": false },
+        { "text": "Cœur", "isCorrect": false },
+        { "text": "Poumon", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "science",
+      "difficulty": "moyenne",
+      "text": "Quel gaz est majoritairement présent dans l’air ?",
+      "image": "assets/images/science/moyenne/q17.png",
+      "answers": [
+        { "text": "Azote", "isCorrect": true },
+        { "text": "Oxygène", "isCorrect": false },
+        { "text": "CO2", "isCorrect": false },
+        { "text": "Hélium", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "science",
+      "difficulty": "moyenne",
+      "text": "Quel est l’organe qui contrôle le système hormonal ?",
+      "image": "assets/images/science/moyenne/q18.png",
+      "answers": [
+        { "text": "Hypothalamus", "isCorrect": true },
+        { "text": "Cœur", "isCorrect": false },
+        { "text": "Rein", "isCorrect": false },
+        { "text": "Foie", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "science",
+      "difficulty": "moyenne",
+      "text": "Quelle unité mesure l’intensité électrique ?",
+      "image": "assets/images/science/moyenne/q19.png",
+      "answers": [
+        { "text": "Ampère", "isCorrect": true },
+        { "text": "Volt", "isCorrect": false },
+        { "text": "Ohm", "isCorrect": false },
+        { "text": "Watt", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "science",
+      "difficulty": "moyenne",
+      "text": "Quel organe régule l’équilibre hydrique dans le corps ?",
+      "image": "assets/images/science/moyenne/q20.png",
+      "answers": [
+        { "text": "Rein", "isCorrect": true },
+        { "text": "Foie", "isCorrect": false },
+        { "text": "Cœur", "isCorrect": false },
+        { "text": "Poumon", "isCorrect": false }
+      ]
+    },
+
+
+    {
+      "category": "science",
+      "difficulty": "difficile",
+      "text": "Quelle est la constante universelle de gravitation ?",
+      "image": "assets/images/science/difficile/q1.png",
+      "answers": [
+        { "text": "6,674 × 10^-11 N·m²/kg²", "isCorrect": true },
+        { "text": "9,81 m/s²", "isCorrect": false },
+        { "text": "3,00 × 10^8 m/s", "isCorrect": false },
+        { "text": "1,38 × 10^-23 J/K", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "science",
+      "difficulty": "difficile",
+      "text": "Quel est le plus grand os du corps humain ?",
+      "image": "assets/images/science/difficile/q2.png",
+      "answers": [
+        { "text": "Fémur", "isCorrect": true },
+        { "text": "Tibia", "isCorrect": false },
+        { "text": "Humérus", "isCorrect": false },
+        { "text": "Radius", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "science",
+      "difficulty": "difficile",
+      "text": "Quel est le plus petit os du corps humain ?",
+      "image": "assets/images/science/difficile/q3.png",
+      "answers": [
+        { "text": "Étrier (oreille)", "isCorrect": true },
+        { "text": "Stapes", "isCorrect": false },
+        { "text": "Scapula", "isCorrect": false },
+        { "text": "Clavicule", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "science",
+      "difficulty": "difficile",
+      "text": "Quel est le gaz le plus abondant dans l’atmosphère terrestre ?",
+      "image": "assets/images/science/difficile/q4.png",
+      "answers": [
+        { "text": "Azote", "isCorrect": true },
+        { "text": "Oxygène", "isCorrect": false },
+        { "text": "Dioxyde de carbone", "isCorrect": false },
+        { "text": "Argon", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "science",
+      "difficulty": "difficile",
+      "text": "Quel est le point de fusion du fer ?",
+      "image": "assets/images/science/difficile/q5.png",
+      "answers": [
+        { "text": "1538°C", "isCorrect": true },
+        { "text": "1000°C", "isCorrect": false },
+        { "text": "2000°C", "isCorrect": false },
+        { "text": "1200°C", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "science",
+      "difficulty": "difficile",
+      "text": "Quelle est la formule chimique de l’ammoniac ?",
+      "image": "assets/images/science/difficile/q6.png",
+      "answers": [
+        { "text": "NH3", "isCorrect": true },
+        { "text": "H2O", "isCorrect": false },
+        { "text": "CH4", "isCorrect": false },
+        { "text": "CO2", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "science",
+      "difficulty": "difficile",
+      "text": "Quel est l’élément chimique le plus abondant dans l’univers ?",
+      "image": "assets/images/science/difficile/q7.png",
+      "answers": [
+        { "text": "Hydrogène", "isCorrect": true },
+        { "text": "Hélium", "isCorrect": false },
+        { "text": "Oxygène", "isCorrect": false },
+        { "text": "Carbone", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "science",
+      "difficulty": "difficile",
+      "text": "Quel est le type de rayonnement émis par le soleil ?",
+      "image": "assets/images/science/difficile/q8.png",
+      "answers": [
+        { "text": "Rayonnement électromagnétique", "isCorrect": true },
+        { "text": "Rayonnement alpha", "isCorrect": false },
+        { "text": "Rayonnement bêta", "isCorrect": false },
+        { "text": "Rayonnement gamma", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "science",
+      "difficulty": "difficile",
+      "text": "Quelle est la vitesse de la lumière dans le vide ?",
+      "image": "assets/images/science/difficile/q9.png",
+      "answers": [
+        { "text": "3 × 10^8 m/s", "isCorrect": true },
+        { "text": "9,81 m/s²", "isCorrect": false },
+        { "text": "1,5 × 10^8 m/s", "isCorrect": false },
+        { "text": "6,67 × 10^-11 m/s²", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "science",
+      "difficulty": "difficile",
+      "text": "Quel organe humain produit les hormones sexuelles ?",
+      "image": "assets/images/science/difficile/q10.png",
+      "answers": [
+        { "text": "Gonades", "isCorrect": true },
+        { "text": "Pancréas", "isCorrect": false },
+        { "text": "Rein", "isCorrect": false },
+        { "text": "Hypothalamus", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "science",
+      "difficulty": "difficile",
+      "text": "Quel type de liaison chimique implique le partage d’électrons ?",
+      "image": "assets/images/science/difficile/q11.png",
+      "answers": [
+        { "text": "Covalente", "isCorrect": true },
+        { "text": "Ionique", "isCorrect": false },
+        { "text": "Hydrogène", "isCorrect": false },
+        { "text": "Métallique", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "science",
+      "difficulty": "difficile",
+      "text": "Quel est le gaz utilisé pour les ampoules fluorescentes ?",
+      "image": "assets/images/science/difficile/q12.png",
+      "answers": [
+        { "text": "Mercure", "isCorrect": true },
+        { "text": "Argon", "isCorrect": false },
+        { "text": "Azote", "isCorrect": false },
+        { "text": "Oxygène", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "science",
+      "difficulty": "difficile",
+      "text": "Quelle est l’unité de mesure de la fréquence ?",
+      "image": "assets/images/science/difficile/q13.png",
+      "answers": [
+        { "text": "Hertz", "isCorrect": true },
+        { "text": "Watt", "isCorrect": false },
+        { "text": "Volt", "isCorrect": false },
+        { "text": "Ampère", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "science",
+      "difficulty": "difficile",
+      "text": "Quel est l’organe responsable de la production des globules rouges ?",
+      "image": "assets/images/science/difficile/q14.png",
+      "answers": [
+        { "text": "Moelle osseuse", "isCorrect": true },
+        { "text": "Foie", "isCorrect": false },
+        { "text": "Rate", "isCorrect": false },
+        { "text": "Cœur", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "science",
+      "difficulty": "difficile",
+      "text": "Quel type de roche est formé par refroidissement du magma ?",
+      "image": "assets/images/science/difficile/q15.png",
+      "answers": [
+        { "text": "Ignée", "isCorrect": true },
+        { "text": "Sédimentaire", "isCorrect": false },
+        { "text": "Métamorphique", "isCorrect": false },
+        { "text": "Calcaire", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "science",
+      "difficulty": "difficile",
+      "text": "Quel est le processus par lequel les plantes absorbent l’eau du sol ?",
+      "image": "assets/images/science/difficile/q16.png",
+      "answers": [
+        { "text": "Osmose", "isCorrect": true },
+        { "text": "Diffusion", "isCorrect": false },
+        { "text": "Transpiration", "isCorrect": false },
+        { "text": "Photosynthèse", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "science",
+      "difficulty": "difficile",
+      "text": "Quel est le principal isotope de l’uranium utilisé dans les centrales nucléaires ?",
+      "image": "assets/images/science/difficile/q17.png",
+      "answers": [
+        { "text": "U-235", "isCorrect": true },
+        { "text": "U-238", "isCorrect": false },
+        { "text": "U-233", "isCorrect": false },
+        { "text": "Pu-239", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "science",
+      "difficulty": "difficile",
+      "text": "Quel est le gaz le plus léger de tous ?",
+      "image": "assets/images/science/difficile/q18.png",
+      "answers": [
+        { "text": "Hydrogène", "isCorrect": true },
+        { "text": "Hélium", "isCorrect": false },
+        { "text": "Oxygène", "isCorrect": false },
+        { "text": "Méthane", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "science",
+      "difficulty": "difficile",
+      "text": "Quel est le nom de la molécule d’ADN ?",
+      "image": "assets/images/science/difficile/q19.png",
+      "answers": [
+        { "text": "Acide désoxyribonucléique", "isCorrect": true },
+        { "text": "ARN", "isCorrect": false },
+        { "text": "ATP", "isCorrect": false },
+        { "text": "ADP", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "science",
+      "difficulty": "difficile",
+      "text": "Quel est le processus par lequel les plantes produisent du glucose ?",
+      "image": "assets/images/science/difficile/q20.png",
+      "answers": [
+        { "text": "Photosynthèse", "isCorrect": true },
+        { "text": "Respiration cellulaire", "isCorrect": false },
+        { "text": "Fermentation", "isCorrect": false },
+        { "text": "Transpiration", "isCorrect": false }
+      ]
+    }
+
+
+
+
+]

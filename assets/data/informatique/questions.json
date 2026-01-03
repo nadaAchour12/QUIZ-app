@@ -1,0 +1,732 @@
+[
+  {
+    "category": "informatique",
+    "difficulty": "facile",
+    "text": "Quel langage est principalement utilisé pour créer des pages web ?",
+    "image": "assets/images/informatique/facile/q1.png",
+    "answers": [
+      { "text": "HTML", "isCorrect": true },
+      { "text": "Python", "isCorrect": false },
+      { "text": "C++", "isCorrect": false },
+      { "text": "Java", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "informatique",
+    "difficulty": "facile",
+    "text": "Que signifie 'CPU' ?",
+    "image": "assets/images/informatique/facile/q2.png",
+    "answers": [
+      { "text": "Central Processing Unit", "isCorrect": true },
+      { "text": "Computer Power Unit", "isCorrect": false },
+      { "text": "Central Programming Unit", "isCorrect": false },
+      { "text": "Computer Processing Utility", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "informatique",
+    "difficulty": "facile",
+    "text": "Quel système d’exploitation est développé par Microsoft ?",
+    "image": "assets/images/informatique/facile/q3.png",
+    "answers": [
+      { "text": "Windows", "isCorrect": true },
+      { "text": "Linux", "isCorrect": false },
+      { "text": "macOS", "isCorrect": false },
+      { "text": "Android", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "informatique",
+    "difficulty": "facile",
+    "text": "Quel périphérique sert à afficher des images et vidéos sur un ordinateur ?",
+    "image": "assets/images/informatique/facile/q4.png",
+    "answers": [
+      { "text": "Écran", "isCorrect": true },
+      { "text": "Clavier", "isCorrect": false },
+      { "text": "Souris", "isCorrect": false },
+      { "text": "Imprimante", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "informatique",
+    "difficulty": "facile",
+    "text": "Quel langage est connu pour le développement d’applications Android ?",
+    "image": "assets/images/informatique/facile/q5.png",
+    "answers": [
+      { "text": "Java", "isCorrect": true },
+      { "text": "HTML", "isCorrect": false },
+      { "text": "C#", "isCorrect": false },
+      { "text": "Python", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "informatique",
+    "difficulty": "facile",
+    "text": "Que signifie 'RAM' ?",
+    "image": "assets/images/informatique/facile/q6.png",
+    "answers": [
+      { "text": "Random Access Memory", "isCorrect": true },
+      { "text": "Read Access Memory", "isCorrect": false },
+      { "text": "Rapid Access Module", "isCorrect": false },
+      { "text": "Run-time Application Memory", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "informatique",
+    "difficulty": "facile",
+    "text": "Quel outil est utilisé pour naviguer sur Internet ?",
+    "image": "assets/images/informatique/facile/q7.png",
+    "answers": [
+      { "text": "Navigateur Web", "isCorrect": true },
+      { "text": "Éditeur de texte", "isCorrect": false },
+      { "text": "Tableur", "isCorrect": false },
+      { "text": "Compilateur", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "informatique",
+    "difficulty": "facile",
+    "text": "Quel site est connu comme moteur de recherche le plus populaire ?",
+    "image": "assets/images/informatique/facile/q8.png",
+    "answers": [
+      { "text": "Google", "isCorrect": true },
+      { "text": "Bing", "isCorrect": false },
+      { "text": "Yahoo", "isCorrect": false },
+      { "text": "DuckDuckGo", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "informatique",
+    "difficulty": "facile",
+    "text": "Quel type de logiciel protège votre ordinateur contre les virus ?",
+    "image": "assets/images/informatique/facile/q9.png",
+    "answers": [
+      { "text": "Antivirus", "isCorrect": true },
+      { "text": "Navigateur", "isCorrect": false },
+      { "text": "Éditeur", "isCorrect": false },
+      { "text": "Compilateur", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "informatique",
+    "difficulty": "facile",
+    "text": "Quel composant est considéré comme le cerveau de l’ordinateur ?",
+    "image": "assets/images/informatique/facile/q10.png",
+    "answers": [
+      { "text": "Processeur", "isCorrect": true },
+      { "text": "Disque dur", "isCorrect": false },
+      { "text": "Carte graphique", "isCorrect": false },
+      { "text": "Clavier", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "informatique",
+    "difficulty": "facile",
+    "text": "Quel langage est utilisé pour styliser les pages web ?",
+    "image": "assets/images/informatique/facile/q11.png",
+    "answers": [
+      { "text": "CSS", "isCorrect": true },
+      { "text": "HTML", "isCorrect": false },
+      { "text": "Python", "isCorrect": false },
+      { "text": "Java", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "informatique",
+    "difficulty": "facile",
+    "text": "Quel système d’exploitation est développé par Apple ?",
+    "image": "assets/images/informatique/facile/q12.png",
+    "answers": [
+      { "text": "macOS", "isCorrect": true },
+      { "text": "Windows", "isCorrect": false },
+      { "text": "Linux", "isCorrect": false },
+      { "text": "Android", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "informatique",
+    "difficulty": "facile",
+    "text": "Quel composant stocke les données de façon permanente ?",
+    "image": "assets/images/informatique/facile/q13.png",
+    "answers": [
+      { "text": "Disque dur", "isCorrect": true },
+      { "text": "RAM", "isCorrect": false },
+      { "text": "Processeur", "isCorrect": false },
+      { "text": "Carte mère", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "informatique",
+    "difficulty": "facile",
+    "text": "Quelle entreprise a créé le langage de programmation Java ?",
+    "image": "assets/images/informatique/facile/q14.png",
+    "answers": [
+      { "text": "Sun Microsystems", "isCorrect": true },
+      { "text": "Microsoft", "isCorrect": false },
+      { "text": "Apple", "isCorrect": false },
+      { "text": "Google", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "informatique",
+    "difficulty": "facile",
+    "text": "Quel périphérique permet d’entrer du texte dans un ordinateur ?",
+    "image": "assets/images/informatique/facile/q15.png",
+    "answers": [
+      { "text": "Clavier", "isCorrect": true },
+      { "text": "Souris", "isCorrect": false },
+      { "text": "Écran", "isCorrect": false },
+      { "text": "Imprimante", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "informatique",
+    "difficulty": "facile",
+    "text": "Quel réseau relie des ordinateurs sur une grande zone géographique ?",
+    "image": "assets/images/informatique/facile/q16.png",
+    "answers": [
+      { "text": "WAN", "isCorrect": true },
+      { "text": "LAN", "isCorrect": false },
+      { "text": "PAN", "isCorrect": false },
+      { "text": "MAN", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "informatique",
+    "difficulty": "facile",
+    "text": "Quelle extension de fichier correspond à une image ?",
+    "image": "assets/images/informatique/facile/q17.png",
+    "answers": [
+      { "text": ".png", "isCorrect": true },
+      { "text": ".exe", "isCorrect": false },
+      { "text": ".txt", "isCorrect": false },
+      { "text": ".docx", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "informatique",
+    "difficulty": "facile",
+    "text": "Quel logiciel est utilisé pour écrire du code ?",
+    "image": "assets/images/informatique/facile/q18.png",
+    "answers": [
+      { "text": "Éditeur de code", "isCorrect": true },
+      { "text": "Navigateur", "isCorrect": false },
+      { "text": "Tableur", "isCorrect": false },
+      { "text": "Lecteur PDF", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "informatique",
+    "difficulty": "facile",
+    "text": "Que signifie 'URL' ?",
+    "image": "assets/images/informatique/facile/q19.png",
+    "answers": [
+      { "text": "Uniform Resource Locator", "isCorrect": true },
+      { "text": "Universal Resource Link", "isCorrect": false },
+      { "text": "Unique Reference Link", "isCorrect": false },
+      { "text": "Uniform Reference Locator", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "informatique",
+    "difficulty": "facile",
+    "text": "Quel langage est utilisé pour programmer les sites web interactifs ?",
+    "image": "assets/images/informatique/facile/q20.png",
+    "answers": [
+      { "text": "JavaScript", "isCorrect": true },
+      { "text": "HTML", "isCorrect": false },
+      { "text": "CSS", "isCorrect": false },
+      { "text": "Python", "isCorrect": false }
+    ]
+  },
+
+
+
+    {
+      "category": "informatique",
+      "difficulty": "moyenne",
+      "text": "Quel protocole est utilisé pour sécuriser les communications sur Internet ?",
+      "image": "assets/images/informatique/moyenne/q1.png",
+      "answers": [
+        { "text": "HTTPS", "isCorrect": true },
+        { "text": "HTTP", "isCorrect": false },
+        { "text": "FTP", "isCorrect": false },
+        { "text": "SMTP", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "informatique",
+      "difficulty": "moyenne",
+      "text": "Que signifie 'SQL' en informatique ?",
+      "image": "assets/images/informatique/moyenne/q2.png",
+      "answers": [
+        { "text": "Structured Query Language", "isCorrect": true },
+        { "text": "Simple Query Language", "isCorrect": false },
+        { "text": "Sequential Query Logic", "isCorrect": false },
+        { "text": "Standard Query Link", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "informatique",
+      "difficulty": "moyenne",
+      "text": "Quel composant est responsable du rendu graphique dans un PC ?",
+      "image": "assets/images/informatique/moyenne/q3.png",
+      "answers": [
+        { "text": "Carte graphique", "isCorrect": true },
+        { "text": "Processeur", "isCorrect": false },
+        { "text": "RAM", "isCorrect": false },
+        { "text": "Disque dur", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "informatique",
+      "difficulty": "moyenne",
+      "text": "Quel langage est utilisé pour le développement côté serveur web ?",
+      "image": "assets/images/informatique/moyenne/q4.png",
+      "answers": [
+        { "text": "PHP", "isCorrect": true },
+        { "text": "HTML", "isCorrect": false },
+        { "text": "CSS", "isCorrect": false },
+        { "text": "JavaScript", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "informatique",
+      "difficulty": "moyenne",
+      "text": "Quel protocole permet de transférer des fichiers entre ordinateurs ?",
+      "image": "assets/images/informatique/moyenne/q5.png",
+      "answers": [
+        { "text": "FTP", "isCorrect": true },
+        { "text": "HTTP", "isCorrect": false },
+        { "text": "SMTP", "isCorrect": false },
+        { "text": "SSH", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "informatique",
+      "difficulty": "moyenne",
+      "text": "Que signifie 'API' dans le développement logiciel ?",
+      "image": "assets/images/informatique/moyenne/q6.png",
+      "answers": [
+        { "text": "Application Programming Interface", "isCorrect": true },
+        { "text": "Advanced Programming Instruction", "isCorrect": false },
+        { "text": "Automatic Processing Interface", "isCorrect": false },
+        { "text": "Application Process Integration", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "informatique",
+      "difficulty": "moyenne",
+      "text": "Quel type de base de données utilise des tables reliées entre elles ?",
+      "image": "assets/images/informatique/moyenne/q7.png",
+      "answers": [
+        { "text": "Relationnelle", "isCorrect": true },
+        { "text": "NoSQL", "isCorrect": false },
+        { "text": "Orientée objet", "isCorrect": false },
+        { "text": "Hiérarchique", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "informatique",
+      "difficulty": "moyenne",
+      "text": "Quel est le rôle principal du DNS sur Internet ?",
+      "image": "assets/images/informatique/moyenne/q8.png",
+      "answers": [
+        { "text": "Convertir les noms de domaine en adresses IP", "isCorrect": true },
+        { "text": "Transférer des fichiers", "isCorrect": false },
+        { "text": "Sécuriser les communications", "isCorrect": false },
+        { "text": "Gérer les emails", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "informatique",
+      "difficulty": "moyenne",
+      "text": "Quel type de virus se propage via des fichiers exécutables ?",
+      "image": "assets/images/informatique/moyenne/q9.png",
+      "answers": [
+        { "text": "Virus fichier", "isCorrect": true },
+        { "text": "Ver", "isCorrect": false },
+        { "text": "Cheval de Troie", "isCorrect": false },
+        { "text": "Spyware", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "informatique",
+      "difficulty": "moyenne",
+      "text": "Quel protocole est utilisé pour envoyer des emails ?",
+      "image": "assets/images/informatique/moyenne/q10.png",
+      "answers": [
+        { "text": "SMTP", "isCorrect": true },
+        { "text": "FTP", "isCorrect": false },
+        { "text": "HTTP", "isCorrect": false },
+        { "text": "DNS", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "informatique",
+      "difficulty": "moyenne",
+      "text": "Quel algorithme est utilisé pour le chiffrement des mots de passe ?",
+      "image": "assets/images/informatique/moyenne/q11.png",
+      "answers": [
+        { "text": "SHA-256", "isCorrect": true },
+        { "text": "AES", "isCorrect": false },
+        { "text": "RSA", "isCorrect": false },
+        { "text": "MD5", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "informatique",
+      "difficulty": "moyenne",
+      "text": "Quel outil est utilisé pour contrôler les versions d’un projet logiciel ?",
+      "image": "assets/images/informatique/moyenne/q12.png",
+      "answers": [
+        { "text": "Git", "isCorrect": true },
+        { "text": "Docker", "isCorrect": false },
+        { "text": "Jenkins", "isCorrect": false },
+        { "text": "Node.js", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "informatique",
+      "difficulty": "moyenne",
+      "text": "Quel format est utilisé pour échanger des données légères sur le web ?",
+      "image": "assets/images/informatique/moyenne/q13.png",
+      "answers": [
+        { "text": "JSON", "isCorrect": true },
+        { "text": "XML", "isCorrect": false },
+        { "text": "CSV", "isCorrect": false },
+        { "text": "YAML", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "informatique",
+      "difficulty": "moyenne",
+      "text": "Quel langage est utilisé pour créer des applications multiplateformes avec Microsoft ?",
+      "image": "assets/images/informatique/moyenne/q14.png",
+      "answers": [
+        { "text": "C#", "isCorrect": true },
+        { "text": "Java", "isCorrect": false },
+        { "text": "Python", "isCorrect": false },
+        { "text": "JavaScript", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "informatique",
+      "difficulty": "moyenne",
+      "text": "Quel type de mémoire conserve les données même sans électricité ?",
+      "image": "assets/images/informatique/moyenne/q15.png",
+      "answers": [
+        { "text": "ROM", "isCorrect": true },
+        { "text": "RAM", "isCorrect": false },
+        { "text": "Cache", "isCorrect": false },
+        { "text": "VRAM", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "informatique",
+      "difficulty": "moyenne",
+      "text": "Quel logiciel est utilisé pour virtualiser des systèmes d’exploitation ?",
+      "image": "assets/images/informatique/moyenne/q16.png",
+      "answers": [
+        { "text": "VMware", "isCorrect": true },
+        { "text": "Git", "isCorrect": false },
+        { "text": "Eclipse", "isCorrect": false },
+        { "text": "Visual Studio", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "informatique",
+      "difficulty": "moyenne",
+      "text": "Quel concept décrit l’exécution simultanée de plusieurs tâches par un ordinateur ?",
+      "image": "assets/images/informatique/moyenne/q17.png",
+      "answers": [
+        { "text": "Multitâche", "isCorrect": true },
+        { "text": "Multithreading", "isCorrect": false },
+        { "text": "Hyperthreading", "isCorrect": false },
+        { "text": "Multiprocessing", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "informatique",
+      "difficulty": "moyenne",
+      "text": "Quel type de cloud permet une infrastructure entièrement gérée par l’utilisateur ?",
+      "image": "assets/images/informatique/moyenne/q18.png",
+      "answers": [
+        { "text": "IaaS", "isCorrect": true },
+        { "text": "PaaS", "isCorrect": false },
+        { "text": "SaaS", "isCorrect": false },
+        { "text": "FaaS", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "informatique",
+      "difficulty": "moyenne",
+      "text": "Quel outil permet de déboguer du code JavaScript dans un navigateur ?",
+      "image": "assets/images/informatique/moyenne/q19.png",
+      "answers": [
+        { "text": "Console DevTools", "isCorrect": true },
+        { "text": "Node.js", "isCorrect": false },
+        { "text": "npm", "isCorrect": false },
+        { "text": "GitHub", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "informatique",
+      "difficulty": "moyenne",
+      "text": "Quel protocole est utilisé pour sécuriser les connexions à distance via un terminal ?",
+      "image": "assets/images/informatique/moyenne/q20.png",
+      "answers": [
+        { "text": "SSH", "isCorrect": true },
+        { "text": "FTP", "isCorrect": false },
+        { "text": "HTTP", "isCorrect": false },
+        { "text": "SMTP", "isCorrect": false }
+      ]
+    },
+
+
+
+    {
+      "category": "informatique",
+      "difficulty": "difficile",
+      "text": "Quel algorithme de tri a une complexité moyenne en O(n log n) et utilise la technique de division et conquête ?",
+      "image": "assets/images/informatique/difficile/q1.png",
+      "answers": [
+        { "text": "Tri rapide (Quick Sort)", "isCorrect": true },
+        { "text": "Tri à bulles", "isCorrect": false },
+        { "text": "Tri par insertion", "isCorrect": false },
+        { "text": "Tri par sélection", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "informatique",
+      "difficulty": "difficile",
+      "text": "Dans les bases de données relationnelles, que signifie ACID ?",
+      "image": "assets/images/informatique/difficile/q2.png",
+      "answers": [
+        { "text": "Atomicity, Consistency, Isolation, Durability", "isCorrect": true },
+        { "text": "Automatic, Control, Integration, Data", "isCorrect": false },
+        { "text": "Access, Check, Integrity, Design", "isCorrect": false },
+        { "text": "Active, Consistent, Indexed, Dynamic", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "informatique",
+      "difficulty": "difficile",
+      "text": "Quel protocole réseau est utilisé pour l’envoi de paquets sécurisés sur Internet et remplace Telnet pour la connexion distante ?",
+      "image": "assets/images/informatique/difficile/q3.png",
+      "answers": [
+        { "text": "SSH", "isCorrect": true },
+        { "text": "FTP", "isCorrect": false },
+        { "text": "HTTP", "isCorrect": false },
+        { "text": "SMTP", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "informatique",
+      "difficulty": "difficile",
+      "text": "Quel modèle de sécurité informatique se base sur le principe du moindre privilège ?",
+      "image": "assets/images/informatique/difficile/q4.png",
+      "answers": [
+        { "text": "Bell-LaPadula", "isCorrect": true },
+        { "text": "Biba", "isCorrect": false },
+        { "text": "Clark-Wilson", "isCorrect": false },
+        { "text": "Huffman", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "informatique",
+      "difficulty": "difficile",
+      "text": "Quel type de réseau utilise le protocole BGP pour l’échange de routes entre fournisseurs d’accès ?",
+      "image": "assets/images/informatique/difficile/q5.png",
+      "answers": [
+        { "text": "Internet", "isCorrect": true },
+        { "text": "LAN", "isCorrect": false },
+        { "text": "MAN", "isCorrect": false },
+        { "text": "PAN", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "informatique",
+      "difficulty": "difficile",
+      "text": "Quel algorithme est utilisé pour la signature numérique dans le protocole RSA ?",
+      "image": "assets/images/informatique/difficile/q6.png",
+      "answers": [
+        { "text": "SHA", "isCorrect": true },
+        { "text": "AES", "isCorrect": false },
+        { "text": "MD5", "isCorrect": false },
+        { "text": "Blowfish", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "informatique",
+      "difficulty": "difficile",
+      "text": "Dans un système distribué, quel problème est résolu par l’algorithme de Lamport ?",
+      "image": "assets/images/informatique/difficile/q7.png",
+      "answers": [
+        { "text": "Horloge logique / ordre des événements", "isCorrect": true },
+        { "text": "Sécurité réseau", "isCorrect": false },
+        { "text": "Compression de données", "isCorrect": false },
+        { "text": "Routage IP", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "informatique",
+      "difficulty": "difficile",
+      "text": "Quel langage de programmation a introduit la notion de 'pointeur' ?",
+      "image": "assets/images/informatique/difficile/q8.png",
+      "answers": [
+        { "text": "C", "isCorrect": true },
+        { "text": "Java", "isCorrect": false },
+        { "text": "Python", "isCorrect": false },
+        { "text": "Ruby", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "informatique",
+      "difficulty": "difficile",
+      "text": "Quel type de base de données est optimisé pour le stockage de documents JSON ?",
+      "image": "assets/images/informatique/difficile/q9.png",
+      "answers": [
+        { "text": "NoSQL", "isCorrect": true },
+        { "text": "Relationnelle", "isCorrect": false },
+        { "text": "Hiérarchique", "isCorrect": false },
+        { "text": "Orientée objet", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "informatique",
+      "difficulty": "difficile",
+      "text": "Quel protocole réseau permet de sécuriser le transfert de fichiers par Internet ?",
+      "image": "assets/images/informatique/difficile/q10.png",
+      "answers": [
+        { "text": "SFTP", "isCorrect": true },
+        { "text": "FTP", "isCorrect": false },
+        { "text": "HTTP", "isCorrect": false },
+        { "text": "SMTP", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "informatique",
+      "difficulty": "difficile",
+      "text": "Quel concept de programmation permet à une fonction de s’appeler elle-même ?",
+      "image": "assets/images/informatique/difficile/q11.png",
+      "answers": [
+        { "text": "Récursion", "isCorrect": true },
+        { "text": "Itération", "isCorrect": false },
+        { "text": "Héritage", "isCorrect": false },
+        { "text": "Encapsulation", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "informatique",
+      "difficulty": "difficile",
+      "text": "Quel protocole est utilisé pour sécuriser les transactions bancaires sur Internet ?",
+      "image": "assets/images/informatique/difficile/q12.png",
+      "answers": [
+        { "text": "TLS/SSL", "isCorrect": true },
+        { "text": "HTTP", "isCorrect": false },
+        { "text": "FTP", "isCorrect": false },
+        { "text": "SMTP", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "informatique",
+      "difficulty": "difficile",
+      "text": "Quel type de langage est utilisé pour la programmation fonctionnelle pure ?",
+      "image": "assets/images/informatique/difficile/q13.png",
+      "answers": [
+        { "text": "Haskell", "isCorrect": true },
+        { "text": "C++", "isCorrect": false },
+        { "text": "Java", "isCorrect": false },
+        { "text": "Python", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "informatique",
+      "difficulty": "difficile",
+      "text": "Quel modèle de mémoire est basé sur une hiérarchie (cache L1, L2, RAM, disque) ?",
+      "image": "assets/images/informatique/difficile/q14.png",
+      "answers": [
+        { "text": "Mémoire hiérarchique", "isCorrect": true },
+        { "text": "Mémoire associative", "isCorrect": false },
+        { "text": "Mémoire virtuelle", "isCorrect": false },
+        { "text": "Mémoire flash", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "informatique",
+      "difficulty": "difficile",
+      "text": "Dans les systèmes d’exploitation, que fait un mutex ?",
+      "image": "assets/images/informatique/difficile/q15.png",
+      "answers": [
+        { "text": "Empêche l’accès concurrent à une ressource", "isCorrect": true },
+        { "text": "Augmente la vitesse du processeur", "isCorrect": false },
+        { "text": "Alloue de la mémoire", "isCorrect": false },
+        { "text": "Gère le réseau", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "informatique",
+      "difficulty": "difficile",
+      "text": "Quel algorithme de compression est utilisé pour les fichiers ZIP ?",
+      "image": "assets/images/informatique/difficile/q16.png",
+      "answers": [
+        { "text": "Deflate", "isCorrect": true },
+        { "text": "Huffman", "isCorrect": false },
+        { "text": "RSA", "isCorrect": false },
+        { "text": "AES", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "informatique",
+      "difficulty": "difficile",
+      "text": "Quel concept en programmation orientée objet permet à une classe de prendre plusieurs formes ?",
+      "image": "assets/images/informatique/difficile/q17.png",
+      "answers": [
+        { "text": "Polymorphisme", "isCorrect": true },
+        { "text": "Héritage", "isCorrect": false },
+        { "text": "Encapsulation", "isCorrect": false },
+        { "text": "Abstraction", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "informatique",
+      "difficulty": "difficile",
+      "text": "Quel algorithme est utilisé pour trouver le plus court chemin dans un graphe pondéré ?",
+      "image": "assets/images/informatique/difficile/q18.png",
+      "answers": [
+        { "text": "Dijkstra", "isCorrect": true },
+        { "text": "Kruskal", "isCorrect": false },
+        { "text": "Prim", "isCorrect": false },
+        { "text": "Floyd-Warshall", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "informatique",
+      "difficulty": "difficile",
+      "text": "Quel protocole est utilisé pour synchroniser l’heure entre ordinateurs sur un réseau ?",
+      "image": "assets/images/informatique/difficile/q19.png",
+      "answers": [
+        { "text": "NTP", "isCorrect": true },
+        { "text": "DNS", "isCorrect": false },
+        { "text": "FTP", "isCorrect": false },
+        { "text": "SMTP", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "informatique",
+      "difficulty": "difficile",
+      "text": "Quel type de virtualisation permet de partager un seul noyau Linux entre plusieurs systèmes isolés ?",
+      "image": "assets/images/informatique/difficile/q20.png",
+      "answers": [
+        { "text": "Containers (Docker/LXC)", "isCorrect": true },
+        { "text": "VM complètes", "isCorrect": false },
+        { "text": "Hyperviseurs", "isCorrect": false },
+        { "text": "Chroot simple", "isCorrect": false }
+      ]
+    }
+
+
+
+
+]

@@ -1,0 +1,908 @@
+[
+  {
+    "category": "sport",
+    "difficulty": "facile",
+    "text": "Combien de joueurs y a-t-il dans une équipe de football ?",
+    "image": "assets/images/sport/facile/q1.png",
+    "answers": [
+      { "text": "9", "isCorrect": false },
+      { "text": "10", "isCorrect": false },
+      { "text": "11", "isCorrect": true },
+      { "text": "12", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "facile",
+    "text": "Quel sport se joue avec une raquette et une balle jaune ?",
+    "image": "assets/images/sport/facile/q2.png",
+    "answers": [
+      { "text": "Tennis", "isCorrect": true },
+      { "text": "Football", "isCorrect": false },
+      { "text": "Basketball", "isCorrect": false },
+      { "text": "Rugby", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "facile",
+    "text": "Combien de minutes dure un match de football (sans prolongation) ?",
+    "image": "assets/images/sport/facile/q3.png",
+    "answers": [
+      { "text": "60", "isCorrect": false },
+      { "text": "70", "isCorrect": false },
+      { "text": "90", "isCorrect": true },
+      { "text": "100", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "facile",
+    "text": "Quel pays a remporté la Coupe du Monde 2018 ?",
+    "image": "assets/images/sport/facile/q4.png",
+    "answers": [
+      { "text": "Brésil", "isCorrect": false },
+      { "text": "France", "isCorrect": true },
+      { "text": "Allemagne", "isCorrect": false },
+      { "text": "Argentine", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "facile",
+    "text": "Quel sport utilise un panier ?",
+    "image": "assets/images/sport/facile/q5.png",
+    "answers": [
+      { "text": "Basketball", "isCorrect": true },
+      { "text": "Football", "isCorrect": false },
+      { "text": "Tennis", "isCorrect": false },
+      { "text": "Natation", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "facile",
+    "text": "Quel sport se pratique dans une piscine ?",
+    "image": "assets/images/sport/facile/q6.png",
+    "answers": [
+      { "text": "Cyclisme", "isCorrect": false },
+      { "text": "Natation", "isCorrect": true },
+      { "text": "Course", "isCorrect": false },
+      { "text": "Judo", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "facile",
+    "text": "Quel ballon est utilisé au basketball ?",
+    "image": "assets/images/sport/facile/q7.png",
+    "answers": [
+      { "text": "Rond orange", "isCorrect": true },
+      { "text": "Ovale", "isCorrect": false },
+      { "text": "Petit blanc", "isCorrect": false },
+      { "text": "Carré", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "facile",
+    "text": "Quel sport se joue sur un ring ?",
+    "image": "assets/images/sport/facile/q8.png",
+    "answers": [
+      { "text": "Boxe", "isCorrect": true },
+      { "text": "Tennis", "isCorrect": false },
+      { "text": "Football", "isCorrect": false },
+      { "text": "Handball", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "facile",
+    "text": "Quel sport est pratiqué avec un vélo ?",
+    "image": "assets/images/sport/facile/q9.png",
+    "answers": [
+      { "text": "Cyclisme", "isCorrect": true },
+      { "text": "Athlétisme", "isCorrect": false },
+      { "text": "Natation", "isCorrect": false },
+      { "text": "Boxe", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "facile",
+    "text": "Combien de joueurs y a-t-il dans une équipe de basketball ?",
+    "image": "assets/images/sport/facile/q10.png",
+    "answers": [
+      { "text": "5", "isCorrect": true },
+      { "text": "6", "isCorrect": false },
+      { "text": "7", "isCorrect": false },
+      { "text": "11", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "facile",
+    "text": "Quel sport se joue avec un volant ?",
+    "image": "assets/images/sport/facile/q11.png",
+    "answers": [
+      { "text": "Badminton", "isCorrect": true },
+      { "text": "Tennis", "isCorrect": false },
+      { "text": "Squash", "isCorrect": false },
+      { "text": "Ping-pong", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "facile",
+    "text": "Quel sport est aussi appelé soccer ?",
+    "image": "assets/images/sport/facile/q12.png",
+    "answers": [
+      { "text": "Football", "isCorrect": true },
+      { "text": "Rugby", "isCorrect": false },
+      { "text": "Handball", "isCorrect": false },
+      { "text": "Basketball", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "facile",
+    "text": "Quel sport se joue avec un filet au milieu ?",
+    "image": "assets/images/sport/facile/q13.png",
+    "answers": [
+      { "text": "Tennis", "isCorrect": true },
+      { "text": "Football", "isCorrect": false },
+      { "text": "Basketball", "isCorrect": false },
+      { "text": "Athlétisme", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "facile",
+    "text": "Quel sport se joue avec les pieds ?",
+    "image": "assets/images/sport/facile/q14.png",
+    "answers": [
+      { "text": "Football", "isCorrect": true },
+      { "text": "Basketball", "isCorrect": false },
+      { "text": "Tennis", "isCorrect": false },
+      { "text": "Volleyball", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "facile",
+    "text": "Quel sport utilise un ballon ovale ?",
+    "image": "assets/images/sport/facile/q15.png",
+    "answers": [
+      { "text": "Rugby", "isCorrect": true },
+      { "text": "Football", "isCorrect": false },
+      { "text": "Basketball", "isCorrect": false },
+      { "text": "Handball", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "facile",
+    "text": "Quel sport se pratique sur la glace ?",
+    "image": "assets/images/sport/facile/q16.png",
+    "answers": [
+      { "text": "Hockey", "isCorrect": true },
+      { "text": "Football", "isCorrect": false },
+      { "text": "Basketball", "isCorrect": false },
+      { "text": "Tennis", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "facile",
+    "text": "Quel sport utilise une balle blanche et une table ?",
+    "image": "assets/images/sport/facile/q17.png",
+    "answers": [
+      { "text": "Ping-pong", "isCorrect": true },
+      { "text": "Tennis", "isCorrect": false },
+      { "text": "Badminton", "isCorrect": false },
+      { "text": "Squash", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "facile",
+    "text": "Quel sport se pratique avec un casque et une moto ?",
+    "image": "assets/images/sport/facile/q18.png",
+    "answers": [
+      { "text": "Moto GP", "isCorrect": true },
+      { "text": "Cyclisme", "isCorrect": false },
+      { "text": "Athlétisme", "isCorrect": false },
+      { "text": "Football", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "facile",
+    "text": "Quel sport se joue avec les mains et un ballon ?",
+    "image": "assets/images/sport/facile/q19.png",
+    "answers": [
+      { "text": "Handball", "isCorrect": true },
+      { "text": "Football", "isCorrect": false },
+      { "text": "Tennis", "isCorrect": false },
+      { "text": "Golf", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "facile",
+    "text": "Quel sport se pratique en courant sur une piste ?",
+    "image": "assets/images/sport/facile/q20.png",
+    "answers": [
+      { "text": "Athlétisme", "isCorrect": true },
+      { "text": "Natation", "isCorrect": false },
+      { "text": "Cyclisme", "isCorrect": false },
+      { "text": "Judo", "isCorrect": false }
+    ]
+  },
+  {
+      "category": "sport",
+      "difficulty": "facile",
+      "text": "Quel est le surnom de Cristiano Ronaldo ?",
+      "image": "assets/images/sport/facile/q21.png",
+      "answers": [
+        { "text": "CR7", "isCorrect": true },
+        { "text": "CR9", "isCorrect": false },
+        { "text": "R7", "isCorrect": false },
+        { "text": "C7", "isCorrect": false }
+      ]
+  },
+  {
+      "category": "sport",
+      "difficulty": "facile",
+      "text": "Quelle est la nationalité de Cristiano Ronaldo ?",
+      "image": "assets/images/sport/facile/q22.png",
+      "answers": [
+        { "text": "Espagnole", "isCorrect": false },
+        { "text": "Brésilienne", "isCorrect": false },
+        { "text": "Portugaise", "isCorrect": true },
+        { "text": "Italienne", "isCorrect": false }
+      ]
+  },
+  {
+      "category": "sport",
+      "difficulty": "facile",
+      "text": "Dans quel sport Cristiano Ronaldo est-il célèbre ?",
+      "image": "assets/images/sport/facile/q23.png",
+      "answers": [
+        { "text": "Basketball", "isCorrect": false },
+        { "text": "Football", "isCorrect": true },
+        { "text": "Tennis", "isCorrect": false },
+        { "text": "Athlétisme", "isCorrect": false }
+      ]
+  },
+  {
+      "category": "sport",
+      "difficulty": "facile",
+      "text": "Quel est le numéro de maillot le plus connu de Cristiano Ronaldo ?",
+      "image": "assets/images/sport/facile/q24.png",
+      "answers": [
+        { "text": "9", "isCorrect": false },
+        { "text": "10", "isCorrect": false },
+        { "text": "7", "isCorrect": true },
+        { "text": "11", "isCorrect": false }
+      ]
+  },
+  {
+      "category": "sport",
+      "difficulty": "facile",
+      "text": "Cristiano Ronaldo est connu pour quel geste célébration ?",
+      "image": "assets/images/sport/facile/q25.png",
+      "answers": [
+        { "text": "Dab", "isCorrect": false },
+        { "text": "Siuu", "isCorrect": true },
+        { "text": "Moonwalk", "isCorrect": false },
+        { "text": "Salto arrière", "isCorrect": false }
+      ]
+  },
+
+
+  {
+    "category": "sport",
+    "difficulty": "moyen",
+    "text": "Quel pays a remporté la Coupe du Monde de football en 2014 ?",
+    "image": "assets/images/sport/moyenne/q1.png",
+    "answers": [
+      { "text": "Brésil", "isCorrect": false },
+      { "text": "Argentine", "isCorrect": false },
+      { "text": "Allemagne", "isCorrect": true },
+      { "text": "Espagne", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "moyen",
+    "text": "Combien de joueurs y a-t-il dans une équipe de rugby à XV ?",
+    "image": "assets/images/sport/moyenne/q2.png",
+    "answers": [
+      { "text": "11", "isCorrect": false },
+      { "text": "13", "isCorrect": false },
+      { "text": "15", "isCorrect": true },
+      { "text": "18", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "moyen",
+    "text": "Quel joueur est surnommé « King James » en basketball ?",
+    "image": "assets/images/sport/moyenne/q3.png",
+    "answers": [
+      { "text": "Michael Jordan", "isCorrect": false },
+      { "text": "LeBron James", "isCorrect": true },
+      { "text": "Kobe Bryant", "isCorrect": false },
+      { "text": "Stephen Curry", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "moyen",
+    "text": "Dans quel sport peut-on faire un slam dunk ?",
+    "image": "assets/images/sport/moyenne/q4.png",
+    "answers": [
+      { "text": "Handball", "isCorrect": false },
+      { "text": "Basketball", "isCorrect": true },
+      { "text": "Volleyball", "isCorrect": false },
+      { "text": "Rugby", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "moyen",
+    "text": "Quel pays est célèbre pour le football samba ?",
+    "image": "assets/images/sport/moyenne/q5.png",
+    "answers": [
+      { "text": "Argentine", "isCorrect": false },
+      { "text": "Espagne", "isCorrect": false },
+      { "text": "Brésil", "isCorrect": true },
+      { "text": "Portugal", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "moyen",
+    "text": "Combien de sets faut-il gagner pour remporter un match de tennis masculin en Grand Chelem ?",
+    "image": "assets/images/sport/moyenne/q6.png",
+    "answers": [
+      { "text": "2", "isCorrect": false },
+      { "text": "3", "isCorrect": true },
+      { "text": "4", "isCorrect": false },
+      { "text": "5", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "moyen",
+    "text": "Quel sport utilise le terme « hors-jeu » ?",
+    "image": "assets/images/sport/moyenne/q7.png",
+    "answers": [
+      { "text": "Basketball", "isCorrect": false },
+      { "text": "Football", "isCorrect": true },
+      { "text": "Tennis", "isCorrect": false },
+      { "text": "Natation", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "moyen",
+    "text": "Quel sport se joue en 4 quarts-temps ?",
+    "image": "assets/images/sport/moyenne/q8.png",
+    "answers": [
+      { "text": "Football", "isCorrect": false },
+      { "text": "Basketball", "isCorrect": true },
+      { "text": "Rugby", "isCorrect": false },
+      { "text": "Tennis", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "moyen",
+    "text": "Quel pays a remporté le plus de Coupes du Monde de football ?",
+    "image": "assets/images/sport/moyenne/q9.png",
+    "answers": [
+      { "text": "Allemagne", "isCorrect": false },
+      { "text": "Italie", "isCorrect": false },
+      { "text": "Brésil", "isCorrect": true },
+      { "text": "France", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "moyen",
+    "text": "Quel sport est associé au Tour de France ?",
+    "image": "assets/images/sport/moyenne/q10.png",
+    "answers": [
+      { "text": "Moto GP", "isCorrect": false },
+      { "text": "Cyclisme", "isCorrect": true },
+      { "text": "Athlétisme", "isCorrect": false },
+      { "text": "Triathlon", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "moyen",
+    "text": "Quel sport utilise une balle appelée « shuttlecock » ?",
+    "image": "assets/images/sport/moyenne/q11.png",
+    "answers": [
+      { "text": "Badminton", "isCorrect": true },
+      { "text": "Squash", "isCorrect": false },
+      { "text": "Tennis", "isCorrect": false },
+      { "text": "Ping-pong", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "moyen",
+    "text": "Quel sport est pratiqué aux Jeux Olympiques d’hiver ?",
+    "image": "assets/images/sport/moyenne/q12.png",
+    "answers": [
+      { "text": "Ski", "isCorrect": true },
+      { "text": "Athlétisme", "isCorrect": false },
+      { "text": "Cyclisme", "isCorrect": false },
+      { "text": "Football", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "moyen",
+    "text": "Quel sport oppose deux équipes de 6 joueurs sur un terrain ?",
+    "image": "assets/images/sport/moyenne/q13.png",
+    "answers": [
+      { "text": "Volleyball", "isCorrect": true },
+      { "text": "Handball", "isCorrect": false },
+      { "text": "Basketball", "isCorrect": false },
+      { "text": "Rugby", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "moyen",
+    "text": "Quel sport est associé à Usain Bolt ?",
+    "image": "assets/images/sport/moyenne/q14.png",
+    "answers": [
+      { "text": "Cyclisme", "isCorrect": false },
+      { "text": "Athlétisme", "isCorrect": true },
+      { "text": "Natation", "isCorrect": false },
+      { "text": "Football", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "moyen",
+    "text": "Quel sport se joue avec un casque et une crosse ?",
+    "image": "assets/images/sport/moyenne/q15.png",
+    "answers": [
+      { "text": "Hockey", "isCorrect": true },
+      { "text": "Rugby", "isCorrect": false },
+      { "text": "Handball", "isCorrect": false },
+      { "text": "Baseball", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "moyen",
+    "text": "Quel sport utilise le terme « ace » ?",
+    "image": "assets/images/sport/moyenne/q16.png",
+    "answers": [
+      { "text": "Tennis", "isCorrect": true },
+      { "text": "Football", "isCorrect": false },
+      { "text": "Basketball", "isCorrect": false },
+      { "text": "Boxe", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "moyen",
+    "text": "Combien de joueurs y a-t-il sur le terrain pour une équipe de handball ?",
+    "image": "assets/images/sport/moyenne/q17.png",
+    "answers": [
+      { "text": "5", "isCorrect": false },
+      { "text": "6", "isCorrect": false },
+      { "text": "7", "isCorrect": true },
+      { "text": "8", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "moyen",
+    "text": "Quel sport se pratique sur un tatami ?",
+    "image": "assets/images/sport/moyenne/q18.png",
+    "answers": [
+      { "text": "Judo", "isCorrect": true },
+      { "text": "Karate", "isCorrect": false },
+      { "text": "Taekwondo", "isCorrect": false },
+      { "text": "Boxe", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "moyen",
+    "text": "Quel sport est aussi appelé football américain ?",
+    "image": "assets/images/sport/moyenne/q19.png",
+    "answers": [
+      { "text": "Rugby", "isCorrect": false },
+      { "text": "Football US", "isCorrect": true },
+      { "text": "Handball", "isCorrect": false },
+      { "text": "Baseball", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "moyen",
+    "text": "Quel sport combine natation, cyclisme et course à pied ?",
+    "image": "assets/images/sport/moyenne/q20.png",
+    "answers": [
+      { "text": "Duathlon", "isCorrect": false },
+      { "text": "Triathlon", "isCorrect": true },
+      { "text": "Pentathlon", "isCorrect": false },
+      { "text": "Décathlon", "isCorrect": false }
+    ]
+  },
+
+  {
+    "category": "sport",
+    "difficulty": "moyenne",
+    "text": "Quel club a révélé Cristiano Ronaldo au niveau professionnel ?",
+    "image": "assets/images/sport/moyenne/q21.png",
+    "answers": [
+      { "text": "Sporting CP", "isCorrect": true },
+      { "text": "Porto", "isCorrect": false },
+      { "text": "Benfica", "isCorrect": false },
+      { "text": "Braga", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "moyenne",
+    "text": "Avec quel club Cristiano Ronaldo a-t-il remporté sa première Ligue des Champions ?",
+    "image": "assets/images/sport/moyenne/q22.png",
+    "answers": [
+      { "text": "Real Madrid", "isCorrect": false },
+      { "text": "Manchester United", "isCorrect": true },
+      { "text": "Juventus", "isCorrect": false },
+      { "text": "Sporting CP", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "moyenne",
+    "text": "Combien de Ballons d’Or Cristiano Ronaldo a-t-il remportés ?",
+    "image": "assets/images/sport/moyenne/q23.png",
+    "answers": [
+      { "text": "3", "isCorrect": false },
+      { "text": "4", "isCorrect": false },
+      { "text": "5", "isCorrect": true },
+      { "text": "6", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "moyenne",
+    "text": "Quel club italien a accueilli Cristiano Ronaldo en 2018 ?",
+    "image": "assets/images/sport/moyenne/q24.png",
+    "answers": [
+      { "text": "AC Milan", "isCorrect": false },
+      { "text": "Inter Milan", "isCorrect": false },
+      { "text": "Juventus", "isCorrect": true },
+      { "text": "Napoli", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "moyenne",
+    "text": "Quel titre Cristiano Ronaldo a-t-il gagné avec le Portugal en 2016 ?",
+    "image": "assets/images/sport/moyenne/q25.png",
+    "answers": [
+      { "text": "Coupe du Monde", "isCorrect": false },
+      { "text": "Euro", "isCorrect": true },
+      { "text": "Ligue des Nations", "isCorrect": false },
+      { "text": "Coupe des Confédérations", "isCorrect": false }
+    ]
+  },
+
+  {
+    "category": "sport",
+    "difficulty": "difficile",
+    "text": "Quel pays a remporté la première Coupe du Monde de football en 1930 ?",
+    "image": "assets/images/sport/difficile/q1.png",
+    "answers": [
+      { "text": "Brésil", "isCorrect": false },
+      { "text": "Uruguay", "isCorrect": true },
+      { "text": "Argentine", "isCorrect": false },
+      { "text": "Italie", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "difficile",
+    "text": "Combien de Ballons d'Or Lionel Messi a-t-il remportés (jusqu’en 2023) ?",
+    "image": "assets/images/sport/difficile/q2.png",
+    "answers": [
+      { "text": "6", "isCorrect": false },
+      { "text": "7", "isCorrect": false },
+      { "text": "8", "isCorrect": true },
+      { "text": "9", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "difficile",
+    "text": "Quel club a remporté la Ligue des Champions en 2005 après une finale historique ?",
+    "image": "assets/images/sport/difficile/q3.png",
+    "answers": [
+      { "text": "AC Milan", "isCorrect": false },
+      { "text": "Liverpool", "isCorrect": true },
+      { "text": "Chelsea", "isCorrect": false },
+      { "text": "Real Madrid", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "difficile",
+    "text": "Quel athlète détient le record du monde du 100 m masculin ?",
+    "image": "assets/images/sport/difficile/q4.png",
+    "answers": [
+      { "text": "Carl Lewis", "isCorrect": false },
+      { "text": "Tyson Gay", "isCorrect": false },
+      { "text": "Usain Bolt", "isCorrect": true },
+      { "text": "Yohan Blake", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "difficile",
+    "text": "Quel pays a remporté la Coupe d’Afrique des Nations 2004 ?",
+    "image": "assets/images/sport/difficile/q5.png",
+    "answers": [
+      { "text": "Tunisie", "isCorrect": true },
+      { "text": "Égypte", "isCorrect": false },
+      { "text": "Nigeria", "isCorrect": false },
+      { "text": "Maroc", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "difficile",
+    "text": "Dans quel sport Michael Phelps s’est-il illustré ?",
+    "image": "assets/images/sport/difficile/q6.png",
+    "answers": [
+      { "text": "Athlétisme", "isCorrect": false },
+      { "text": "Natation", "isCorrect": true },
+      { "text": "Aviron", "isCorrect": false },
+      { "text": "Plongeon", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "difficile",
+    "text": "Quel club est surnommé « Les Red Devils » ?",
+    "image": "assets/images/sport/difficile/q7.png",
+    "answers": [
+      { "text": "Liverpool", "isCorrect": false },
+      { "text": "Manchester United", "isCorrect": true },
+      { "text": "Arsenal", "isCorrect": false },
+      { "text": "Chelsea", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "difficile",
+    "text": "Quel joueur de tennis a remporté le plus de titres du Grand Chelem ?",
+    "image": "assets/images/sport/difficile/q8.png",
+    "answers": [
+      { "text": "Roger Federer", "isCorrect": false },
+      { "text": "Rafael Nadal", "isCorrect": false },
+      { "text": "Novak Djokovic", "isCorrect": true },
+      { "text": "Andy Murray", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "difficile",
+    "text": "Quel pays a organisé les Jeux Olympiques de 2016 ?",
+    "image": "assets/images/sport/difficile/q9.png",
+    "answers": [
+      { "text": "Chine", "isCorrect": false },
+      { "text": "Royaume-Uni", "isCorrect": false },
+      { "text": "Brésil", "isCorrect": true },
+      { "text": "Japon", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "difficile",
+    "text": "Quel sport est associé à la Coupe Davis ?",
+    "image": "assets/images/sport/difficile/q10.png",
+    "answers": [
+      { "text": "Football", "isCorrect": false },
+      { "text": "Basketball", "isCorrect": false },
+      { "text": "Tennis", "isCorrect": true },
+      { "text": "Rugby", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "difficile",
+    "text": "Quel pays a remporté la Coupe du Monde de rugby 2019 ?",
+    "image": "assets/images/sport/difficile/q11.png",
+    "answers": [
+      { "text": "Angleterre", "isCorrect": false },
+      { "text": "Nouvelle-Zélande", "isCorrect": false },
+      { "text": "Afrique du Sud", "isCorrect": true },
+      { "text": "Australie", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "difficile",
+    "text": "Quel sport utilise les termes « birdie » et « eagle » ?",
+    "image": "assets/images/sport/difficile/q12.png",
+    "answers": [
+      { "text": "Tennis", "isCorrect": false },
+      { "text": "Golf", "isCorrect": true },
+      { "text": "Badminton", "isCorrect": false },
+      { "text": "Baseball", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "difficile",
+    "text": "Quel pays est le plus titré en Coupe du Monde de basketball ?",
+    "image": "assets/images/sport/difficile/q13.png",
+    "answers": [
+      { "text": "Espagne", "isCorrect": false },
+      { "text": "États-Unis", "isCorrect": true },
+      { "text": "Serbie", "isCorrect": false },
+      { "text": "Argentine", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "difficile",
+    "text": "Quel sport est pratiqué lors d’un décathlon ?",
+    "image": "assets/images/sport/difficile/q14.png",
+    "answers": [
+      { "text": "Athlétisme", "isCorrect": true },
+      { "text": "Gymnastique", "isCorrect": false },
+      { "text": "Triathlon", "isCorrect": false },
+      { "text": "Pentathlon", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "difficile",
+    "text": "Quel pays a remporté l’Euro 2016 de football ?",
+    "image": "assets/images/sport/difficile/q15.png",
+    "answers": [
+      { "text": "France", "isCorrect": false },
+      { "text": "Portugal", "isCorrect": true },
+      { "text": "Allemagne", "isCorrect": false },
+      { "text": "Italie", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "difficile",
+    "text": "Quel sport est associé au Super Bowl ?",
+    "image": "assets/images/sport/difficile/q16.png",
+    "answers": [
+      { "text": "Rugby", "isCorrect": false },
+      { "text": "Football américain", "isCorrect": true },
+      { "text": "Baseball", "isCorrect": false },
+      { "text": "Basketball", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "difficile",
+    "text": "Quel pays a remporté la CAN 2021 (jouée en 2022) ?",
+    "image": "assets/images/sport/difficile/q17.png",
+    "answers": [
+      { "text": "Sénégal", "isCorrect": true },
+      { "text": "Égypte", "isCorrect": false },
+      { "text": "Algérie", "isCorrect": false },
+      { "text": "Cameroun", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "difficile",
+    "text": "Quel sport est associé à la Formule 1 ?",
+    "image": "assets/images/sport/difficile/q18.png",
+    "answers": [
+      { "text": "Moto GP", "isCorrect": false },
+      { "text": "Rallye", "isCorrect": false },
+      { "text": "Automobile", "isCorrect": true },
+      { "text": "Karting", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "difficile",
+    "text": "Quel pays a remporté la Coupe du Monde de football 2022 ?",
+    "image": "assets/images/sport/difficile/q19.png",
+    "answers": [
+      { "text": "France", "isCorrect": false },
+      { "text": "Argentine", "isCorrect": true },
+      { "text": "Brésil", "isCorrect": false },
+      { "text": "Croatie", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "difficile",
+    "text": "Quel sport est associé au terme « Grand Slam » ?",
+    "image": "assets/images/sport/difficile/q20.png",
+    "answers": [
+      { "text": "Tennis", "isCorrect": true },
+      { "text": "Golf", "isCorrect": false },
+      { "text": "Rugby", "isCorrect": false },
+      { "text": "Cricket", "isCorrect": false }
+    ]
+  },
+
+  {
+    "category": "sport",
+    "difficulty": "difficile",
+    "text": "En quelle année Cristiano Ronaldo a-t-il remporté son premier Ballon d’Or ?",
+    "image": "assets/images/sport/difficile/q21.png",
+    "answers": [
+      { "text": "2007", "isCorrect": false },
+      { "text": "2008", "isCorrect": true },
+      { "text": "2009", "isCorrect": false },
+      { "text": "2010", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "difficile",
+    "text": "Combien de Ligues des Champions Cristiano Ronaldo a-t-il remportées ?",
+    "image": "assets/images/sport/difficile/q22.png",
+    "answers": [
+      { "text": "3", "isCorrect": false },
+      { "text": "4", "isCorrect": false },
+      { "text": "5", "isCorrect": true },
+      { "text": "6", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "difficile",
+    "text": "Quel club Cristiano Ronaldo a-t-il rejoint en 2023 ?",
+    "image": "assets/images/sport/difficile/q23.png",
+    "answers": [
+      { "text": "Al Nassr", "isCorrect": true },
+      { "text": "Al Hilal", "isCorrect": false },
+      { "text": "Al Ittihad", "isCorrect": false },
+      { "text": "Al Ahli", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "difficile",
+    "text": "Cristiano Ronaldo est le meilleur buteur de l’histoire de quelle compétition ?",
+    "image": "assets/images/sport/difficile/q24.png",
+    "answers": [
+      { "text": "Coupe du Monde", "isCorrect": false },
+      { "text": "Ligue des Champions", "isCorrect": true },
+      { "text": "Euro", "isCorrect": false },
+      { "text": "Premier League", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "sport",
+    "difficulty": "difficile",
+    "text": "Quel record Cristiano Ronaldo détient avec la sélection portugaise ?",
+    "image": "assets/images/sport/difficile/q25.png",
+    "answers": [
+      { "text": "Plus grand nombre de passes décisives", "isCorrect": false },
+      { "text": "Plus grand nombre de buts en sélection", "isCorrect": true },
+      { "text": "Plus grand nombre de cartons", "isCorrect": false },
+      { "text": "Plus grand nombre de matchs perdus", "isCorrect": false }
+    ]
+  }
+
+]

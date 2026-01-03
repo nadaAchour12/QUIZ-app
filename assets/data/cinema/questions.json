@@ -1,0 +1,736 @@
+[
+  {
+    "category": "cinema",
+    "difficulty": "facile",
+    "text": "Quel film met en scène Jack Sparrow ?",
+    "image": "assets/images/cinema/facile/q1.png",
+    "answers": [
+      { "text": "Pirates des Caraïbes", "isCorrect": true },
+      { "text": "Titanic", "isCorrect": false },
+      { "text": "Avatar", "isCorrect": false },
+      { "text": "Gladiator", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "cinema",
+    "difficulty": "facile",
+    "text": "Quel film raconte l’histoire du Titanic ?",
+    "image": "assets/images/cinema/facile/q2.png",
+    "answers": [
+      { "text": "Titanic", "isCorrect": true },
+      { "text": "Inception", "isCorrect": false },
+      { "text": "Jaws", "isCorrect": false },
+      { "text": "Avatar", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "cinema",
+    "difficulty": "facile",
+    "text": "Quel film d’animation met en scène Simba ?",
+    "image": "assets/images/cinema/facile/q3.png",
+    "answers": [
+      { "text": "Le Roi Lion", "isCorrect": true },
+      { "text": "Toy Story", "isCorrect": false },
+      { "text": "Cars", "isCorrect": false },
+      { "text": "Shrek", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "cinema",
+    "difficulty": "facile",
+    "text": "Quel film tunisien célèbre raconte l’enfance à Tunis ?",
+    "image": "assets/images/cinema/facile/q4.png",
+    "answers": [
+      { "text": "Halfaouine", "isCorrect": true },
+      { "text": "Dachra", "isCorrect": false },
+      { "text": "Fatma", "isCorrect": false },
+      { "text": "Beautés cachées", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "cinema",
+    "difficulty": "facile",
+    "text": "Quel acteur joue Iron Man ?",
+    "image": "assets/images/cinema/facile/q5.png",
+    "answers": [
+      { "text": "Robert Downey Jr.", "isCorrect": true },
+      { "text": "Chris Evans", "isCorrect": false },
+      { "text": "Tom Holland", "isCorrect": false },
+      { "text": "Mark Ruffalo", "isCorrect": false }
+    ]
+  },
+
+  {
+    "category": "cinema",
+    "difficulty": "facile",
+    "text": "Quel film arabe est célèbre avec Omar Sharif ?",
+    "image": "assets/images/cinema/facile/q6.png",
+    "answers": [
+      { "text": "Lawrence d’Arabie", "isCorrect": true },
+      { "text": "Le Message", "isCorrect": false },
+      { "text": "Alexandrie... pourquoi ?", "isCorrect": false },
+      { "text": "Le Destin", "isCorrect": false }
+    ]
+  },
+
+  {
+    "category": "cinema",
+    "difficulty": "facile",
+    "text": "Quel film met en scène des dinosaures ?",
+    "image": "assets/images/cinema/facile/q7.png",
+    "answers": [
+      { "text": "Jurassic Park", "isCorrect": true },
+      { "text": "Avatar", "isCorrect": false },
+      { "text": "King Kong", "isCorrect": false },
+      { "text": "Godzilla", "isCorrect": false }
+    ]
+  },
+
+  {
+    "category": "cinema",
+    "difficulty": "facile",
+    "text": "Quel film est une production tunisienne d’horreur ?",
+    "image": "assets/images/cinema/facile/q8.png",
+    "answers": [
+      { "text": "Dachra", "isCorrect": true },
+      { "text": "Halfaouine", "isCorrect": false },
+      { "text": "The Silences of the Palace", "isCorrect": false },
+      { "text": "Fatma", "isCorrect": false }
+    ]
+  },
+
+  {
+    "category": "cinema",
+    "difficulty": "facile",
+    "text": "Quel film raconte l’histoire de Harry Potter ?",
+    "image": "assets/images/cinema/facile/q9.png",
+    "answers": [
+      { "text": "Harry Potter", "isCorrect": true },
+      { "text": "Le Seigneur des Anneaux", "isCorrect": false },
+      { "text": "Narnia", "isCorrect": false },
+      { "text": "Star Wars", "isCorrect": false }
+    ]
+  },
+
+  {
+    "category": "cinema",
+    "difficulty": "facile",
+    "text": "Quel genre de film est Avatar ?",
+    "image": "assets/images/cinema/facile/q10.png",
+    "answers": [
+      { "text": "Science-fiction", "isCorrect": true },
+      { "text": "Comédie", "isCorrect": false },
+      { "text": "Horreur", "isCorrect": false },
+      { "text": "Documentaire", "isCorrect": false }
+    ]
+  },
+
+  {
+    "category": "cinema",
+    "difficulty": "facile",
+    "text": "Quel film met en scène un hobbit nommé Frodon ?",
+    "image": "assets/images/cinema/facile/q11.png",
+    "answers": [
+      { "text": "Le Seigneur des Anneaux", "isCorrect": true },
+      { "text": "Harry Potter", "isCorrect": false },
+      { "text": "Narnia", "isCorrect": false },
+      { "text": "Le Hobbit", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "cinema",
+    "difficulty": "facile",
+    "text": "Quel acteur joue le rôle de Jack Dawson dans Titanic ?",
+    "image": "assets/images/cinema/facile/q12.png",
+    "answers": [
+      { "text": "Leonardo DiCaprio", "isCorrect": true },
+      { "text": "Brad Pitt", "isCorrect": false },
+      { "text": "Tom Cruise", "isCorrect": false },
+      { "text": "Johnny Depp", "isCorrect": false }
+    ]
+  },
+
+  {
+    "category": "cinema",
+    "difficulty": "facile",
+    "text": "Quel film tunisien raconte l’histoire d’une jeune fille et de sa grand-mère ?",
+    "image": "assets/images/cinema/facile/q13.png",
+    "answers": [
+      { "text": "Fatma", "isCorrect": true },
+      { "text": "Halfaouine", "isCorrect": false },
+      { "text": "Dachra", "isCorrect": false },
+      { "text": "Beautés cachées", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "cinema",
+    "difficulty": "facile",
+    "text": "Quel film met en scène l’histoire de Simba et Nala ?",
+    "image": "assets/images/cinema/facile/q14.png",
+    "answers": [
+      { "text": "Le Roi Lion", "isCorrect": true },
+      { "text": "Madagascar", "isCorrect": false },
+      { "text": "Zootopie", "isCorrect": false },
+      { "text": "Shrek", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "cinema",
+    "difficulty": "facile",
+    "text": "Quel film met en scène un super-héros avec un marteau magique ?",
+    "image": "assets/images/cinema/facile/q15.png",
+    "answers": [
+      { "text": "Thor", "isCorrect": true },
+      { "text": "Iron Man", "isCorrect": false },
+      { "text": "Spider-Man", "isCorrect": false },
+      { "text": "Hulk", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "cinema",
+    "difficulty": "facile",
+    "text": "Quel film arabe raconte l’histoire de l’Égypte ancienne avec Omar Sharif ?",
+    "image": "assets/images/cinema/facile/q16.png",
+    "answers": [
+      { "text": "Alexandrie... pourquoi ?", "isCorrect": true },
+      { "text": "Le Message", "isCorrect": false },
+      { "text": "Lawrence d’Arabie", "isCorrect": false },
+      { "text": "Le Destin", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "cinema",
+    "difficulty": "facile",
+    "text": "Quel film d’animation raconte l’histoire de Woody et Buzz ?",
+    "image": "assets/images/cinema/facile/q17.png",
+    "answers": [
+      { "text": "Toy Story", "isCorrect": true },
+      { "text": "Le Roi Lion", "isCorrect": false },
+      { "text": "Shrek", "isCorrect": false },
+      { "text": "Cars", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "cinema",
+    "difficulty": "facile",
+    "text": "Quel film raconte l’histoire de Luke Skywalker ?",
+    "image": "assets/images/cinema/facile/q18.png",
+    "answers": [
+      { "text": "Star Wars", "isCorrect": true },
+      { "text": "Star Trek", "isCorrect": false },
+      { "text": "Avatar", "isCorrect": false },
+      { "text": "Guardians of the Galaxy", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "cinema",
+    "difficulty": "facile",
+    "text": "Quel film met en scène une planète nommée Pandora ?",
+    "image": "assets/images/cinema/facile/q19.png",
+    "answers": [
+      { "text": "Avatar", "isCorrect": true },
+      { "text": "Star Wars", "isCorrect": false },
+      { "text": "Interstellar", "isCorrect": false },
+      { "text": "Guardians of the Galaxy", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "cinema",
+    "difficulty": "facile",
+    "text": "Quel film tunisien raconte l’histoire de la jeunesse dans la médina ?",
+    "image": "assets/images/cinema/facile/q20.png",
+    "answers": [
+      { "text": "Halfaouine", "isCorrect": true },
+      { "text": "Dachra", "isCorrect": false },
+      { "text": "Fatma", "isCorrect": false },
+      { "text": "Beautés cachées", "isCorrect": false }
+    ]
+  },
+
+
+    {
+      "category": "cinema",
+      "difficulty": "moyenne",
+      "text": "Quel film de Christopher Nolan parle des rêves ?",
+      "image": "assets/images/cinema/moyenne/q1.png",
+      "answers": [
+        { "text": "Inception", "isCorrect": true },
+        { "text": "Interstellar", "isCorrect": false },
+        { "text": "Tenet", "isCorrect": false },
+        { "text": "Dunkirk", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "cinema",
+      "difficulty": "moyenne",
+      "text": "Quel film tunisien a remporté le Tanit d’Or à Carthage ?",
+      "image": "assets/images/cinema/moyenne/q2.png",
+      "answers": [
+        { "text": "L’Homme qui a vendu sa peau", "isCorrect": true },
+        { "text": "Dachra", "isCorrect": false },
+        { "text": "Halfaouine", "isCorrect": false },
+        { "text": "Fatma", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "cinema",
+      "difficulty": "moyenne",
+      "text": "Quel film raconte un voyage dans l’espace pour sauver l’humanité ?",
+      "image": "assets/images/cinema/moyenne/q3.png",
+      "answers": [
+        { "text": "Interstellar", "isCorrect": true },
+        { "text": "Gravity", "isCorrect": false },
+        { "text": "Avatar", "isCorrect": false },
+        { "text": "The Martian", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "cinema",
+      "difficulty": "moyenne",
+      "text": "Quel acteur joue le Joker dans The Dark Knight ?",
+      "image": "assets/images/cinema/moyenne/q4.png",
+      "answers": [
+        { "text": "Heath Ledger", "isCorrect": true },
+        { "text": "Joaquin Phoenix", "isCorrect": false },
+        { "text": "Jared Leto", "isCorrect": false },
+        { "text": "Jack Nicholson", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "cinema",
+      "difficulty": "moyenne",
+      "text": "Quel film arabe a été réalisé par Youssef Chahine ?",
+      "image": "assets/images/cinema/moyenne/q5.png",
+      "answers": [
+        { "text": "Le Destin", "isCorrect": true },
+        { "text": "Le Message", "isCorrect": false },
+        { "text": "Capharnaüm", "isCorrect": false },
+        { "text": "Omar", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "cinema",
+      "difficulty": "moyenne",
+      "text": "Quel film raconte la vie de Jordan Belfort ?",
+      "image": "assets/images/cinema/moyenne/q6.png",
+      "answers": [
+        { "text": "The Wolf of Wall Street", "isCorrect": true },
+        { "text": "Scarface", "isCorrect": false },
+        { "text": "Casino", "isCorrect": false },
+        { "text": "The Big Short", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "cinema",
+      "difficulty": "moyenne",
+      "text": "Quel film tunisien parle de sorcellerie et d’horreur ?",
+      "image": "assets/images/cinema/moyenne/q7.png",
+      "answers": [
+        { "text": "Dachra", "isCorrect": true },
+        { "text": "Halfaouine", "isCorrect": false },
+        { "text": "L’Homme qui a vendu sa peau", "isCorrect": false },
+        { "text": "Fatma", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "cinema",
+      "difficulty": "moyenne",
+      "text": "Quel film met en scène un combat dans l’arène romaine ?",
+      "image": "assets/images/cinema/moyenne/q8.png",
+      "answers": [
+        { "text": "Gladiator", "isCorrect": true },
+        { "text": "Troy", "isCorrect": false },
+        { "text": "300", "isCorrect": false },
+        { "text": "Ben-Hur", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "cinema",
+      "difficulty": "moyenne",
+      "text": "Quel film libanais a été nommé aux Oscars ?",
+      "image": "assets/images/cinema/moyenne/q9.png",
+      "answers": [
+        { "text": "Capharnaüm", "isCorrect": true },
+        { "text": "Le Message", "isCorrect": false },
+        { "text": "Le Destin", "isCorrect": false },
+        { "text": "Omar", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "cinema",
+      "difficulty": "moyenne",
+      "text": "Quel film met en scène un vaisseau nommé Titanic… dans l’espace ?",
+      "image": "assets/images/cinema/moyenne/q10.png",
+      "answers": [
+        { "text": "Passengers", "isCorrect": true },
+        { "text": "Gravity", "isCorrect": false },
+        { "text": "Interstellar", "isCorrect": false },
+        { "text": "Alien", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "cinema",
+      "difficulty": "moyenne",
+      "text": "Quel film raconte l’histoire d’un mathématicien schizophrène ?",
+      "image": "assets/images/cinema/moyenne/q11.png",
+      "answers": [
+        { "text": "A Beautiful Mind", "isCorrect": true },
+        { "text": "The Theory of Everything", "isCorrect": false },
+        { "text": "Rain Man", "isCorrect": false },
+        { "text": "Forrest Gump", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "cinema",
+      "difficulty": "moyenne",
+      "text": "Quel film tunisien traite de la migration clandestine ?",
+      "image": "assets/images/cinema/moyenne/q12.png",
+      "answers": [
+        { "text": "Beautés cachées", "isCorrect": true },
+        { "text": "Halfaouine", "isCorrect": false },
+        { "text": "Dachra", "isCorrect": false },
+        { "text": "Fatma", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "cinema",
+      "difficulty": "moyenne",
+      "text": "Quel film raconte une invasion extraterrestre en Afrique du Sud ?",
+      "image": "assets/images/cinema/moyenne/q13.png",
+      "answers": [
+        { "text": "District 9", "isCorrect": true },
+        { "text": "Arrival", "isCorrect": false },
+        { "text": "Independence Day", "isCorrect": false },
+        { "text": "Elysium", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "cinema",
+      "difficulty": "moyenne",
+      "text": "Quel film arabe parle de la naissance de l’islam ?",
+      "image": "assets/images/cinema/moyenne/q14.png",
+      "answers": [
+        { "text": "Le Message", "isCorrect": true },
+        { "text": "Le Destin", "isCorrect": false },
+        { "text": "Omar", "isCorrect": false },
+        { "text": "Kingdom of Heaven", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "cinema",
+      "difficulty": "moyenne",
+      "text": "Quel film est adapté d’un roman de Stephen King ?",
+      "image": "assets/images/cinema/moyenne/q15.png",
+      "answers": [
+        { "text": "It", "isCorrect": true },
+        { "text": "Saw", "isCorrect": false },
+        { "text": "Conjuring", "isCorrect": false },
+        { "text": "Insidious", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "cinema",
+      "difficulty": "moyenne",
+      "text": "Quel film raconte une prison et une évasion célèbre ?",
+      "image": "assets/images/cinema/moyenne/q16.png",
+      "answers": [
+        { "text": "The Shawshank Redemption", "isCorrect": true },
+        { "text": "Prison Break", "isCorrect": false },
+        { "text": "Escape Plan", "isCorrect": false },
+        { "text": "The Green Mile", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "cinema",
+      "difficulty": "moyenne",
+      "text": "Quel film tunisien parle de la révolution ?",
+      "image": "assets/images/cinema/moyenne/q17.png",
+      "answers": [
+        { "text": "Laïcité Inch’Allah", "isCorrect": true },
+        { "text": "Halfaouine", "isCorrect": false },
+        { "text": "Dachra", "isCorrect": false },
+        { "text": "Fatma", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "cinema",
+      "difficulty": "moyenne",
+      "text": "Quel film se déroule principalement dans un hôtel ?",
+      "image": "assets/images/cinema/moyenne/q18.png",
+      "answers": [
+        { "text": "The Grand Budapest Hotel", "isCorrect": true },
+        { "text": "Inception", "isCorrect": false },
+        { "text": "Shining", "isCorrect": false },
+        { "text": "Parasite", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "cinema",
+      "difficulty": "moyenne",
+      "text": "Quel film coréen a remporté l’Oscar du meilleur film ?",
+      "image": "assets/images/cinema/moyenne/q19.png",
+      "answers": [
+        { "text": "Parasite", "isCorrect": true },
+        { "text": "Oldboy", "isCorrect": false },
+        { "text": "Train to Busan", "isCorrect": false },
+        { "text": "Memories of Murder", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "cinema",
+      "difficulty": "moyenne",
+      "text": "Quel film raconte une histoire d’amour pendant la Seconde Guerre mondiale ?",
+      "image": "assets/images/cinema/moyenne/q20.png",
+      "answers": [
+        { "text": "Casablanca", "isCorrect": true },
+        { "text": "Titanic", "isCorrect": false },
+        { "text": "Pearl Harbor", "isCorrect": false },
+        { "text": "The English Patient", "isCorrect": false }
+      ]
+    },
+
+    {
+      "category": "cinema",
+      "difficulty": "difficile",
+      "text": "Quel film tunisien a été réalisé par Moufida Tlatli en 1994 ?",
+      "image": "assets/images/cinema/difficile/q1.png",
+      "answers": [
+        { "text": "The Silences of the Palace", "isCorrect": true },
+        { "text": "Dachra", "isCorrect": false },
+        { "text": "Halfaouine", "isCorrect": false },
+        { "text": "Fatma", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "cinema",
+      "difficulty": "difficile",
+      "text": "Quel film de Terrence Malick raconte l’Amérique à travers l’histoire d’une famille ?",
+      "image": "assets/images/cinema/difficile/q2.png",
+      "answers": [
+        { "text": "The Tree of Life", "isCorrect": true },
+        { "text": "Badlands", "isCorrect": false },
+        { "text": "Days of Heaven", "isCorrect": false },
+        { "text": "To the Wonder", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "cinema",
+      "difficulty": "difficile",
+      "text": "Quel film arabe de Nadine Labaki raconte la vie dans les bidonvilles de Beyrouth ?",
+      "image": "assets/images/cinema/difficile/q3.png",
+      "answers": [
+        { "text": "Capharnaüm", "isCorrect": true },
+        { "text": "Caramel", "isCorrect": false },
+        { "text": "Where Do We Go Now?", "isCorrect": false },
+        { "text": "The Insult", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "cinema",
+      "difficulty": "difficile",
+      "text": "Quel film japonais raconte l’histoire d’un samouraï et de son fils aveugle ?",
+      "image": "assets/images/cinema/difficile/q4.png",
+      "answers": [
+        { "text": "The Twilight Samurai", "isCorrect": true },
+        { "text": "Seven Samurai", "isCorrect": false },
+        { "text": "Rashomon", "isCorrect": false },
+        { "text": "Ikiru", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "cinema",
+      "difficulty": "difficile",
+      "text": "Quel film tunisien explore la mémoire et la colonisation française ?",
+      "image": "assets/images/cinema/difficile/q5.png",
+      "answers": [
+        { "text": "Halfaouine", "isCorrect": true },
+        { "text": "The Silences of the Palace", "isCorrect": false },
+        { "text": "Dachra", "isCorrect": false },
+        { "text": "Fatma", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "cinema",
+      "difficulty": "difficile",
+      "text": "Quel film de Wong Kar-wai raconte une histoire d’amour dans le Hong Kong des années 60 ?",
+      "image": "assets/images/cinema/difficile/q6.png",
+      "answers": [
+        { "text": "In the Mood for Love", "isCorrect": true },
+        { "text": "Chungking Express", "isCorrect": false },
+        { "text": "2046", "isCorrect": false },
+        { "text": "Happy Together", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "cinema",
+      "difficulty": "difficile",
+      "text": "Quel film iranien raconte l’histoire d’un enfant qui trouve un ballon rouge ?",
+      "image": "assets/images/cinema/difficile/q7.png",
+      "answers": [
+        { "text": "Le Ballon Rouge", "isCorrect": true },
+        { "text": "Children of Heaven", "isCorrect": false },
+        { "text": "The White Balloon", "isCorrect": false },
+        { "text": "A Separation", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "cinema",
+      "difficulty": "difficile",
+      "text": "Quel film tunisien traite de la condition féminine et des traditions sociales ?",
+      "image": "assets/images/cinema/difficile/q8.png",
+      "answers": [
+        { "text": "The Silences of the Palace", "isCorrect": true },
+        { "text": "Dachra", "isCorrect": false },
+        { "text": "Halfaouine", "isCorrect": false },
+        { "text": "Fatma", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "cinema",
+      "difficulty": "difficile",
+      "text": "Quel film raconte la vie d’un peintre aveugle au Japon ?",
+      "image": "assets/images/cinema/difficile/q9.png",
+      "answers": [
+        { "text": "Silence", "isCorrect": true },
+        { "text": "Rashomon", "isCorrect": false },
+        { "text": "The Twilight Samurai", "isCorrect": false },
+        { "text": "Dreams", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "cinema",
+      "difficulty": "difficile",
+      "text": "Quel film français raconte l’histoire de la résistance pendant la Seconde Guerre mondiale ?",
+      "image": "assets/images/cinema/difficile/q10.png",
+      "answers": [
+        { "text": "Un héros très discret", "isCorrect": true },
+        { "text": "La Rafle", "isCorrect": false },
+        { "text": "Au revoir les enfants", "isCorrect": false },
+        { "text": "Army of Shadows", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "cinema",
+      "difficulty": "difficile",
+      "text": "Quel film tunisien parle des événements du Printemps arabe ?",
+      "image": "assets/images/cinema/difficile/q11.png",
+      "answers": [
+        { "text": "Laïcité Inch’Allah", "isCorrect": true },
+        { "text": "Halfaouine", "isCorrect": false },
+        { "text": "Dachra", "isCorrect": false },
+        { "text": "Fatma", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "cinema",
+      "difficulty": "difficile",
+      "text": "Quel film raconte la vie d’un sculpteur avec ses sculptures vivantes ?",
+      "image": "assets/images/cinema/difficile/q12.png",
+      "answers": [
+        { "text": "The Shape of Water", "isCorrect": true },
+        { "text": "The Fountain", "isCorrect": false },
+        { "text": "Loving Vincent", "isCorrect": false },
+        { "text": "The Artist", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "cinema",
+      "difficulty": "difficile",
+      "text": "Quel film de Federico Fellini raconte la vie d’un réalisateur célèbre ?",
+      "image": "assets/images/cinema/difficile/q13.png",
+      "answers": [
+        { "text": "8½", "isCorrect": true },
+        { "text": "La Dolce Vita", "isCorrect": false },
+        { "text": "Amarcord", "isCorrect": false },
+        { "text": "Satyricon", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "cinema",
+      "difficulty": "difficile",
+      "text": "Quel film arabe raconte l’histoire d’un jeune palestinien en Israël ?",
+      "image": "assets/images/cinema/difficile/q14.png",
+      "answers": [
+        { "text": "Omar", "isCorrect": true },
+        { "text": "Paradise Now", "isCorrect": false },
+        { "text": "Theeb", "isCorrect": false },
+        { "text": "Capharnaüm", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "cinema",
+      "difficulty": "difficile",
+      "text": "Quel film raconte l’histoire de la peinture et des impressionnistes français ?",
+      "image": "assets/images/cinema/difficile/q15.png",
+      "answers": [
+        { "text": "Loving Vincent", "isCorrect": true },
+        { "text": "Midnight in Paris", "isCorrect": false },
+        { "text": "The Artist", "isCorrect": false },
+        { "text": "La Vie en Rose", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "cinema",
+      "difficulty": "difficile",
+      "text": "Quel film raconte l’histoire d’un scientifique qui voyage dans le temps ?",
+      "image": "assets/images/cinema/difficile/q16.png",
+      "answers": [
+        { "text": "Primer", "isCorrect": true },
+        { "text": "Interstellar", "isCorrect": false },
+        { "text": "Tenet", "isCorrect": false },
+        { "text": "Back to the Future", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "cinema",
+      "difficulty": "difficile",
+      "text": "Quel film tunisien raconte la vie d’une famille dans un village du sud ?",
+      "image": "assets/images/cinema/difficile/q17.png",
+      "answers": [
+        { "text": "Fatma", "isCorrect": true },
+        { "text": "Halfaouine", "isCorrect": false },
+        { "text": "Dachra", "isCorrect": false },
+        { "text": "Beautés cachées", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "cinema",
+      "difficulty": "difficile",
+      "text": "Quel film raconte une expédition en Antarctique et ses dangers ?",
+      "image": "assets/images/cinema/difficile/q18.png",
+      "answers": [
+        { "text": "The Thing", "isCorrect": true },
+        { "text": "March of the Penguins", "isCorrect": false },
+        { "text": "Encounters at the End of the World", "isCorrect": false },
+        { "text": "The Grey", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "cinema",
+      "difficulty": "difficile",
+      "text": "Quel film italien raconte une histoire d’amour et de poésie dans la Rome antique ?",
+      "image": "assets/images/cinema/difficile/q19.png",
+      "answers": [
+        { "text": "La Grande Bellezza", "isCorrect": true },
+        { "text": "Rome, Open City", "isCorrect": false },
+        { "text": "Il Postino", "isCorrect": false },
+        { "text": "Life is Beautiful", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "cinema",
+      "difficulty": "difficile",
+      "text": "Quel film raconte l’histoire d’un voleur et d’un peintre dans le Paris du XIXe siècle ?",
+      "image": "assets/images/cinema/difficile/q20.png",
+      "answers": [
+        { "text": "The Artist", "isCorrect": true },
+        { "text": "Midnight in Paris", "isCorrect": false },
+        { "text": "Amélie", "isCorrect": false },
+        { "text": "Moulin Rouge!", "isCorrect": false }
+      ]
+    }
+
+
+
+
+]

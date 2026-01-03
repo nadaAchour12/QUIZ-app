@@ -1,0 +1,730 @@
+[
+  {
+    "category": "histoire",
+    "difficulty": "facile",
+    "text": "Qui a découvert l’Amérique en 1492 ?",
+    "image": "assets/images/histoire/facile/q1.png",
+    "answers": [
+      { "text": "Christophe Colomb", "isCorrect": true },
+      { "text": "Marco Polo", "isCorrect": false },
+      { "text": "Magellan", "isCorrect": false },
+      { "text": "Vasco de Gama", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "histoire",
+    "difficulty": "facile",
+    "text": "Dans quel pays se trouvent les pyramides ?",
+    "image": "assets/images/histoire/facile/q2.png",
+    "answers": [
+      { "text": "Égypte", "isCorrect": true },
+      { "text": "Mexique", "isCorrect": false },
+      { "text": "Grèce", "isCorrect": false },
+      { "text": "Irak", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "histoire",
+    "difficulty": "facile",
+    "text": "Qui était Napoléon Bonaparte ?",
+    "image": "assets/images/histoire/facile/q3.png",
+    "answers": [
+      { "text": "Empereur français", "isCorrect": true },
+      { "text": "Roi anglais", "isCorrect": false },
+      { "text": "Président américain", "isCorrect": false },
+      { "text": "Philosophe grec", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "histoire",
+    "difficulty": "facile",
+    "text": "Quelle guerre a commencé en 1914 ?",
+    "image": "assets/images/histoire/facile/q4.png",
+    "answers": [
+      { "text": "Première Guerre mondiale", "isCorrect": true },
+      { "text": "Seconde Guerre mondiale", "isCorrect": false },
+      { "text": "Guerre froide", "isCorrect": false },
+      { "text": "Guerre de Cent Ans", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "histoire",
+    "difficulty": "facile",
+    "text": "Quelle ville était la capitale de l’Empire romain ?",
+    "image": "assets/images/histoire/facile/q5.png",
+    "answers": [
+      { "text": "Rome", "isCorrect": true },
+      { "text": "Athènes", "isCorrect": false },
+      { "text": "Carthage", "isCorrect": false },
+      { "text": "Alexandrie", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "histoire",
+    "difficulty": "facile",
+    "text": "Quel événement a marqué la fin de la Seconde Guerre mondiale ?",
+    "image": "assets/images/histoire/facile/q6.png",
+    "answers": [
+      { "text": "Capitulation de l’Allemagne", "isCorrect": true },
+      { "text": "Révolution russe", "isCorrect": false },
+      { "text": "Traité de Rome", "isCorrect": false },
+      { "text": "Chute de l’URSS", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "histoire",
+    "difficulty": "facile",
+    "text": "Quel pays a construit la Grande Muraille ?",
+    "image": "assets/images/histoire/facile/q7.png",
+    "answers": [
+      { "text": "Chine", "isCorrect": true },
+      { "text": "Japon", "isCorrect": false },
+      { "text": "Corée", "isCorrect": false },
+      { "text": "Mongolie", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "histoire",
+    "difficulty": "facile",
+    "text": "Qui était le premier président des États-Unis ?",
+    "image": "assets/images/histoire/facile/q8.png",
+    "answers": [
+      { "text": "George Washington", "isCorrect": true },
+      { "text": "Abraham Lincoln", "isCorrect": false },
+      { "text": "Thomas Jefferson", "isCorrect": false },
+      { "text": "John Adams", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "histoire",
+    "difficulty": "facile",
+    "text": "Quelle civilisation a construit les pyramides ?",
+    "image": "assets/images/histoire/facile/q9.png",
+    "answers": [
+      { "text": "Égyptienne", "isCorrect": true },
+      { "text": "Romaine", "isCorrect": false },
+      { "text": "Grecque", "isCorrect": false },
+      { "text": "Maya", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "histoire",
+    "difficulty": "facile",
+    "text": "Quel pays était dirigé par Hitler ?",
+    "image": "assets/images/histoire/facile/q10.png",
+    "answers": [
+      { "text": "Allemagne", "isCorrect": true },
+      { "text": "Italie", "isCorrect": false },
+      { "text": "France", "isCorrect": false },
+      { "text": "Autriche", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "histoire",
+    "difficulty": "facile",
+    "text": "Quelle guerre oppose le Nord et le Sud des États-Unis ?",
+    "image": "assets/images/histoire/facile/q11.png",
+    "answers": [
+      { "text": "Guerre de Sécession", "isCorrect": true },
+      { "text": "Guerre froide", "isCorrect": false },
+      { "text": "Première Guerre mondiale", "isCorrect": false },
+      { "text": "Guerre du Vietnam", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "histoire",
+    "difficulty": "facile",
+    "text": "Qui était Jules César ?",
+    "image": "assets/images/histoire/facile/q12.png",
+    "answers": [
+      { "text": "Un empereur romain", "isCorrect": true },
+      { "text": "Un roi grec", "isCorrect": false },
+      { "text": "Un pharaon", "isCorrect": false },
+      { "text": "Un philosophe", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "histoire",
+    "difficulty": "facile",
+    "text": "Quelle ville a été détruite par le Vésuve ?",
+    "image": "assets/images/histoire/facile/q13.png",
+    "answers": [
+      { "text": "Pompéi", "isCorrect": true },
+      { "text": "Athènes", "isCorrect": false },
+      { "text": "Rome", "isCorrect": false },
+      { "text": "Carthage", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "histoire",
+    "difficulty": "facile",
+    "text": "Quelle révolution a eu lieu en 1789 ?",
+    "image": "assets/images/histoire/facile/q14.png",
+    "answers": [
+      { "text": "Révolution française", "isCorrect": true },
+      { "text": "Révolution russe", "isCorrect": false },
+      { "text": "Révolution industrielle", "isCorrect": false },
+      { "text": "Révolution américaine", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "histoire",
+    "difficulty": "facile",
+    "text": "Quel pays a colonisé la Tunisie ?",
+    "image": "assets/images/histoire/facile/q15.png",
+    "answers": [
+      { "text": "France", "isCorrect": true },
+      { "text": "Italie", "isCorrect": false },
+      { "text": "Espagne", "isCorrect": false },
+      { "text": "Angleterre", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "histoire",
+    "difficulty": "facile",
+    "text": "Quel est l’ancien nom d’Istanbul ?",
+    "image": "assets/images/histoire/facile/q16.png",
+    "answers": [
+      { "text": "Constantinople", "isCorrect": true },
+      { "text": "Byzance", "isCorrect": false },
+      { "text": "Rome", "isCorrect": false },
+      { "text": "Athènes", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "histoire",
+    "difficulty": "facile",
+    "text": "Quel empire a construit le Colisée ?",
+    "image": "assets/images/histoire/facile/q17.png",
+    "answers": [
+      { "text": "Empire romain", "isCorrect": true },
+      { "text": "Empire grec", "isCorrect": false },
+      { "text": "Empire ottoman", "isCorrect": false },
+      { "text": "Empire perse", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "histoire",
+    "difficulty": "facile",
+    "text": "Quel continent est le berceau de l’humanité ?",
+    "image": "assets/images/histoire/facile/q18.png",
+    "answers": [
+      { "text": "Afrique", "isCorrect": true },
+      { "text": "Asie", "isCorrect": false },
+      { "text": "Europe", "isCorrect": false },
+      { "text": "Amérique", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "histoire",
+    "difficulty": "facile",
+    "text": "Quelle ville est la capitale de l’Italie ?",
+    "image": "assets/images/histoire/facile/q19.png",
+    "answers": [
+      { "text": "Rome", "isCorrect": true },
+      { "text": "Milan", "isCorrect": false },
+      { "text": "Venise", "isCorrect": false },
+      { "text": "Naples", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "histoire",
+    "difficulty": "facile",
+    "text": "Quelle guerre a opposé les Alliés et l’Axe ?",
+    "image": "assets/images/histoire/facile/q20.png",
+    "answers": [
+      { "text": "Seconde Guerre mondiale", "isCorrect": true },
+      { "text": "Première Guerre mondiale", "isCorrect": false },
+      { "text": "Guerre froide", "isCorrect": false },
+      { "text": "Guerre de Sécession", "isCorrect": false }
+    ]
+  },
+
+
+    {
+      "category": "histoire",
+      "difficulty": "moyenne",
+      "text": "En quelle année a commencé la Révolution française ?",
+      "image": "assets/images/histoire/moyenne/q1.png",
+      "answers": [
+        { "text": "1789", "isCorrect": true },
+        { "text": "1776", "isCorrect": false },
+        { "text": "1815", "isCorrect": false },
+        { "text": "1914", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "histoire",
+      "difficulty": "moyenne",
+      "text": "Quel traité a mis fin à la Première Guerre mondiale ?",
+      "image": "assets/images/histoire/moyenne/q2.png",
+      "answers": [
+        { "text": "Traité de Versailles", "isCorrect": true },
+        { "text": "Traité de Rome", "isCorrect": false },
+        { "text": "Traité de Paris", "isCorrect": false },
+        { "text": "Traité de Vienne", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "histoire",
+      "difficulty": "moyenne",
+      "text": "Quel mur est tombé en 1989 ?",
+      "image": "assets/images/histoire/moyenne/q3.png",
+      "answers": [
+        { "text": "Mur de Berlin", "isCorrect": true },
+        { "text": "Mur de Chine", "isCorrect": false },
+        { "text": "Mur d’Hadrien", "isCorrect": false },
+        { "text": "Mur de Varsovie", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "histoire",
+      "difficulty": "moyenne",
+      "text": "Qui a été assassiné en 1914 à Sarajevo ?",
+      "image": "assets/images/histoire/moyenne/q4.png",
+      "answers": [
+        { "text": "François-Ferdinand", "isCorrect": true },
+        { "text": "Napoléon III", "isCorrect": false },
+        { "text": "Guillaume II", "isCorrect": false },
+        { "text": "Lénine", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "histoire",
+      "difficulty": "moyenne",
+      "text": "Quel empire était dirigé par Jules César ?",
+      "image": "assets/images/histoire/moyenne/q5.png",
+      "answers": [
+        { "text": "Empire romain", "isCorrect": true },
+        { "text": "Empire grec", "isCorrect": false },
+        { "text": "Empire perse", "isCorrect": false },
+        { "text": "Empire égyptien", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "histoire",
+      "difficulty": "moyenne",
+      "text": "Quel pays a été le premier à se retirer de la Première Guerre mondiale ?",
+      "image": "assets/images/histoire/moyenne/q6.png",
+      "answers": [
+        { "text": "Russie", "isCorrect": true },
+        { "text": "France", "isCorrect": false },
+        { "text": "Allemagne", "isCorrect": false },
+        { "text": "Italie", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "histoire",
+      "difficulty": "moyenne",
+      "text": "Quelle ville était la capitale de l’Empire byzantin ?",
+      "image": "assets/images/histoire/moyenne/q7.png",
+      "answers": [
+        { "text": "Constantinople", "isCorrect": true },
+        { "text": "Rome", "isCorrect": false },
+        { "text": "Athènes", "isCorrect": false },
+        { "text": "Alexandrie", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "histoire",
+      "difficulty": "moyenne",
+      "text": "Quel événement marque le début de la Seconde Guerre mondiale ?",
+      "image": "assets/images/histoire/moyenne/q8.png",
+      "answers": [
+        { "text": "Invasion de la Pologne", "isCorrect": true },
+        { "text": "Attaque de Pearl Harbor", "isCorrect": false },
+        { "text": "Traité de Versailles", "isCorrect": false },
+        { "text": "Chute de Berlin", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "histoire",
+      "difficulty": "moyenne",
+      "text": "Qui était le dirigeant de l’URSS pendant la Seconde Guerre mondiale ?",
+      "image": "assets/images/histoire/moyenne/q9.png",
+      "answers": [
+        { "text": "Staline", "isCorrect": true },
+        { "text": "Lénine", "isCorrect": false },
+        { "text": "Gorbatchev", "isCorrect": false },
+        { "text": "Trotski", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "histoire",
+      "difficulty": "moyenne",
+      "text": "Quel pays a lancé les bombes atomiques en 1945 ?",
+      "image": "assets/images/histoire/moyenne/q10.png",
+      "answers": [
+        { "text": "États-Unis", "isCorrect": true },
+        { "text": "URSS", "isCorrect": false },
+        { "text": "Allemagne", "isCorrect": false },
+        { "text": "Japon", "isCorrect": false }
+      ]
+    },
+
+    {
+      "category": "histoire",
+      "difficulty": "moyenne",
+      "text": "Quelle civilisation est associée au code d’Hammurabi ?",
+      "image": "assets/images/histoire/moyenne/q11.png",
+      "answers": [
+        { "text": "Babylonienne", "isCorrect": true },
+        { "text": "Égyptienne", "isCorrect": false },
+        { "text": "Romaine", "isCorrect": false },
+        { "text": "Grecque", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "histoire",
+      "difficulty": "moyenne",
+      "text": "Quel empire dominait l’Anatolie avant 1918 ?",
+      "image": "assets/images/histoire/moyenne/q12.png",
+      "answers": [
+        { "text": "Empire ottoman", "isCorrect": true },
+        { "text": "Empire perse", "isCorrect": false },
+        { "text": "Empire romain", "isCorrect": false },
+        { "text": "Empire byzantin", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "histoire",
+      "difficulty": "moyenne",
+      "text": "Quelle guerre opposa la France et l’Angleterre pendant 100 ans ?",
+      "image": "assets/images/histoire/moyenne/q13.png",
+      "answers": [
+        { "text": "Guerre de Cent Ans", "isCorrect": true },
+        { "text": "Guerre de Trente Ans", "isCorrect": false },
+        { "text": "Guerre froide", "isCorrect": false },
+        { "text": "Guerre de Sept Ans", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "histoire",
+      "difficulty": "moyenne",
+      "text": "Quel pays a été dirigé par Mao Zedong ?",
+      "image": "assets/images/histoire/moyenne/q14.png",
+      "answers": [
+        { "text": "Chine", "isCorrect": true },
+        { "text": "Vietnam", "isCorrect": false },
+        { "text": "Corée", "isCorrect": false },
+        { "text": "Japon", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "histoire",
+      "difficulty": "moyenne",
+      "text": "Quel événement marque la fin officielle de la Seconde Guerre mondiale ?",
+      "image": "assets/images/histoire/moyenne/q15.png",
+      "answers": [
+        { "text": "Capitulation du Japon", "isCorrect": true },
+        { "text": "Chute de Berlin", "isCorrect": false },
+        { "text": "Traité de Versailles", "isCorrect": false },
+        { "text": "Création de l’ONU", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "histoire",
+      "difficulty": "moyenne",
+      "text": "Quelle organisation a été créée en 1945 pour maintenir la paix ?",
+      "image": "assets/images/histoire/moyenne/q16.png",
+      "answers": [
+        { "text": "ONU", "isCorrect": true },
+        { "text": "OTAN", "isCorrect": false },
+        { "text": "UE", "isCorrect": false },
+        { "text": "SDN", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "histoire",
+      "difficulty": "moyenne",
+      "text": "Quel pays a obtenu son indépendance en 1776 ?",
+      "image": "assets/images/histoire/moyenne/q17.png",
+      "answers": [
+        { "text": "États-Unis", "isCorrect": true },
+        { "text": "Canada", "isCorrect": false },
+        { "text": "Mexique", "isCorrect": false },
+        { "text": "Brésil", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "histoire",
+      "difficulty": "moyenne",
+      "text": "Quelle guerre est aussi appelée la Grande Guerre ?",
+      "image": "assets/images/histoire/moyenne/q18.png",
+      "answers": [
+        { "text": "Première Guerre mondiale", "isCorrect": true },
+        { "text": "Seconde Guerre mondiale", "isCorrect": false },
+        { "text": "Guerre froide", "isCorrect": false },
+        { "text": "Guerre de Corée", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "histoire",
+      "difficulty": "moyenne",
+      "text": "Quel pays a été colonisé par la France en Afrique du Nord ?",
+      "image": "assets/images/histoire/moyenne/q19.png",
+      "answers": [
+        { "text": "Algérie", "isCorrect": true },
+        { "text": "Libye", "isCorrect": false },
+        { "text": "Égypte", "isCorrect": false },
+        { "text": "Maroc", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "histoire",
+      "difficulty": "moyenne",
+      "text": "Quelle période suit le Moyen Âge ?",
+      "image": "assets/images/histoire/moyenne/q20.png",
+      "answers": [
+        { "text": "Renaissance", "isCorrect": true },
+        { "text": "Antiquité", "isCorrect": false },
+        { "text": "Préhistoire", "isCorrect": false },
+        { "text": "Époque contemporaine", "isCorrect": false }
+      ]
+    },
+
+
+    {
+      "category": "histoire",
+      "difficulty": "difficile",
+      "text": "Quel traité a créé la Société des Nations ?",
+      "image": "assets/images/histoire/difficile/q1.png",
+      "answers": [
+        { "text": "Traité de Versailles", "isCorrect": true },
+        { "text": "Traité de Rome", "isCorrect": false },
+        { "text": "Traité de Vienne", "isCorrect": false },
+        { "text": "Traité de Maastricht", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "histoire",
+      "difficulty": "difficile",
+      "text": "Qui dirigeait l’Allemagne pendant la Seconde Guerre mondiale ?",
+      "image": "assets/images/histoire/difficile/q2.png",
+      "answers": [
+        { "text": "Adolf Hitler", "isCorrect": true },
+        { "text": "Otto von Bismarck", "isCorrect": false },
+        { "text": "Guillaume II", "isCorrect": false },
+        { "text": "Erwin Rommel", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "histoire",
+      "difficulty": "difficile",
+      "text": "Quelle bataille a marqué la défaite finale de Napoléon ?",
+      "image": "assets/images/histoire/difficile/q3.png",
+      "answers": [
+        { "text": "Waterloo", "isCorrect": true },
+        { "text": "Austerlitz", "isCorrect": false },
+        { "text": "Trafalgar", "isCorrect": false },
+        { "text": "Leipzig", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "histoire",
+      "difficulty": "difficile",
+      "text": "En quelle année l’Empire romain d’Occident est-il tombé ?",
+      "image": "assets/images/histoire/difficile/q4.png",
+      "answers": [
+        { "text": "476", "isCorrect": true },
+        { "text": "395", "isCorrect": false },
+        { "text": "410", "isCorrect": false },
+        { "text": "529", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "histoire",
+      "difficulty": "difficile",
+      "text": "Quel chef carthaginois a traversé les Alpes avec des éléphants ?",
+      "image": "assets/images/histoire/difficile/q5.png",
+      "answers": [
+        { "text": "Hannibal Barca", "isCorrect": true },
+        { "text": "Hasdrubal", "isCorrect": false },
+        { "text": "Scipion", "isCorrect": false },
+        { "text": "Hamilcar", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "histoire",
+      "difficulty": "difficile",
+      "text": "Quel pays a quitté la Première Guerre mondiale après la Révolution russe ?",
+      "image": "assets/images/histoire/difficile/q6.png",
+      "answers": [
+        { "text": "Russie", "isCorrect": true },
+        { "text": "Italie", "isCorrect": false },
+        { "text": "Autriche-Hongrie", "isCorrect": false },
+        { "text": "Allemagne", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "histoire",
+      "difficulty": "difficile",
+      "text": "Quel empire était gouverné par Soliman le Magnifique ?",
+      "image": "assets/images/histoire/difficile/q7.png",
+      "answers": [
+        { "text": "Empire ottoman", "isCorrect": true },
+        { "text": "Empire perse", "isCorrect": false },
+        { "text": "Empire byzantin", "isCorrect": false },
+        { "text": "Empire romain", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "histoire",
+      "difficulty": "difficile",
+      "text": "Quel événement déclenche la Révolution russe de 1917 ?",
+      "image": "assets/images/histoire/difficile/q8.png",
+      "answers": [
+        { "text": "Faiblesse du régime tsariste", "isCorrect": true },
+        { "text": "Traité de Versailles", "isCorrect": false },
+        { "text": "Invasion allemande", "isCorrect": false },
+        { "text": "Chute du mur de Berlin", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "histoire",
+      "difficulty": "difficile",
+      "text": "Quel traité met fin à la guerre de Cent Ans ?",
+      "image": "assets/images/histoire/difficile/q9.png",
+      "answers": [
+        { "text": "Traité de Picquigny", "isCorrect": true },
+        { "text": "Traité de Troyes", "isCorrect": false },
+        { "text": "Traité de Verdun", "isCorrect": false },
+        { "text": "Traité de Westphalie", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "histoire",
+      "difficulty": "difficile",
+      "text": "Quel pays a colonisé l’Algérie en 1830 ?",
+      "image": "assets/images/histoire/difficile/q10.png",
+      "answers": [
+        { "text": "France", "isCorrect": true },
+        { "text": "Espagne", "isCorrect": false },
+        { "text": "Italie", "isCorrect": false },
+        { "text": "Angleterre", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "histoire",
+      "difficulty": "difficile",
+      "text": "Quelle conférence a partagé l’Afrique entre les puissances européennes ?",
+      "image": "assets/images/histoire/difficile/q11.png",
+      "answers": [
+        { "text": "Conférence de Berlin", "isCorrect": true },
+        { "text": "Conférence de Yalta", "isCorrect": false },
+        { "text": "Conférence de Potsdam", "isCorrect": false },
+        { "text": "Conférence de Genève", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "histoire",
+      "difficulty": "difficile",
+      "text": "Quel événement marque la fin officielle de la Guerre froide ?",
+      "image": "assets/images/histoire/difficile/q12.png",
+      "answers": [
+        { "text": "Chute de l’URSS", "isCorrect": true },
+        { "text": "Chute du mur de Berlin", "isCorrect": false },
+        { "text": "Traité de Maastricht", "isCorrect": false },
+        { "text": "Guerre du Golfe", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "histoire",
+      "difficulty": "difficile",
+      "text": "Quel empire est tombé après la prise de Constantinople en 1453 ?",
+      "image": "assets/images/histoire/difficile/q13.png",
+      "answers": [
+        { "text": "Empire byzantin", "isCorrect": true },
+        { "text": "Empire romain", "isCorrect": false },
+        { "text": "Empire ottoman", "isCorrect": false },
+        { "text": "Empire perse", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "histoire",
+      "difficulty": "difficile",
+      "text": "Quel mouvement historique prône la séparation de l’Église et de l’État ?",
+      "image": "assets/images/histoire/difficile/q14.png",
+      "answers": [
+        { "text": "Laïcité", "isCorrect": true },
+        { "text": "Absolutisme", "isCorrect": false },
+        { "text": "Féodalisme", "isCorrect": false },
+        { "text": "Colonialisme", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "histoire",
+      "difficulty": "difficile",
+      "text": "Quel chef indien a mené la lutte non violente contre la colonisation britannique ?",
+      "image": "assets/images/histoire/difficile/q15.png",
+      "answers": [
+        { "text": "Gandhi", "isCorrect": true },
+        { "text": "Nehru", "isCorrect": false },
+        { "text": "Jinnah", "isCorrect": false },
+        { "text": "Tagore", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "histoire",
+      "difficulty": "difficile",
+      "text": "Quel traité a partagé l’Empire de Charlemagne ?",
+      "image": "assets/images/histoire/difficile/q16.png",
+      "answers": [
+        { "text": "Traité de Verdun", "isCorrect": true },
+        { "text": "Traité de Rome", "isCorrect": false },
+        { "text": "Traité de Westphalie", "isCorrect": false },
+        { "text": "Traité de Paris", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "histoire",
+      "difficulty": "difficile",
+      "text": "Quel pays est sorti vainqueur de la guerre du Vietnam ?",
+      "image": "assets/images/histoire/difficile/q17.png",
+      "answers": [
+        { "text": "Vietnam du Nord", "isCorrect": true },
+        { "text": "États-Unis", "isCorrect": false },
+        { "text": "Vietnam du Sud", "isCorrect": false },
+        { "text": "France", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "histoire",
+      "difficulty": "difficile",
+      "text": "Quel empereur romain a légalisé le christianisme ?",
+      "image": "assets/images/histoire/difficile/q18.png",
+      "answers": [
+        { "text": "Constantin", "isCorrect": true },
+        { "text": "Néron", "isCorrect": false },
+        { "text": "Auguste", "isCorrect": false },
+        { "text": "Trajan", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "histoire",
+      "difficulty": "difficile",
+      "text": "Quel pays a été le premier à reconnaître l’indépendance des États-Unis ?",
+      "image": "assets/images/histoire/difficile/q19.png",
+      "answers": [
+        { "text": "France", "isCorrect": true },
+        { "text": "Espagne", "isCorrect": false },
+        { "text": "Pays-Bas", "isCorrect": false },
+        { "text": "Angleterre", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "histoire",
+      "difficulty": "difficile",
+      "text": "Quel événement marque la fin du Moyen Âge ?",
+      "image": "assets/images/histoire/difficile/q20.png",
+      "answers": [
+        { "text": "Chute de Constantinople", "isCorrect": true },
+        { "text": "Découverte de l’Amérique", "isCorrect": false },
+        { "text": "Révolution française", "isCorrect": false },
+        { "text": "Réforme protestante", "isCorrect": false }
+      ]
+    }
+
+
+
+]

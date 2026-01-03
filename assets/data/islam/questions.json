@@ -1,0 +1,729 @@
+[
+  {
+    "category": "islam",
+    "difficulty": "facile",
+    "text": "Quel est le livre sacré de l’Islam ?",
+    "image": "assets/images/islam/facile/q1.png",
+    "answers": [
+      { "text": "Le Coran", "isCorrect": true },
+      { "text": "La Bible", "isCorrect": false },
+      { "text": "La Torah", "isCorrect": false },
+      { "text": "Les Védas", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "islam",
+    "difficulty": "facile",
+    "text": "Qui est le prophète de l’Islam ?",
+    "image": "assets/images/islam/facile/q2.png",
+    "answers": [
+      { "text": "Mohammed ﷺ", "isCorrect": true },
+      { "text": "Moussa", "isCorrect": false },
+      { "text": "Issa", "isCorrect": false },
+      { "text": "Ibrahim", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "islam",
+    "difficulty": "facile",
+    "text": "Combien y a-t-il de piliers de l’Islam ?",
+    "image": "assets/images/islam/facile/q3.png",
+    "answers": [
+      { "text": "5", "isCorrect": true },
+      { "text": "3", "isCorrect": false },
+      { "text": "6", "isCorrect": false },
+      { "text": "10", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "islam",
+    "difficulty": "facile",
+    "text": "Comment s’appelle le mois du jeûne chez les musulmans ?",
+    "image": "assets/images/islam/facile/q4.png",
+    "answers": [
+      { "text": "Ramadan", "isCorrect": true },
+      { "text": "Chaabane", "isCorrect": false },
+      { "text": "Muharram", "isCorrect": false },
+      { "text": "Safar", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "islam",
+    "difficulty": "facile",
+    "text": "Quelle est la direction de la prière des musulmans ?",
+    "image": "assets/images/islam/facile/q5.png",
+    "answers": [
+      { "text": "La Kaaba", "isCorrect": true },
+      { "text": "Jérusalem", "isCorrect": false },
+      { "text": "Médine", "isCorrect": false },
+      { "text": "Damas", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "islam",
+    "difficulty": "facile",
+    "text": "Combien de prières obligatoires y a-t-il par jour ?",
+    "image": "assets/images/islam/facile/q6.png",
+    "answers": [
+      { "text": "5", "isCorrect": true },
+      { "text": "3", "isCorrect": false },
+      { "text": "4", "isCorrect": false },
+      { "text": "7", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "islam",
+    "difficulty": "facile",
+    "text": "Comment s’appelle la maison sacrée située à La Mecque ?",
+    "image": "assets/images/islam/facile/q7.png",
+    "answers": [
+      { "text": "La Kaaba", "isCorrect": true },
+      { "text": "Al-Aqsa", "isCorrect": false },
+      { "text": "La Mosquée du Prophète", "isCorrect": false },
+      { "text": "Al-Haram", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "islam",
+    "difficulty": "facile",
+    "text": "Quel est le premier pilier de l’Islam ?",
+    "image": "assets/images/islam/facile/q8.png",
+    "answers": [
+      { "text": "La Chahada", "isCorrect": true },
+      { "text": "La prière", "isCorrect": false },
+      { "text": "Le jeûne", "isCorrect": false },
+      { "text": "La zakat", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "islam",
+    "difficulty": "facile",
+    "text": "Quelle langue est utilisée pour la récitation du Coran ?",
+    "image": "assets/images/islam/facile/q9.png",
+    "answers": [
+      { "text": "Arabe", "isCorrect": true },
+      { "text": "Français", "isCorrect": false },
+      { "text": "Anglais", "isCorrect": false },
+      { "text": "Turc", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "islam",
+    "difficulty": "facile",
+    "text": "Comment s’appelle l’aumône obligatoire en Islam ?",
+    "image": "assets/images/islam/facile/q10.png",
+    "answers": [
+      { "text": "Zakat", "isCorrect": true },
+      { "text": "Sadaqa", "isCorrect": false },
+      { "text": "Hajj", "isCorrect": false },
+      { "text": "Salat", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "islam",
+    "difficulty": "facile",
+    "text": "Quel prophète a construit la Kaaba avec son fils ?",
+    "image": "assets/images/islam/facile/q11.png",
+    "answers": [
+      { "text": "Ibrahim", "isCorrect": true },
+      { "text": "Moussa", "isCorrect": false },
+      { "text": "Issa", "isCorrect": false },
+      { "text": "Nouh", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "islam",
+    "difficulty": "facile",
+    "text": "Quelle fête marque la fin du Ramadan ?",
+    "image": "assets/images/islam/facile/q12.png",
+    "answers": [
+      { "text": "Aïd al-Fitr", "isCorrect": true },
+      { "text": "Aïd al-Adha", "isCorrect": false },
+      { "text": "Mawlid", "isCorrect": false },
+      { "text": "Achoura", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "islam",
+    "difficulty": "facile",
+    "text": "Comment s’appelle le pèlerinage à La Mecque ?",
+    "image": "assets/images/islam/facile/q13.png",
+    "answers": [
+      { "text": "Hajj", "isCorrect": true },
+      { "text": "Omra", "isCorrect": false },
+      { "text": "Zakat", "isCorrect": false },
+      { "text": "Salat", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "islam",
+    "difficulty": "facile",
+    "text": "Quel est le jour saint de la semaine en Islam ?",
+    "image": "assets/images/islam/facile/q14.png",
+    "answers": [
+      { "text": "Vendredi", "isCorrect": true },
+      { "text": "Lundi", "isCorrect": false },
+      { "text": "Samedi", "isCorrect": false },
+      { "text": "Dimanche", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "islam",
+    "difficulty": "facile",
+    "text": "Comment s’appelle l’appel à la prière ?",
+    "image": "assets/images/islam/facile/q15.png",
+    "answers": [
+      { "text": "Adhan", "isCorrect": true },
+      { "text": "Iqama", "isCorrect": false },
+      { "text": "Douaa", "isCorrect": false },
+      { "text": "Khoutba", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "islam",
+    "difficulty": "facile",
+    "text": "Quel ange a transmis la révélation au prophète Mohammed ﷺ ?",
+    "image": "assets/images/islam/facile/q16.png",
+    "answers": [
+      { "text": "Jibril", "isCorrect": true },
+      { "text": "Mikaïl", "isCorrect": false },
+      { "text": "Israfil", "isCorrect": false },
+      { "text": "Azraïl", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "islam",
+    "difficulty": "facile",
+    "text": "Dans quelle ville est né le prophète Mohammed ﷺ ?",
+    "image": "assets/images/islam/facile/q17.png",
+    "answers": [
+      { "text": "La Mecque", "isCorrect": true },
+      { "text": "Médine", "isCorrect": false },
+      { "text": "Jérusalem", "isCorrect": false },
+      { "text": "Taïf", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "islam",
+    "difficulty": "facile",
+    "text": "Quel est le nom de la prière du matin ?",
+    "image": "assets/images/islam/facile/q18.png",
+    "answers": [
+      { "text": "Fajr", "isCorrect": true },
+      { "text": "Dhuhr", "isCorrect": false },
+      { "text": "Asr", "isCorrect": false },
+      { "text": "Isha", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "islam",
+    "difficulty": "facile",
+    "text": "Quel animal est sacrifié lors de l’Aïd al-Adha ?",
+    "image": "assets/images/islam/facile/q19.png",
+    "answers": [
+      { "text": "Mouton", "isCorrect": true },
+      { "text": "Poulet", "isCorrect": false },
+      { "text": "Poisson", "isCorrect": false },
+      { "text": "Cheval", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "islam",
+    "difficulty": "facile",
+    "text": "Comment appelle-t-on le lieu de prière des musulmans ?",
+    "image": "assets/images/islam/facile/q20.png",
+    "answers": [
+      { "text": "Mosquée", "isCorrect": true },
+      { "text": "Église", "isCorrect": false },
+      { "text": "Synagogue", "isCorrect": false },
+      { "text": "Temple", "isCorrect": false }
+    ]
+  },
+
+
+    {
+      "category": "islam",
+      "difficulty": "moyenne",
+      "text": "Quelle sourate du Coran est récitée dans chaque prière ?",
+      "image": "assets/images/islam/moyenne/q1.png",
+      "answers": [
+        { "text": "Al-Fatiha", "isCorrect": true },
+        { "text": "Al-Baqara", "isCorrect": false },
+        { "text": "Al-Ikhlas", "isCorrect": false },
+        { "text": "An-Nas", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "islam",
+      "difficulty": "moyenne",
+      "text": "Combien d’années a duré la révélation du Coran ?",
+      "image": "assets/images/islam/moyenne/q2.png",
+      "answers": [
+        { "text": "23 ans", "isCorrect": true },
+        { "text": "10 ans", "isCorrect": false },
+        { "text": "15 ans", "isCorrect": false },
+        { "text": "30 ans", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "islam",
+      "difficulty": "moyenne",
+      "text": "Quelle est la deuxième ville sainte de l’Islam ?",
+      "image": "assets/images/islam/moyenne/q3.png",
+      "answers": [
+        { "text": "Médine", "isCorrect": true },
+        { "text": "La Mecque", "isCorrect": false },
+        { "text": "Jérusalem", "isCorrect": false },
+        { "text": "Damas", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "islam",
+      "difficulty": "moyenne",
+      "text": "Quel prophète est connu pour avoir parlé dans son berceau ?",
+      "image": "assets/images/islam/moyenne/q4.png",
+      "answers": [
+        { "text": "Issa (Jésus)", "isCorrect": true },
+        { "text": "Moussa", "isCorrect": false },
+        { "text": "Ibrahim", "isCorrect": false },
+        { "text": "Youssef", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "islam",
+      "difficulty": "moyenne",
+      "text": "Quel est le nom de la migration du prophète Mohammed ﷺ de La Mecque à Médine ?",
+      "image": "assets/images/islam/moyenne/q5.png",
+      "answers": [
+        { "text": "Hijra", "isCorrect": true },
+        { "text": "Hajj", "isCorrect": false },
+        { "text": "Omra", "isCorrect": false },
+        { "text": "Isra", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "islam",
+      "difficulty": "moyenne",
+      "text": "Quel est le troisième pilier de l’Islam ?",
+      "image": "assets/images/islam/moyenne/q6.png",
+      "answers": [
+        { "text": "La Zakat", "isCorrect": true },
+        { "text": "La prière", "isCorrect": false },
+        { "text": "Le jeûne", "isCorrect": false },
+        { "text": "Le pèlerinage", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "islam",
+      "difficulty": "moyenne",
+      "text": "Quelle sourate est la plus longue du Coran ?",
+      "image": "assets/images/islam/moyenne/q7.png",
+      "answers": [
+        { "text": "Al-Baqara", "isCorrect": true },
+        { "text": "Al-Imran", "isCorrect": false },
+        { "text": "An-Nisa", "isCorrect": false },
+        { "text": "Al-Maida", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "islam",
+      "difficulty": "moyenne",
+      "text": "Combien de rakaat comporte la prière du Maghreb ?",
+      "image": "assets/images/islam/moyenne/q8.png",
+      "answers": [
+        { "text": "3", "isCorrect": true },
+        { "text": "2", "isCorrect": false },
+        { "text": "4", "isCorrect": false },
+        { "text": "5", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "islam",
+      "difficulty": "moyenne",
+      "text": "Quel ange est chargé de prendre les âmes ?",
+      "image": "assets/images/islam/moyenne/q9.png",
+      "answers": [
+        { "text": "Azraïl", "isCorrect": true },
+        { "text": "Jibril", "isCorrect": false },
+        { "text": "Mikaïl", "isCorrect": false },
+        { "text": "Israfil", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "islam",
+      "difficulty": "moyenne",
+      "text": "Quelle est la première sourate révélée du Coran ?",
+      "image": "assets/images/islam/moyenne/q10.png",
+      "answers": [
+        { "text": "Al-Alaq", "isCorrect": true },
+        { "text": "Al-Fatiha", "isCorrect": false },
+        { "text": "Al-Baqara", "isCorrect": false },
+        { "text": "An-Nas", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "islam",
+      "difficulty": "moyenne",
+      "text": "Quel prophète est surnommé Khalil Allah (l’ami de Dieu) ?",
+      "image": "assets/images/islam/moyenne/q11.png",
+      "answers": [
+        { "text": "Ibrahim", "isCorrect": true },
+        { "text": "Moussa", "isCorrect": false },
+        { "text": "Issa", "isCorrect": false },
+        { "text": "Mohammed ﷺ", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "islam",
+      "difficulty": "moyenne",
+      "text": "Quel mois suit directement le Ramadan ?",
+      "image": "assets/images/islam/moyenne/q12.png",
+      "answers": [
+        { "text": "Chawwal", "isCorrect": true },
+        { "text": "Chaabane", "isCorrect": false },
+        { "text": "Dhul Hijja", "isCorrect": false },
+        { "text": "Safar", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "islam",
+      "difficulty": "moyenne",
+      "text": "Combien de sourates contient le Coran ?",
+      "image": "assets/images/islam/moyenne/q13.png",
+      "answers": [
+        { "text": "114", "isCorrect": true },
+        { "text": "100", "isCorrect": false },
+        { "text": "99", "isCorrect": false },
+        { "text": "120", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "islam",
+      "difficulty": "moyenne",
+      "text": "Quel est le nom de la prière du soir ?",
+      "image": "assets/images/islam/moyenne/q14.png",
+      "answers": [
+        { "text": "Isha", "isCorrect": true },
+        { "text": "Asr", "isCorrect": false },
+        { "text": "Maghreb", "isCorrect": false },
+        { "text": "Fajr", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "islam",
+      "difficulty": "moyenne",
+      "text": "Quelle bataille est la première de l’Islam ?",
+      "image": "assets/images/islam/moyenne/q15.png",
+      "answers": [
+        { "text": "Badr", "isCorrect": true },
+        { "text": "Uhud", "isCorrect": false },
+        { "text": "Khandaq", "isCorrect": false },
+        { "text": "Tabouk", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "islam",
+      "difficulty": "moyenne",
+      "text": "Quel compagnon fut le premier calife de l’Islam ?",
+      "image": "assets/images/islam/moyenne/q16.png",
+      "answers": [
+        { "text": "Abou Bakr", "isCorrect": true },
+        { "text": "Omar", "isCorrect": false },
+        { "text": "Othman", "isCorrect": false },
+        { "text": "Ali", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "islam",
+      "difficulty": "moyenne",
+      "text": "Quel est le nom du voyage nocturne du prophète Mohammed ﷺ ?",
+      "image": "assets/images/islam/moyenne/q17.png",
+      "answers": [
+        { "text": "Al-Isra wal Mi'raj", "isCorrect": true },
+        { "text": "Hijra", "isCorrect": false },
+        { "text": "Hajj", "isCorrect": false },
+        { "text": "Omra", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "islam",
+      "difficulty": "moyenne",
+      "text": "Quel est le nom de la mère du prophète Mohammed ﷺ ?",
+      "image": "assets/images/islam/moyenne/q18.png",
+      "answers": [
+        { "text": "Amina", "isCorrect": true },
+        { "text": "Khadija", "isCorrect": false },
+        { "text": "Aïcha", "isCorrect": false },
+        { "text": "Fatima", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "islam",
+      "difficulty": "moyenne",
+      "text": "Quel mois islamique est consacré au pèlerinage ?",
+      "image": "assets/images/islam/moyenne/q19.png",
+      "answers": [
+        { "text": "Dhul Hijja", "isCorrect": true },
+        { "text": "Ramadan", "isCorrect": false },
+        { "text": "Muharram", "isCorrect": false },
+        { "text": "Rajab", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "islam",
+      "difficulty": "moyenne",
+      "text": "Quel est le nom de la prière du vendredi ?",
+      "image": "assets/images/islam/moyenne/q20.png",
+      "answers": [
+        { "text": "Salat al-Jumu'ah", "isCorrect": true },
+        { "text": "Salat al-Asr", "isCorrect": false },
+        { "text": "Salat al-Fajr", "isCorrect": false },
+        { "text": "Salat al-Isha", "isCorrect": false }
+      ]
+    },
+
+
+    {
+      "category": "islam",
+      "difficulty": "difficile",
+      "text": "Quelle sourate du Coran ne commence pas par la basmala ?",
+      "image": "assets/images/islam/difficile/q1.png",
+      "answers": [
+        { "text": "At-Tawba", "isCorrect": true },
+        { "text": "Al-Baqara", "isCorrect": false },
+        { "text": "An-Nisa", "isCorrect": false },
+        { "text": "Al-Anfal", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "islam",
+      "difficulty": "difficile",
+      "text": "Quel prophète est connu comme 'Dhul-Kifl' dans le Coran ?",
+      "image": "assets/images/islam/difficile/q2.png",
+      "answers": [
+        { "text": "Ézéchiel", "isCorrect": true },
+        { "text": "Younes", "isCorrect": false },
+        { "text": "Zakariya", "isCorrect": false },
+        { "text": "Idris", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "islam",
+      "difficulty": "difficile",
+      "text": "Combien de fois le nom du prophète Mohammed ﷺ est-il mentionné explicitement dans le Coran ?",
+      "image": "assets/images/islam/difficile/q3.png",
+      "answers": [
+        { "text": "4 fois", "isCorrect": true },
+        { "text": "1 fois", "isCorrect": false },
+        { "text": "7 fois", "isCorrect": false },
+        { "text": "10 fois", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "islam",
+      "difficulty": "difficile",
+      "text": "Quel compagnon est surnommé 'Dhou An-Nourayn' (le possesseur des deux lumières) ?",
+      "image": "assets/images/islam/difficile/q4.png",
+      "answers": [
+        { "text": "Othman ibn Affan", "isCorrect": true },
+        { "text": "Ali ibn Abi Talib", "isCorrect": false },
+        { "text": "Omar ibn Al-Khattab", "isCorrect": false },
+        { "text": "Abou Bakr As-Siddiq", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "islam",
+      "difficulty": "difficile",
+      "text": "Quelle sourate est surnommée 'le cœur du Coran' ?",
+      "image": "assets/images/islam/difficile/q5.png",
+      "answers": [
+        { "text": "Yasin", "isCorrect": true },
+        { "text": "Al-Fatiha", "isCorrect": false },
+        { "text": "Al-Ikhlas", "isCorrect": false },
+        { "text": "Ar-Rahman", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "islam",
+      "difficulty": "difficile",
+      "text": "Quel prophète est associé à l’épreuve de la patience extrême ?",
+      "image": "assets/images/islam/difficile/q6.png",
+      "answers": [
+        { "text": "Ayoub", "isCorrect": true },
+        { "text": "Youssef", "isCorrect": false },
+        { "text": "Moussa", "isCorrect": false },
+        { "text": "Issa", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "islam",
+      "difficulty": "difficile",
+      "text": "Quelle est la sourate révélée entièrement à La Mecque traitant du monothéisme pur ?",
+      "image": "assets/images/islam/difficile/q7.png",
+      "answers": [
+        { "text": "Al-Ikhlas", "isCorrect": true },
+        { "text": "Al-Kawthar", "isCorrect": false },
+        { "text": "Al-Asr", "isCorrect": false },
+        { "text": "Al-Fil", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "islam",
+      "difficulty": "difficile",
+      "text": "Quel est le nom du traité signé entre les musulmans et les Quraychites en l’an 6 de l’Hégire ?",
+      "image": "assets/images/islam/difficile/q8.png",
+      "answers": [
+        { "text": "Traité de Hudaybiyyah", "isCorrect": true },
+        { "text": "Traité de Badr", "isCorrect": false },
+        { "text": "Traité de Uhud", "isCorrect": false },
+        { "text": "Traité de Tabouk", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "islam",
+      "difficulty": "difficile",
+      "text": "Quel ange soufflera dans la trompe le Jour du Jugement ?",
+      "image": "assets/images/islam/difficile/q9.png",
+      "answers": [
+        { "text": "Israfil", "isCorrect": true },
+        { "text": "Jibril", "isCorrect": false },
+        { "text": "Mikaïl", "isCorrect": false },
+        { "text": "Azraïl", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "islam",
+      "difficulty": "difficile",
+      "text": "Quel est le nom du puits découvert par Hajar pour son fils Ismaël ?",
+      "image": "assets/images/islam/difficile/q10.png",
+      "answers": [
+        { "text": "Zamzam", "isCorrect": true },
+        { "text": "Salsabil", "isCorrect": false },
+        { "text": "Kawthar", "isCorrect": false },
+        { "text": "Barzakh", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "islam",
+      "difficulty": "difficile",
+      "text": "Quel compagnon fut chargé de l’appel à la prière à Médine ?",
+      "image": "assets/images/islam/difficile/q11.png",
+      "answers": [
+        { "text": "Bilal ibn Rabah", "isCorrect": true },
+        { "text": "Salman Al-Farisi", "isCorrect": false },
+        { "text": "Abou Hurayra", "isCorrect": false },
+        { "text": "Zayd ibn Thabit", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "islam",
+      "difficulty": "difficile",
+      "text": "Quelle sourate contient le verset du Trône (Ayat Al-Kursi) ?",
+      "image": "assets/images/islam/difficile/q12.png",
+      "answers": [
+        { "text": "Al-Baqara", "isCorrect": true },
+        { "text": "An-Nisa", "isCorrect": false },
+        { "text": "Al-Imran", "isCorrect": false },
+        { "text": "Al-Araf", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "islam",
+      "difficulty": "difficile",
+      "text": "Quel prophète est connu pour avoir été avalé par un grand poisson ?",
+      "image": "assets/images/islam/difficile/q13.png",
+      "answers": [
+        { "text": "Younes", "isCorrect": true },
+        { "text": "Nouh", "isCorrect": false },
+        { "text": "Moussa", "isCorrect": false },
+        { "text": "Ibrahim", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "islam",
+      "difficulty": "difficile",
+      "text": "Quel calife a ordonné la compilation officielle du Coran en un seul livre ?",
+      "image": "assets/images/islam/difficile/q14.png",
+      "answers": [
+        { "text": "Othman ibn Affan", "isCorrect": true },
+        { "text": "Abou Bakr", "isCorrect": false },
+        { "text": "Omar ibn Al-Khattab", "isCorrect": false },
+        { "text": "Ali ibn Abi Talib", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "islam",
+      "difficulty": "difficile",
+      "text": "Quelle sourate commence par les lettres mystérieuses 'Alif Lam Mim' ?",
+      "image": "assets/images/islam/difficile/q15.png",
+      "answers": [
+        { "text": "Al-Baqara", "isCorrect": true },
+        { "text": "Al-Fatiha", "isCorrect": false },
+        { "text": "An-Nas", "isCorrect": false },
+        { "text": "Al-Kawthar", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "islam",
+      "difficulty": "difficile",
+      "text": "Quel est le nom de l’épouse du prophète Mohammed ﷺ surnommée 'Mère des croyants' et première à croire en lui ?",
+      "image": "assets/images/islam/difficile/q16.png",
+      "answers": [
+        { "text": "Khadija bint Khuwaylid", "isCorrect": true },
+        { "text": "Aïcha bint Abi Bakr", "isCorrect": false },
+        { "text": "Hafsa bint Omar", "isCorrect": false },
+        { "text": "Zaynab bint Jahsh", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "islam",
+      "difficulty": "difficile",
+      "text": "Quelle bataille a eu lieu l’an 3 de l’Hégire ?",
+      "image": "assets/images/islam/difficile/q17.png",
+      "answers": [
+        { "text": "Uhud", "isCorrect": true },
+        { "text": "Badr", "isCorrect": false },
+        { "text": "Khandaq", "isCorrect": false },
+        { "text": "Tabouk", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "islam",
+      "difficulty": "difficile",
+      "text": "Quel terme désigne la croyance en l’unicité absolue d’Allah ?",
+      "image": "assets/images/islam/difficile/q18.png",
+      "answers": [
+        { "text": "Tawhid", "isCorrect": true },
+        { "text": "Chirk", "isCorrect": false },
+        { "text": "Fiqh", "isCorrect": false },
+        { "text": "Aqida", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "islam",
+      "difficulty": "difficile",
+      "text": "Quel compagnon est le plus grand rapporteur de hadiths ?",
+      "image": "assets/images/islam/difficile/q19.png",
+      "answers": [
+        { "text": "Abou Hurayra", "isCorrect": true },
+        { "text": "Ali ibn Abi Talib", "isCorrect": false },
+        { "text": "Omar ibn Al-Khattab", "isCorrect": false },
+        { "text": "Zayd ibn Thabit", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "islam",
+      "difficulty": "difficile",
+      "text": "Quel est le nom de la prière nocturne surérogatoire effectuée pendant le Ramadan ?",
+      "image": "assets/images/islam/difficile/q20.png",
+      "answers": [
+        { "text": "Tarawih", "isCorrect": true },
+        { "text": "Tahajjud", "isCorrect": false },
+        { "text": "Witr", "isCorrect": false },
+        { "text": "Duha", "isCorrect": false }
+      ]
+    }
+
+
+
+]

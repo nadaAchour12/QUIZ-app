@@ -1,0 +1,728 @@
+[
+  {
+    "category": "geography",
+    "difficulty": "facile",
+    "text": "Quel est le plus grand continent du monde ?",
+    "image": "assets/images/geography/facile/q1.png",
+    "answers": [
+      { "text": "Afrique", "isCorrect": false },
+      { "text": "Asie", "isCorrect": true },
+      { "text": "Europe", "isCorrect": false },
+      { "text": "Amérique", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "geography",
+    "difficulty": "facile",
+    "text": "Quelle est la capitale de la France ?",
+    "image": "assets/images/geography/facile/q2.png",
+    "answers": [
+      { "text": "Londres", "isCorrect": false },
+      { "text": "Paris", "isCorrect": true },
+      { "text": "Madrid", "isCorrect": false },
+      { "text": "Berlin", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "geography",
+    "difficulty": "facile",
+    "text": "Quel océan borde la côte Est des États-Unis ?",
+    "image": "assets/images/geography/facile/q3.png",
+    "answers": [
+      { "text": "Atlantique", "isCorrect": true },
+      { "text": "Pacifique", "isCorrect": false },
+      { "text": "Indien", "isCorrect": false },
+      { "text": "Arctique", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "geography",
+    "difficulty": "facile",
+    "text": "Quelle chaîne de montagnes se situe entre la France et l'Espagne ?",
+    "image": "assets/images/geography/facile/q4.png",
+    "answers": [
+      { "text": "Alpes", "isCorrect": false },
+      { "text": "Pyrénées", "isCorrect": true },
+      { "text": "Andes", "isCorrect": false },
+      { "text": "Carpates", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "geography",
+    "difficulty": "facile",
+    "text": "Quel pays est connu pour les pyramides de Gizeh ?",
+    "image": "assets/images/geography/facile/q5.png",
+    "answers": [
+      { "text": "Égypte", "isCorrect": true },
+      { "text": "Mexique", "isCorrect": false },
+      { "text": "Grèce", "isCorrect": false },
+      { "text": "Italie", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "geography",
+    "difficulty": "facile",
+    "text": "Quelle est la capitale de l’Italie ?",
+    "image": "assets/images/geography/facile/q6.png",
+    "answers": [
+      { "text": "Rome", "isCorrect": true },
+      { "text": "Venise", "isCorrect": false },
+      { "text": "Florence", "isCorrect": false },
+      { "text": "Milan", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "geography",
+    "difficulty": "facile",
+    "text": "Quel est le plus long fleuve du monde ?",
+    "image": "assets/images/geography/facile/q7.png",
+    "answers": [
+      { "text": "Nil", "isCorrect": false },
+      { "text": "Amazon", "isCorrect": true },
+      { "text": "Mississippi", "isCorrect": false },
+      { "text": "Yangtsé", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "geography",
+    "difficulty": "facile",
+    "text": "Quel pays a la forme d’une botte ?",
+    "image": "assets/images/geography/facile/q8.png",
+    "answers": [
+      { "text": "Espagne", "isCorrect": false },
+      { "text": "Italie", "isCorrect": true },
+      { "text": "Grèce", "isCorrect": false },
+      { "text": "Portugal", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "geography",
+    "difficulty": "facile",
+    "text": "Quelle est la capitale de l’Espagne ?",
+    "image": "assets/images/geography/facile/q9.png",
+    "answers": [
+      { "text": "Barcelone", "isCorrect": false },
+      { "text": "Madrid", "isCorrect": true },
+      { "text": "Séville", "isCorrect": false },
+      { "text": "Valence", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "geography",
+    "difficulty": "facile",
+    "text": "Quel pays est surnommé le 'Pays du Soleil Levant' ?",
+    "image": "assets/images/geography/facile/q10.png",
+    "answers": [
+      { "text": "Chine", "isCorrect": false },
+      { "text": "Japon", "isCorrect": true },
+      { "text": "Corée du Sud", "isCorrect": false },
+      { "text": "Thaïlande", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "geography",
+    "difficulty": "facile",
+    "text": "Quel pays a la plus grande superficie au monde ?",
+    "image": "assets/images/geography/facile/q11.png",
+    "answers": [
+      { "text": "Canada", "isCorrect": false },
+      { "text": "Russie", "isCorrect": true },
+      { "text": "Chine", "isCorrect": false },
+      { "text": "États-Unis", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "geography",
+    "difficulty": "facile",
+    "text": "Quelle est la capitale du Canada ?",
+    "image": "assets/images/geography/facile/q12.png",
+    "answers": [
+      { "text": "Toronto", "isCorrect": false },
+      { "text": "Ottawa", "isCorrect": true },
+      { "text": "Vancouver", "isCorrect": false },
+      { "text": "Montréal", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "geography",
+    "difficulty": "facile",
+    "text": "Quel pays possède la ville de Sydney ?",
+    "image": "assets/images/geography/facile/q13.png",
+    "answers": [
+      { "text": "Nouvelle-Zélande", "isCorrect": false },
+      { "text": "Australie", "isCorrect": true },
+      { "text": "Afrique du Sud", "isCorrect": false },
+      { "text": "Canada", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "geography",
+    "difficulty": "facile",
+    "text": "Quel pays est traversé par le fleuve Amazone ?",
+    "image": "assets/images/geography/facile/q14.png",
+    "answers": [
+      { "text": "Brésil", "isCorrect": true },
+      { "text": "Argentine", "isCorrect": false },
+      { "text": "Colombie", "isCorrect": false },
+      { "text": "Pérou", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "geography",
+    "difficulty": "facile",
+    "text": "Quel pays est célèbre pour le Mont Everest ?",
+    "image": "assets/images/geography/facile/q15.png",
+    "answers": [
+      { "text": "Chine", "isCorrect": false },
+      { "text": "Népal", "isCorrect": true },
+      { "text": "Inde", "isCorrect": false },
+      { "text": "Bhoutan", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "geography",
+    "difficulty": "facile",
+    "text": "Quel pays est composé de 50 États ?",
+    "image": "assets/images/geography/facile/q16.png",
+    "answers": [
+      { "text": "États-Unis", "isCorrect": true },
+      { "text": "Canada", "isCorrect": false },
+      { "text": "Australie", "isCorrect": false },
+      { "text": "Mexique", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "geography",
+    "difficulty": "facile",
+    "text": "Quelle est la capitale de l’Allemagne ?",
+    "image": "assets/images/geography/facile/q17.png",
+    "answers": [
+      { "text": "Munich", "isCorrect": false },
+      { "text": "Berlin", "isCorrect": true },
+      { "text": "Francfort", "isCorrect": false },
+      { "text": "Hambourg", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "geography",
+    "difficulty": "facile",
+    "text": "Quel pays a la plus grande population au monde ?",
+    "image": "assets/images/geography/facile/q18.png",
+    "answers": [
+      { "text": "Inde", "isCorrect": false },
+      { "text": "Chine", "isCorrect": true },
+      { "text": "États-Unis", "isCorrect": false },
+      { "text": "Indonésie", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "geography",
+    "difficulty": "facile",
+    "text": "Quel pays est connu pour le Taj Mahal ?",
+    "image": "assets/images/geography/facile/q19.png",
+    "answers": [
+      { "text": "Inde", "isCorrect": true },
+      { "text": "Pakistan", "isCorrect": false },
+      { "text": "Bangladesh", "isCorrect": false },
+      { "text": "Afghanistan", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "geography",
+    "difficulty": "facile",
+    "text": "Quelle mer borde la Tunisie au nord ?",
+    "image": "assets/images/geography/facile/q20.png",
+    "answers": [
+      { "text": "Mer Méditerranée", "isCorrect": true },
+      { "text": "Mer Rouge", "isCorrect": false },
+      { "text": "Mer Noire", "isCorrect": false },
+      { "text": "Mer Adriatique", "isCorrect": false }
+    ]
+  },
+
+    {
+      "category": "geography",
+      "difficulty": "moyenne",
+      "text": "Quel pays possède le plus grand nombre d'îles habitées ?",
+      "image": "assets/images/geography/moyenne/q1.png",
+      "answers": [
+        { "text": "Japon", "isCorrect": false },
+        { "text": "Indonésie", "isCorrect": true },
+        { "text": "Philippines", "isCorrect": false },
+        { "text": "Norvège", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "geography",
+      "difficulty": "moyenne",
+      "text": "Quel désert est le plus grand au monde ?",
+      "image": "assets/images/geography/moyenne/q2.png",
+      "answers": [
+        { "text": "Sahara", "isCorrect": true },
+        { "text": "Gobi", "isCorrect": false },
+        { "text": "Kalahari", "isCorrect": false },
+        { "text": "Atacama", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "geography",
+      "difficulty": "moyenne",
+      "text": "Quel est le plus long fleuve d'Afrique ?",
+      "image": "assets/images/geography/moyenne/q3.png",
+      "answers": [
+        { "text": "Congo", "isCorrect": false },
+        { "text": "Nil", "isCorrect": true },
+        { "text": "Niger", "isCorrect": false },
+        { "text": "Zambèze", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "geography",
+      "difficulty": "moyenne",
+      "text": "Quelle est la capitale de l’Australie ?",
+      "image": "assets/images/geography/moyenne/q4.png",
+      "answers": [
+        { "text": "Sydney", "isCorrect": false },
+        { "text": "Melbourne", "isCorrect": false },
+        { "text": "Canberra", "isCorrect": true },
+        { "text": "Perth", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "geography",
+      "difficulty": "moyenne",
+      "text": "Quelle est la capitale du Kenya ?",
+      "image": "assets/images/geography/moyenne/q5.png",
+      "answers": [
+        { "text": "Nairobi", "isCorrect": true },
+        { "text": "Kampala", "isCorrect": false },
+        { "text": "Addis-Abeba", "isCorrect": false },
+        { "text": "Dakar", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "geography",
+      "difficulty": "moyenne",
+      "text": "Quel pays possède les chutes Victoria ?",
+      "image": "assets/images/geography/moyenne/q6.png",
+      "answers": [
+        { "text": "Zimbabwe", "isCorrect": true },
+        { "text": "Zambie", "isCorrect": false },
+        { "text": "Botswana", "isCorrect": false },
+        { "text": "Afrique du Sud", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "geography",
+      "difficulty": "moyenne",
+      "text": "Quel est le plus grand lac d'Afrique ?",
+      "image": "assets/images/geography/moyenne/q7.png",
+      "answers": [
+        { "text": "Lac Victoria", "isCorrect": true },
+        { "text": "Lac Tanganyika", "isCorrect": false },
+        { "text": "Lac Malawi", "isCorrect": false },
+        { "text": "Lac Tchad", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "geography",
+      "difficulty": "moyenne",
+      "text": "Quel pays possède la ville de Marrakech ?",
+      "image": "assets/images/geography/moyenne/q8.png",
+      "answers": [
+        { "text": "Algérie", "isCorrect": false },
+        { "text": "Maroc", "isCorrect": true },
+        { "text": "Tunisie", "isCorrect": false },
+        { "text": "Égypte", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "geography",
+      "difficulty": "moyenne",
+      "text": "Quel est le plus haut sommet de l’Europe ?",
+      "image": "assets/images/geography/moyenne/q9.png",
+      "answers": [
+        { "text": "Mont Blanc", "isCorrect": true },
+        { "text": "Elbrouz", "isCorrect": false },
+        { "text": "Matterhorn", "isCorrect": false },
+        { "text": "Grossglockner", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "geography",
+      "difficulty": "moyenne",
+      "text": "Quelle est la capitale de l’Argentine ?",
+      "image": "assets/images/geography/moyenne/q10.png",
+      "answers": [
+        { "text": "Buenos Aires", "isCorrect": true },
+        { "text": "Santiago", "isCorrect": false },
+        { "text": "Montevideo", "isCorrect": false },
+        { "text": "Lima", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "geography",
+      "difficulty": "moyenne",
+      "text": "Quel pays est connu pour les fjords ?",
+      "image": "assets/images/geography/moyenne/q11.png",
+      "answers": [
+        { "text": "Norvège", "isCorrect": true },
+        { "text": "Suède", "isCorrect": false },
+        { "text": "Islande", "isCorrect": false },
+        { "text": "Finlande", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "geography",
+      "difficulty": "moyenne",
+      "text": "Quel pays possède la ville de Vienne ?",
+      "image": "assets/images/geography/moyenne/q12.png",
+      "answers": [
+        { "text": "Allemagne", "isCorrect": false },
+        { "text": "Autriche", "isCorrect": true },
+        { "text": "Suisse", "isCorrect": false },
+        { "text": "Hongrie", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "geography",
+      "difficulty": "moyenne",
+      "text": "Quel est le plus grand pays d’Amérique du Sud ?",
+      "image": "assets/images/geography/moyenne/q13.png",
+      "answers": [
+        { "text": "Argentine", "isCorrect": false },
+        { "text": "Brésil", "isCorrect": true },
+        { "text": "Chili", "isCorrect": false },
+        { "text": "Pérou", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "geography",
+      "difficulty": "moyenne",
+      "text": "Quel fleuve traverse Paris ?",
+      "image": "assets/images/geography/moyenne/q14.png",
+      "answers": [
+        { "text": "Seine", "isCorrect": true },
+        { "text": "Loire", "isCorrect": false },
+        { "text": "Rhin", "isCorrect": false },
+        { "text": "Garonne", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "geography",
+      "difficulty": "moyenne",
+      "text": "Quel pays est surnommé 'le pays des mille lacs' ?",
+      "image": "assets/images/geography/moyenne/q15.png",
+      "answers": [
+        { "text": "Finlande", "isCorrect": true },
+        { "text": "Norvège", "isCorrect": false },
+        { "text": "Suède", "isCorrect": false },
+        { "text": "Canada", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "geography",
+      "difficulty": "moyenne",
+      "text": "Quel est le plus grand État des États-Unis ?",
+      "image": "assets/images/geography/moyenne/q16.png",
+      "answers": [
+        { "text": "Texas", "isCorrect": false },
+        { "text": "Alaska", "isCorrect": true },
+        { "text": "Californie", "isCorrect": false },
+        { "text": "Montana", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "geography",
+      "difficulty": "moyenne",
+      "text": "Quel pays est traversé par le fleuve Danube ?",
+      "image": "assets/images/geography/moyenne/q17.png",
+      "answers": [
+        { "text": "Allemagne", "isCorrect": true },
+        { "text": "France", "isCorrect": false },
+        { "text": "Italie", "isCorrect": false },
+        { "text": "Belgique", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "geography",
+      "difficulty": "moyenne",
+      "text": "Quel pays a pour capitale Oslo ?",
+      "image": "assets/images/geography/moyenne/q18.png",
+      "answers": [
+        { "text": "Norvège", "isCorrect": true },
+        { "text": "Suède", "isCorrect": false },
+        { "text": "Danemark", "isCorrect": false },
+        { "text": "Finlande", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "geography",
+      "difficulty": "moyenne",
+      "text": "Quel pays possède le Machu Picchu ?",
+      "image": "assets/images/geography/moyenne/q19.png",
+      "answers": [
+        { "text": "Pérou", "isCorrect": true },
+        { "text": "Bolivie", "isCorrect": false },
+        { "text": "Chili", "isCorrect": false },
+        { "text": "Équateur", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "geography",
+      "difficulty": "moyenne",
+      "text": "Quel pays possède la ville de Casablanca ?",
+      "image": "assets/images/geography/moyenne/q20.png",
+      "answers": [
+        { "text": "Maroc", "isCorrect": true },
+        { "text": "Algérie", "isCorrect": false },
+        { "text": "Tunisie", "isCorrect": false },
+        { "text": "Égypte", "isCorrect": false }
+      ]
+    },
+
+
+
+    {
+      "category": "geography",
+      "difficulty": "difficile",
+      "text": "Quel pays est le plus grand producteur de cacao au monde ?",
+      "image": "assets/images/geography/difficile/q1.png",
+      "answers": [
+        { "text": "Ghana", "isCorrect": false },
+        { "text": "Côte d'Ivoire", "isCorrect": true },
+        { "text": "Brésil", "isCorrect": false },
+        { "text": "Nigéria", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "geography",
+      "difficulty": "difficile",
+      "text": "Quel est le plus haut sommet d'Amérique du Sud ?",
+      "image": "assets/images/geography/difficile/q2.png",
+      "answers": [
+        { "text": "Aconcagua", "isCorrect": true },
+        { "text": "Huascarán", "isCorrect": false },
+        { "text": "Cotopaxi", "isCorrect": false },
+        { "text": "Chimborazo", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "geography",
+      "difficulty": "difficile",
+      "text": "Dans quel pays se trouve la ville de Timbuktu ?",
+      "image": "assets/images/geography/difficile/q3.png",
+      "answers": [
+        { "text": "Mali", "isCorrect": true },
+        { "text": "Niger", "isCorrect": false },
+        { "text": "Soudan", "isCorrect": false },
+        { "text": "Algérie", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "geography",
+      "difficulty": "difficile",
+      "text": "Quel pays a la plus grande frontière terrestre avec la Russie ?",
+      "image": "assets/images/geography/difficile/q4.png",
+      "answers": [
+        { "text": "Kazakhstan", "isCorrect": true },
+        { "text": "Chine", "isCorrect": false },
+        { "text": "Mongolie", "isCorrect": false },
+        { "text": "Ukraine", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "geography",
+      "difficulty": "difficile",
+      "text": "Quel est le plus long fleuve d’Asie ?",
+      "image": "assets/images/geography/difficile/q5.png",
+      "answers": [
+        { "text": "Yangtsé", "isCorrect": true },
+        { "text": "Gange", "isCorrect": false },
+        { "text": "Mékong", "isCorrect": false },
+        { "text": "Indus", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "geography",
+      "difficulty": "difficile",
+      "text": "Quel désert est le plus grand du monde hors régions polaires ?",
+      "image": "assets/images/geography/difficile/q6.png",
+      "answers": [
+        { "text": "Sahara", "isCorrect": true },
+        { "text": "Gobi", "isCorrect": false },
+        { "text": "Kalahari", "isCorrect": false },
+        { "text": "Atacama", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "geography",
+      "difficulty": "difficile",
+      "text": "Quelle mer sépare la Grèce et la Turquie ?",
+      "image": "assets/images/geography/difficile/q7.png",
+      "answers": [
+        { "text": "Mer Égée", "isCorrect": true },
+        { "text": "Mer Adriatique", "isCorrect": false },
+        { "text": "Mer Ionienne", "isCorrect": false },
+        { "text": "Mer Noire", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "geography",
+      "difficulty": "difficile",
+      "text": "Quel pays a pour capitale Ouagadougou ?",
+      "image": "assets/images/geography/difficile/q8.png",
+      "answers": [
+        { "text": "Burkina Faso", "isCorrect": true },
+        { "text": "Mali", "isCorrect": false },
+        { "text": "Niger", "isCorrect": false },
+        { "text": "Togo", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "geography",
+      "difficulty": "difficile",
+      "text": "Quel est le pays le plus étendu d’Afrique ?",
+      "image": "assets/images/geography/difficile/q9.png",
+      "answers": [
+        { "text": "Algérie", "isCorrect": true },
+        { "text": "Soudan", "isCorrect": false },
+        { "text": "Libye", "isCorrect": false },
+        { "text": "République Démocratique du Congo", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "geography",
+      "difficulty": "difficile",
+      "text": "Quel pays possède le plus grand nombre de volcans actifs ?",
+      "image": "assets/images/geography/difficile/q10.png",
+      "answers": [
+        { "text": "Indonésie", "isCorrect": true },
+        { "text": "Japon", "isCorrect": false },
+        { "text": "Italie", "isCorrect": false },
+        { "text": "États-Unis", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "geography",
+      "difficulty": "difficile",
+      "text": "Quel est le plus grand lac salé du monde ?",
+      "image": "assets/images/geography/difficile/q11.png",
+      "answers": [
+        { "text": "Mer Caspienne", "isCorrect": true },
+        { "text": "Lac Supérieur", "isCorrect": false },
+        { "text": "Lac Tchad", "isCorrect": false },
+        { "text": "Mer d'Aral", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "geography",
+      "difficulty": "difficile",
+      "text": "Quel pays possède la ville de Samarcande ?",
+      "image": "assets/images/geography/difficile/q12.png",
+      "answers": [
+        { "text": "Ouzbékistan", "isCorrect": true },
+        { "text": "Turkménistan", "isCorrect": false },
+        { "text": "Kazakhstan", "isCorrect": false },
+        { "text": "Kirghizistan", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "geography",
+      "difficulty": "difficile",
+      "text": "Quel est le plus grand archipel du monde ?",
+      "image": "assets/images/geography/difficile/q13.png",
+      "answers": [
+        { "text": "Indonésie", "isCorrect": true },
+        { "text": "Philippines", "isCorrect": false },
+        { "text": "Japon", "isCorrect": false },
+        { "text": "Norvège", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "geography",
+      "difficulty": "difficile",
+      "text": "Quel est le point culminant de l’Afrique ?",
+      "image": "assets/images/geography/difficile/q14.png",
+      "answers": [
+        { "text": "Kilimandjaro", "isCorrect": true },
+        { "text": "Mont Kenya", "isCorrect": false },
+        { "text": "Atlas", "isCorrect": false },
+        { "text": "Drakensberg", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "geography",
+      "difficulty": "difficile",
+      "text": "Quel pays possède la vallée de la Mort (Death Valley) ?",
+      "image": "assets/images/geography/difficile/q15.png",
+      "answers": [
+        { "text": "États-Unis", "isCorrect": true },
+        { "text": "Canada", "isCorrect": false },
+        { "text": "Australie", "isCorrect": false },
+        { "text": "Mexique", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "geography",
+      "difficulty": "difficile",
+      "text": "Quel est le pays le plus peuplé d’Afrique ?",
+      "image": "assets/images/geography/difficile/q16.png",
+      "answers": [
+        { "text": "Nigeria", "isCorrect": true },
+        { "text": "Égypte", "isCorrect": false },
+        { "text": "Éthiopie", "isCorrect": false },
+        { "text": "République Démocratique du Congo", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "geography",
+      "difficulty": "difficile",
+      "text": "Quel est le plus long fleuve d’Europe ?",
+      "image": "assets/images/geography/difficile/q17.png",
+      "answers": [
+        { "text": "Volga", "isCorrect": true },
+        { "text": "Danube", "isCorrect": false },
+        { "text": "Rhin", "isCorrect": false },
+        { "text": "Seine", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "geography",
+      "difficulty": "difficile",
+      "text": "Quel pays possède la région du Transylvanie ?",
+      "image": "assets/images/geography/difficile/q18.png",
+      "answers": [
+        { "text": "Roumanie", "isCorrect": true },
+        { "text": "Bulgarie", "isCorrect": false },
+        { "text": "Hongrie", "isCorrect": false },
+        { "text": "Pologne", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "geography",
+      "difficulty": "difficile",
+      "text": "Quel pays possède le plateau du Colorado ?",
+      "image": "assets/images/geography/difficile/q19.png",
+      "answers": [
+        { "text": "États-Unis", "isCorrect": true },
+        { "text": "Canada", "isCorrect": false },
+        { "text": "Mexique", "isCorrect": false },
+        { "text": "Argentine", "isCorrect": false }
+      ]
+    },
+    {
+      "category": "geography",
+      "difficulty": "difficile",
+      "text": "Quel pays possède le plus grand nombre de fuseaux horaires ?",
+      "image": "assets/images/geography/difficile/q20.png",
+      "answers": [
+        { "text": "France", "isCorrect": true },
+        { "text": "Russie", "isCorrect": false },
+        { "text": "États-Unis", "isCorrect": false },
+        { "text": "Chine", "isCorrect": false }
+      ]
+    }
+
+
+]
