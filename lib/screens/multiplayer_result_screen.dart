@@ -8,8 +8,8 @@ import '../widget/coin_reward_dialog.dart';
 
 class MultiplayerResultScreen extends StatefulWidget {
   final String roomCode;
-  final Map<String, int> playerScores; // uid → score
-  final Map<String, String> playerNames; // uid → nom
+  final Map<String, int> playerScores;
+  final Map<String, String> playerNames;
   final String currentUserUid;
 
   const MultiplayerResultScreen({
@@ -26,7 +26,7 @@ class MultiplayerResultScreen extends StatefulWidget {
 
 class _MultiplayerResultScreenState extends State<MultiplayerResultScreen> {
   late ConfettiController _confettiController;
-  int _podiumStep = 0; // 0 = rien, 1 = 3ème, 2 = 2ème, 3 = 1er
+  int _podiumStep = 0;
   bool _hasProcessed = false;
 
   @override
@@ -34,7 +34,6 @@ class _MultiplayerResultScreenState extends State<MultiplayerResultScreen> {
     super.initState();
     _confettiController = ConfettiController(duration: const Duration(seconds: 4));
 
-    // Animation du podium
     Future.delayed(const Duration(milliseconds: 800), () {
       if (mounted) setState(() => _podiumStep = 1);
     });
@@ -45,7 +44,7 @@ class _MultiplayerResultScreenState extends State<MultiplayerResultScreen> {
       if (mounted) {
         setState(() => _podiumStep = 3);
         _confettiController.play();
-        _processEndOfGame(); // ← Récompense selon le classement
+        _processEndOfGame(); // ← SEULE fonction appelée
       }
     });
   }
@@ -58,27 +57,21 @@ class _MultiplayerResultScreenState extends State<MultiplayerResultScreen> {
 
   List<MapEntry<String, int>> get sortedPlayers {
     return widget.playerScores.entries.toList()
-      ..sort((a, b) => b.value.compareTo(a.value)); // Du plus haut au plus bas
+      ..sort((a, b) => b.value.compareTo(a.value));
   }
 
   String getRankEmoji(int rank) {
     switch (rank) {
-      case 0:
-        return '🥇';
-      case 1:
-        return '🥈';
-      case 2:
-        return '🥉';
-      default:
-        return '🏅';
+      case 0: return '🥇';
+      case 1: return '🥈';
+      case 2: return '🥉';
+      default: return '🏅';
     }
   }
 
-  String _getOrdinalSuffix(int number) {
-    if (number == 1) return "er";
-    return "ème";
-  }
+  String _getOrdinalSuffix(int number) => number == 1 ? "er" : "ème";
 
+  /// Traitement unique de fin de partie : coins + totalScore
   Future<void> _processEndOfGame() async {
     if (_hasProcessed || !mounted) return;
     _hasProcessed = true;
@@ -96,22 +89,27 @@ class _MultiplayerResultScreenState extends State<MultiplayerResultScreen> {
     else if (myRank == 1) earnedCoins = 3;
     else if (myRank >= 2) earnedCoins = 1;
 
-    // Mise à jour Firestore
-    await FirebaseFirestore.instance.runTransaction((transaction) async {
-      final userRef = FirebaseFirestore.instance.collection('users').doc(user.uid);
+    // Mise à jour Firestore en une seule transaction
+    try {
+      await FirebaseFirestore.instance.runTransaction((transaction) async {
+        final userRef = FirebaseFirestore.instance.collection('users').doc(user.uid);
 
-      final updates = <String, dynamic>{
-        'totalScore': FieldValue.increment(myScore), // ← Classement all-time
-      };
+        final updates = <String, dynamic>{
+          'totalScore': FieldValue.increment(myScore),
+        };
 
-      if (earnedCoins > 0) {
-        updates['coins'] = FieldValue.increment(earnedCoins);
-      }
+        if (earnedCoins > 0) {
+          updates['coins'] = FieldValue.increment(earnedCoins);
+        }
 
-      transaction.update(userRef, updates);
-    });
+        transaction.update(userRef, updates);
+      });
+    } catch (e) {
+      debugPrint("Erreur mise à jour Firestore : $e");
+      // Ne bloque pas l'UI même en cas d'erreur réseau
+    }
 
-    // Animation coins
+    // Animation coins (seulement si gagnés)
     if (earnedCoins > 0 && mounted) {
       showDialog(
         context: context,
@@ -121,45 +119,6 @@ class _MultiplayerResultScreenState extends State<MultiplayerResultScreen> {
 
       await Future.delayed(const Duration(seconds: 3));
       if (mounted) Navigator.of(context).pop();
-    }
-  }
-  /// Récompense selon le classement
-  Future<void> _awardRankingCoins() async {
-    final players = sortedPlayers;
-    final myRank = players.indexWhere((e) => e.key == widget.currentUserUid);
-
-    int earnedCoins = 0;
-    if (myRank == 0) {
-      earnedCoins = 5; // 1er
-    } else if (myRank == 1) {
-      earnedCoins = 3; // 2ème
-    } else if (myRank >= 2) {
-      earnedCoins = 1; // Tous les autres
-    }
-
-    if (earnedCoins > 0) {
-      final user = FirebaseAuth.instance.currentUser;
-      if (user != null) {
-        await FirebaseFirestore.instance
-            .collection('users')
-            .doc(user.uid)
-            .update({
-          'coins': FieldValue.increment(earnedCoins),
-        });
-      }
-
-      // Animation de récompense
-      if (mounted) {
-        showDialog(
-          context: context,
-          barrierDismissible: false,
-          builder: (_) => CoinRewardDialog(coins: earnedCoins),
-        );
-
-        Future.delayed(const Duration(seconds: 3), () {
-          if (mounted) Navigator.of(context).pop();
-        });
-      }
     }
   }
 
@@ -181,15 +140,10 @@ class _MultiplayerResultScreenState extends State<MultiplayerResultScreen> {
                 const SizedBox(height: 50),
                 const Text(
                   "RÉSULTATS FINAUX",
-                  style: TextStyle(
-                    color: Colors.cyan,
-                    fontSize: 32,
-                    fontWeight: FontWeight.bold,
-                  ),
+                  style: TextStyle(color: Colors.cyan, fontSize: 32, fontWeight: FontWeight.bold),
                 ),
                 const SizedBox(height: 40),
 
-                // PODIUM ANIMÉ
                 Expanded(
                   flex: 4,
                   child: Row(
@@ -207,7 +161,6 @@ class _MultiplayerResultScreenState extends State<MultiplayerResultScreen> {
 
                 const SizedBox(height: 40),
 
-                // TA PLACE PERSONNELLE
                 Card(
                   color: const Color(0xFF161B22),
                   elevation: 8,
@@ -216,32 +169,16 @@ class _MultiplayerResultScreenState extends State<MultiplayerResultScreen> {
                     padding: const EdgeInsets.all(20),
                     child: Row(
                       children: [
-                        Text(
-                          getRankEmoji(myRank),
-                          style: const TextStyle(fontSize: 50),
-                        ),
+                        Text(getRankEmoji(myRank), style: const TextStyle(fontSize: 50)),
                         const SizedBox(width: 20),
                         Expanded(
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              Text(
-                                "Ta place : ${myRank + 1}${_getOrdinalSuffix(myRank + 1)}",
-                                style: const TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 22,
-                                  fontWeight: FontWeight.bold,
-                                ),
-                              ),
+                              Text("Ta place : ${myRank + 1}${_getOrdinalSuffix(myRank + 1)}",
+                                  style: const TextStyle(color: Colors.white, fontSize: 22, fontWeight: FontWeight.bold)),
                               const SizedBox(height: 8),
-                              Text(
-                                "$myName • $myScore points",
-                                style: const TextStyle(
-                                  color: Colors.cyan,
-                                  fontSize: 18,
-                                  fontWeight: FontWeight.w600,
-                                ),
-                              ),
+                              Text("$myName • $myScore points", style: const TextStyle(color: Colors.cyan, fontSize: 18)),
                             ],
                           ),
                         ),
@@ -252,16 +189,12 @@ class _MultiplayerResultScreenState extends State<MultiplayerResultScreen> {
 
                 const SizedBox(height: 40),
 
-                // BOUTON RETOUR
                 SizedBox(
                   width: double.infinity,
                   child: ElevatedButton.icon(
                     onPressed: () => Navigator.popUntil(context, (route) => route.isFirst),
                     icon: const Icon(Icons.home, size: 28),
-                    label: const Text(
-                      "Retour à l'accueil",
-                      style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-                    ),
+                    label: const Text("Retour à l'accueil", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.cyan,
                       padding: const EdgeInsets.symmetric(vertical: 18),
@@ -276,7 +209,6 @@ class _MultiplayerResultScreenState extends State<MultiplayerResultScreen> {
             ),
           ),
 
-          // CONFETTIS POUR LE GAGNANT
           Align(
             alignment: Alignment.topCenter,
             child: ConfettiWidget(
@@ -285,13 +217,7 @@ class _MultiplayerResultScreenState extends State<MultiplayerResultScreen> {
               emissionFrequency: 0.04,
               numberOfParticles: 80,
               gravity: 0.15,
-              colors: const [
-                Colors.cyan,
-                Colors.yellow,
-                Colors.pink,
-                Colors.green,
-                Colors.orange,
-              ],
+              colors: const [Colors.cyan, Colors.yellow, Colors.pink, Colors.green, Colors.orange],
             ),
           ),
         ],
@@ -299,12 +225,7 @@ class _MultiplayerResultScreenState extends State<MultiplayerResultScreen> {
     );
   }
 
-  Widget _buildPodiumPlayer(
-      MapEntry<String, int> player,
-      int position,
-      bool visible, {
-        bool isFirst = false,
-      }) {
+  Widget _buildPodiumPlayer(MapEntry<String, int> player, int position, bool visible, {bool isFirst = false}) {
     final name = widget.playerNames[player.key] ?? 'Joueur';
     final score = player.value;
 
@@ -318,66 +239,29 @@ class _MultiplayerResultScreenState extends State<MultiplayerResultScreen> {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Text(
-              getRankEmoji(position - 1),
-              style: TextStyle(fontSize: isFirst ? 70 : 55),
-            ),
+            Text(getRankEmoji(position - 1), style: TextStyle(fontSize: isFirst ? 70 : 55)),
             const SizedBox(height: 12),
             CircleAvatar(
               radius: isFirst ? 45 : 35,
               backgroundColor: Colors.cyan,
-              child: Text(
-                name.isEmpty ? '?' : name[0].toUpperCase(),
-                style: TextStyle(
-                  fontSize: isFirst ? 36 : 28,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.white,
-                ),
-              ),
+              child: Text(name.isEmpty ? '?' : name[0].toUpperCase(),
+                  style: TextStyle(fontSize: isFirst ? 36 : 28, fontWeight: FontWeight.bold, color: Colors.white)),
             ),
             const SizedBox(height: 12),
-            Text(
-              name,
-              style: const TextStyle(
-                color: Colors.white,
-                fontSize: 18,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-            Text(
-              "$score pts",
-              style: TextStyle(
-                color: Colors.yellow[600],
-                fontSize: 20,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
+            Text(name, style: const TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold)),
+            Text("$score pts", style: TextStyle(color: Colors.yellow[600], fontSize: 20, fontWeight: FontWeight.bold)),
             const SizedBox(height: 20),
             Container(
               height: isFirst ? 200 : (position == 2 ? 150 : 110),
               width: 110,
               decoration: BoxDecoration(
-                color: position == 1
-                    ? Colors.amber
-                    : (position == 2 ? Colors.grey[300] : Colors.brown[700]),
+                color: position == 1 ? Colors.amber : (position == 2 ? Colors.grey[300] : Colors.brown[700]),
                 borderRadius: const BorderRadius.vertical(top: Radius.circular(12)),
-                boxShadow: [
-                  BoxShadow(
-                    color: Colors.black.withOpacity(0.4),
-                    blurRadius: 10,
-                    offset: const Offset(0, 8),
-                  ),
-                ],
+                boxShadow: [BoxShadow(color: Colors.black.withOpacity(0.4), blurRadius: 10, offset: const Offset(0, 8))],
               ),
               child: Center(
-                child: Text(
-                  position.toString(),
-                  style: const TextStyle(
-                    fontSize: 40,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.black87,
-                  ),
-                ),
+                child: Text(position.toString(),
+                    style: const TextStyle(fontSize: 40, fontWeight: FontWeight.bold, color: Colors.black87)),
               ),
             ),
           ],
