@@ -389,7 +389,7 @@
       "category": "islam",
       "difficulty": "moyenne",
       "text": "Combien de sourates contient le Coran ?",
-      "image": "assets/images/islam/moyenne/q13.png",
+      "image": "assets/images/islam/moyenne/q7.png",
       "answers": [
         { "text": "114", "isCorrect": true },
         { "text": "100", "isCorrect": false },
@@ -401,7 +401,7 @@
       "category": "islam",
       "difficulty": "moyenne",
       "text": "Quel est le nom de la prière du soir ?",
-      "image": "assets/images/islam/moyenne/q14.png",
+      "image": "assets/images/islam/moyenne/q8.png",
       "answers": [
         { "text": "Isha", "isCorrect": true },
         { "text": "Asr", "isCorrect": false },
@@ -473,7 +473,7 @@
       "category": "islam",
       "difficulty": "moyenne",
       "text": "Quel est le nom de la prière du vendredi ?",
-      "image": "assets/images/islam/moyenne/q20.png",
+      "image": "assets/images/islam/moyenne/q8.png",
       "answers": [
         { "text": "Salat al-Jumu'ah", "isCorrect": true },
         { "text": "Salat al-Asr", "isCorrect": false },
@@ -619,7 +619,7 @@
       "category": "islam",
       "difficulty": "difficile",
       "text": "Quelle sourate contient le verset du Trône (Ayat Al-Kursi) ?",
-      "image": "assets/images/islam/difficile/q12.png",
+      "image": "assets/images/islam/difficile/q1.png",
       "answers": [
         { "text": "Al-Baqara", "isCorrect": true },
         { "text": "An-Nisa", "isCorrect": false },
@@ -643,7 +643,7 @@
       "category": "islam",
       "difficulty": "difficile",
       "text": "Quel calife a ordonné la compilation officielle du Coran en un seul livre ?",
-      "image": "assets/images/islam/difficile/q14.png",
+      "image": "assets/images/islam/difficile/q5.png",
       "answers": [
         { "text": "Othman ibn Affan", "isCorrect": true },
         { "text": "Abou Bakr", "isCorrect": false },
@@ -655,7 +655,7 @@
       "category": "islam",
       "difficulty": "difficile",
       "text": "Quelle sourate commence par les lettres mystérieuses 'Alif Lam Mim' ?",
-      "image": "assets/images/islam/difficile/q15.png",
+      "image": "assets/images/islam/difficile/q1.png",
       "answers": [
         { "text": "Al-Baqara", "isCorrect": true },
         { "text": "Al-Fatiha", "isCorrect": false },

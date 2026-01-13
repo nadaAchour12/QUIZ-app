@@ -6,6 +6,8 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 
+import '../constants/avatar_constants.dart';
+
 class EditProfileScreen extends StatefulWidget {
   const EditProfileScreen({super.key});
 
@@ -23,27 +25,12 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
 
   final user = FirebaseAuth.instance.currentUser;
 
-  // ✅ 5 avatars depuis assets
-  final List<String> avatarAssets = [
-    'assets/avatar/avatar1.png',
-    'assets/avatar/avatar2.png',
-    'assets/avatar/avatar3.png',
-    'assets/avatar/avatar4.png',
-    'assets/avatar/avatar5.png',
-    'assets/avatar/avatar6.png',
-    'assets/avatar/avatar7.png',
-    'assets/avatar/avatar8.png',
-    'assets/avatar/avatar9.png',
-    'assets/avatar/avatar10.png',
-  ];
-
   @override
   void initState() {
     super.initState();
     _loadUserData();
   }
 
-  // 🔄 Charger données utilisateur
   Future<void> _loadUserData() async {
     if (user == null) return;
 
@@ -62,7 +49,6 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
     setState(() {});
   }
 
-  // 📸 Choisir image depuis téléphone
   Future<void> pickImage() async {
     final picker = ImagePicker();
     final picked = await picker.pickImage(
@@ -77,7 +63,6 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
     }
   }
 
-  // ☁️ Upload image vers Firebase Storage
   Future<String?> uploadAvatar(File image) async {
     final ref = FirebaseStorage.instance
         .ref()
@@ -88,7 +73,6 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
     return await ref.getDownloadURL();
   }
 
-  // 💾 Sauvegarder profil
   Future<void> saveProfile() async {
     if (user == null) return;
 
@@ -120,7 +104,15 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
 
     setState(() => isLoading = false);
 
-    Navigator.pop(context);
+    if (mounted) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text("Profil mis à jour avec succès !"),
+          backgroundColor: Colors.green,
+        ),
+      );
+      Navigator.pop(context);
+    }
   }
 
   @override
@@ -139,8 +131,7 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-
-            // 👤 AVATAR IMAGE (photo perso ou avatar prédéfini)
+            // Avatar principal
             GestureDetector(
               onTap: pickImage,
               child: CircleAvatar(
@@ -152,7 +143,7 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
                 child: selectedImage == null
                     ? ClipOval(
                   child: Image.asset(
-                    avatarAssets[selectedAvatarIndex],
+                    AvatarConstants.getAvatarAsset(selectedAvatarIndex),
                     fit: BoxFit.cover,
                     width: 110,
                     height: 110,
@@ -170,43 +161,190 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
 
             const SizedBox(height: 30),
 
-            // 🎭 CHOIX DES 5 AVATARS PRÉDÉFINIS
-            SingleChildScrollView(
-              scrollDirection: Axis.horizontal,
-              child: Row(
-                children: List.generate(avatarAssets.length, (index) {
-                  return GestureDetector(
-                    onTap: () {
-                      setState(() {
-                        selectedAvatarIndex = index;
-                        selectedImage = null; // Désactive la photo perso
-                      });
-                    },
-                    child: Container(
-                      margin: const EdgeInsets.only(right: 12),
-                      padding: const EdgeInsets.all(4),
-                      decoration: BoxDecoration(
-                        shape: BoxShape.circle,
-                        border: Border.all(
-                          color: selectedAvatarIndex == index
-                              ? Colors.cyan
-                              : Colors.transparent,
-                          width: 4,
+            // Titre section avatars gratuits
+            const Text(
+              "Avatars gratuits",
+              style: TextStyle(
+                color: Colors.cyan,
+                fontSize: 18,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+            const SizedBox(height: 16),
+
+            // Choix des 10 premiers avatars GRATUITS (indices 0-9)
+            StreamBuilder<DocumentSnapshot>(
+              stream: FirebaseFirestore.instance
+                  .collection('users')
+                  .doc(user?.uid)
+                  .snapshots(),
+              builder: (context, snapshot) {
+                final ownedAvatars = snapshot.hasData
+                    ? List<int>.from(snapshot.data!.get('ownedAvatars') ?? [0])
+                    : [0];
+
+                return SingleChildScrollView(
+                  scrollDirection: Axis.horizontal,
+                  child: Row(
+                    children: List.generate(
+                      10, // ← SEULEMENT LES 10 PREMIERS (indices 0-9)
+                          (index) {
+                        return GestureDetector(
+                          onTap: () {
+                            setState(() {
+                              selectedAvatarIndex = index;
+                              selectedImage = null;
+                            });
+                          },
+                          child: Container(
+                            margin: const EdgeInsets.only(right: 12),
+                            padding: const EdgeInsets.all(4),
+                            decoration: BoxDecoration(
+                              shape: BoxShape.circle,
+                              border: Border.all(
+                                color: selectedAvatarIndex == index
+                                    ? Colors.cyan
+                                    : Colors.transparent,
+                                width: 4,
+                              ),
+                            ),
+                            child: CircleAvatar(
+                              radius: 35,
+                              backgroundImage: AssetImage(
+                                AvatarConstants.avatarAssets[index],
+                              ),
+                            ),
+                          ),
+                        );
+                      },
+                    ),
+                  ),
+                );
+              },
+            ),
+
+            const SizedBox(height: 30),
+
+            // Section avatars premium
+            Container(
+              padding: const EdgeInsets.all(16),
+              decoration: BoxDecoration(
+                color: Colors.deepPurple.withOpacity(0.1),
+                borderRadius: BorderRadius.circular(16),
+                border: Border.all(
+                  color: Colors.deepPurple.withOpacity(0.3),
+                  width: 2,
+                ),
+              ),
+              child: Column(
+                children: [
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      const Icon(Icons.star, color: Colors.amber, size: 24),
+                      const SizedBox(width: 8),
+                      const Text(
+                        "Avatars Premium",
+                        style: TextStyle(
+                          color: Colors.amber,
+                          fontSize: 18,
+                          fontWeight: FontWeight.bold,
                         ),
                       ),
-                      child: CircleAvatar(
-                        radius: 35,
-                        backgroundImage: AssetImage(avatarAssets[index]),
-                      ),
-                    ),
-                  );
-                }),
+                    ],
+                  ),
+                  const SizedBox(height: 12),
+                  const Text(
+                    "Débloque plus d'avatars dans la boutique !",
+                    style: TextStyle(color: Colors.white70, fontSize: 14),
+                    textAlign: TextAlign.center,
+                  ),
+                  const SizedBox(height: 16),
+
+                  // Affichage des avatars premium (indices 10-19)
+                  StreamBuilder<DocumentSnapshot>(
+                    stream: FirebaseFirestore.instance
+                        .collection('users')
+                        .doc(user?.uid)
+                        .snapshots(),
+                    builder: (context, snapshot) {
+                      final ownedAvatars = snapshot.hasData
+                          ? List<int>.from(
+                          snapshot.data!.get('ownedAvatars') ?? [0])
+                          : [0];
+
+                      return SingleChildScrollView(
+                        scrollDirection: Axis.horizontal,
+                        child: Row(
+                          children: List.generate(
+                            10, // Les 10 avatars premium
+                                (i) {
+                              final index = i + 10; // Indices 10-19
+                              final isOwned = ownedAvatars.contains(index);
+
+                              return GestureDetector(
+                                onTap: isOwned
+                                    ? () {
+                                  setState(() {
+                                    selectedAvatarIndex = index;
+                                    selectedImage = null;
+                                  });
+                                }
+                                    : null,
+                                child: Opacity(
+                                  opacity: isOwned ? 1.0 : 0.4,
+                                  child: Container(
+                                    margin: const EdgeInsets.only(right: 12),
+                                    padding: const EdgeInsets.all(4),
+                                    decoration: BoxDecoration(
+                                      shape: BoxShape.circle,
+                                      border: Border.all(
+                                        color: selectedAvatarIndex == index
+                                            ? Colors.amber
+                                            : Colors.transparent,
+                                        width: 4,
+                                      ),
+                                    ),
+                                    child: Stack(
+                                      children: [
+                                        CircleAvatar(
+                                          radius: 35,
+                                          backgroundImage: AssetImage(
+                                            AvatarConstants.avatarAssets[index],
+                                          ),
+                                        ),
+                                        if (!isOwned)
+                                          Positioned.fill(
+                                            child: Container(
+                                              decoration: BoxDecoration(
+                                                color: Colors.black54,
+                                                shape: BoxShape.circle,
+                                              ),
+                                              child: const Icon(
+                                                Icons.lock,
+                                                color: Colors.white70,
+                                                size: 30,
+                                              ),
+                                            ),
+                                          ),
+                                      ],
+                                    ),
+                                  ),
+                                ),
+                              );
+                            },
+                          ),
+                        ),
+                      );
+                    },
+                  ),
+                ],
               ),
             ),
 
             const SizedBox(height: 30),
 
-            // ✏️ NOM
+            // Nom
             _inputField(
               controller: _nameController,
               hint: "Nom",
@@ -214,7 +352,7 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
 
             const SizedBox(height: 16),
 
-            // ✏️ USERNAME
+            // Username
             _inputField(
               controller: _usernameController,
               hint: "Pseudo",
@@ -223,7 +361,7 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
 
             const SizedBox(height: 30),
 
-            // 💾 SAVE
+            // Bouton Enregistrer
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(
@@ -250,7 +388,6 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
     );
   }
 
-  // ===== INPUT =====
   Widget _inputField({
     required TextEditingController controller,
     required String hint,

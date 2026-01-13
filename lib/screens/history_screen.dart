@@ -12,10 +12,9 @@ class HistoryScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final uid = FirebaseAuth.instance.currentUser?.uid;
 
-    // 🔐 User not logged in
     if (uid == null) {
       return const Scaffold(
-        backgroundColor: Color(0xFF1E1E2F),
+        backgroundColor: Color(0xFF0F1626),
         body: Center(
           child: Text(
             "Veuillez vous connecter pour voir l'historique",
@@ -26,14 +25,13 @@ class HistoryScreen extends StatelessWidget {
     }
 
     return Scaffold(
-      backgroundColor: const Color(0xFF1E1E2F),
+      backgroundColor: const Color(0xFF0F1626),
       appBar: AppBar(
-        backgroundColor: const Color(0xFF1E1E2F),
+        backgroundColor: const Color(0xFF1A1F3A),
         elevation: 0,
-        centerTitle: true,
-        title: const Text(
-          "Historique",
-          style: TextStyle(fontWeight: FontWeight.bold),
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back, color: Colors.white),
+          onPressed: () => Navigator.pop(context),
         ),
       ),
       body: StreamBuilder<QuerySnapshot>(
@@ -45,14 +43,36 @@ class HistoryScreen extends StatelessWidget {
             .snapshots(),
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.waiting) {
-            return const Center(child: CircularProgressIndicator());
+            return const Center(
+              child: CircularProgressIndicator(color: Colors.cyan),
+            );
           }
 
           if (!snapshot.hasData || snapshot.data!.docs.isEmpty) {
             return const Center(
-              child: Text(
-                "Aucun quiz joué pour le moment",
-                style: TextStyle(color: Colors.white70, fontSize: 18),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Icon(
+                    Icons.history,
+                    size: 80,
+                    color: Colors.white30,
+                  ),
+                  SizedBox(height: 24),
+                  Text(
+                    "Aucun quiz joué",
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 22,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  SizedBox(height: 12),
+                  Text(
+                    "Commence à jouer pour voir ton historique",
+                    style: TextStyle(color: Colors.white60, fontSize: 16),
+                  ),
+                ],
               ),
             );
           }
@@ -60,127 +80,202 @@ class HistoryScreen extends StatelessWidget {
           final docs = snapshot.data!.docs;
           final recentDocs = docs.take(10).toList();
 
-          // ===================== CALCULS =====================
+          // Calculs
           double averageScore = 0;
-          double averageIq = 0;
           final List<double> scoreValues = [];
 
           for (final doc in recentDocs) {
             final data = doc.data() as Map<String, dynamic>;
             final int score = (data['score'] ?? 0).toInt();
             final int total = (data['total'] ?? 1).toInt();
-
             final double percentage = (score / total) * 100;
-            final double iq = 80 + percentage;
 
             averageScore += percentage;
-            averageIq += iq;
             scoreValues.add(percentage);
           }
 
           averageScore /= recentDocs.length;
-          averageIq /= recentDocs.length;
 
-          // ===================== UI =====================
           return SingleChildScrollView(
-            padding: const EdgeInsets.all(20),
             child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                // ===================== STATS =====================
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: [
-                    _statCard(
-                      value: "${averageScore.round()}%",
-                      label: "Avg Score",
-                      color: Colors.blueAccent,
-                    ),
-                    _statCard(
-                      value: averageIq.round().toString(),
-                      label: "Avg IQ",
-                      color: Colors.cyanAccent,
-                    ),
-                    _statCard(
-                      value: recentDocs.length.toString(),
-                      label: "Quizzes",
-                      color: Colors.purpleAccent,
-                    ),
-                  ],
-                ),
-
-                const SizedBox(height: 40),
-
-                // ===================== GRAPH =====================
+                // Titre de la page
                 Container(
-                  padding: const EdgeInsets.all(20),
-                  decoration: BoxDecoration(
-                    color: const Color(0xFF2A2A3B),
-                    borderRadius: BorderRadius.circular(20),
+                  width: double.infinity,
+                  padding: const EdgeInsets.symmetric(
+                    vertical: 24,
+                    horizontal: 20,
                   ),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
+                  decoration: const BoxDecoration(
+                    color: Color(0xFF1A1F3A),
+                    borderRadius: BorderRadius.only(
+                      bottomLeft: Radius.circular(30),
+                      bottomRight: Radius.circular(30),
+                    ),
+                  ),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      const Text(
-                        "Performance Trend",
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 20,
-                          fontWeight: FontWeight.bold,
+                      Container(
+                        padding: const EdgeInsets.all(12),
+                        decoration: BoxDecoration(
+                          color: Colors.cyan.withOpacity(0.2),
+                          shape: BoxShape.circle,
+                        ),
+                        child: const Icon(
+                          Icons.bar_chart,
+                          color: Colors.cyan,
+                          size: 32,
                         ),
                       ),
-                      const SizedBox(height: 20),
-                      SizedBox(
-                        height: 200,
-                        child: HistoryChart(
-                          values: scoreValues.reversed.toList(),
-                          title: "Score Evolution",
-                          color: Colors.blueAccent,
-                        ),
+                      const SizedBox(width: 16),
+                      const Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            "MES STATISTIQUES",
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 26,
+                              fontWeight: FontWeight.bold,
+                              letterSpacing: 1.5,
+                            ),
+                          ),
+                          Text(
+                            "Ton historique de quiz",
+                            style: TextStyle(
+                              color: Colors.white60,
+                              fontSize: 14,
+                            ),
+                          ),
+                        ],
                       ),
                     ],
                   ),
                 ),
 
-                const SizedBox(height: 40),
+                Padding(
+                  padding: const EdgeInsets.all(20),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      // Stats cards
+                      Row(
+                        children: [
+                          Expanded(
+                            child: _statCard(
+                              value: "${averageScore.round()}%",
+                              label: "Score moyen",
+                              icon: Icons.trending_up,
+                              color: Colors.cyan,
+                            ),
+                          ),
+                          const SizedBox(width: 12),
+                          Expanded(
+                            child: _statCard(
+                              value: recentDocs.length.toString(),
+                              label: "Quiz joués",
+                              icon: Icons.quiz,
+                              color: Colors.purple,
+                            ),
+                          ),
+                        ],
+                      ),
 
-                // ===================== RECENT ATTEMPTS =====================
-                const Text(
-                  "Recent Attempts",
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 24,
-                    fontWeight: FontWeight.bold,
+                      const SizedBox(height: 30),
+
+                      // Graphique
+                      Container(
+                        padding: const EdgeInsets.all(20),
+                        decoration: BoxDecoration(
+                          color: const Color(0xFF1A1F3A),
+                          borderRadius: BorderRadius.circular(20),
+                        ),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            const Row(
+                              children: [
+                                Icon(
+                                  Icons.show_chart,
+                                  color: Colors.cyan,
+                                  size: 24,
+                                ),
+                                SizedBox(width: 10),
+                                Text(
+                                  "Évolution",
+                                  style: TextStyle(
+                                    color: Colors.white,
+                                    fontSize: 18,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                              ],
+                            ),
+                            const SizedBox(height: 20),
+                            SizedBox(
+                              height: 180,
+                              child: HistoryChart(
+                                values: scoreValues.reversed.toList(),
+                                title: "Score Evolution",
+                                color: Colors.cyan,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+
+                      const SizedBox(height: 30),
+
+                      // Titre section historique
+                      const Row(
+                        children: [
+                          Icon(
+                            Icons.history,
+                            color: Colors.white60,
+                            size: 20,
+                          ),
+                          SizedBox(width: 8),
+                          Text(
+                            "Derniers quiz",
+                            style: TextStyle(
+                              color: Colors.white60,
+                              fontSize: 14,
+                            ),
+                          ),
+                        ],
+                      ),
+
+                      const SizedBox(height: 16),
+
+                      // Liste des quiz
+                      ...recentDocs.map((doc) {
+                        final data = doc.data() as Map<String, dynamic>;
+                        final String category = data['category'] ?? 'Inconnu';
+                        final int score = (data['score'] ?? 0).toInt();
+                        final int total = (data['total'] ?? 1).toInt();
+                        final double percentage = (score / total) * 100;
+
+                        DateTime date;
+                        final rawDate = data['date'];
+                        if (rawDate is Timestamp) {
+                          date = rawDate.toDate();
+                        } else if (rawDate is String) {
+                          date = DateTime.tryParse(rawDate) ?? DateTime.now();
+                        } else {
+                          date = DateTime.now();
+                        }
+
+                        return _quizCard(
+                          category: category,
+                          score: score,
+                          total: total,
+                          percentage: percentage,
+                          date: date,
+                        );
+                      }).toList(),
+                    ],
                   ),
-                ),
-
-                const SizedBox(height: 20),
-
-                Column(
-                  children: recentDocs.map((doc) {
-                    final data = doc.data() as Map<String, dynamic>;
-
-                    final String category = data['category'] ?? 'Inconnu';
-                    final int score = (data['score'] ?? 0).toInt();
-                    final int total = (data['total'] ?? 1).toInt();
-                    final double percentage = (score / total) * 100;
-
-                    DateTime date;
-                    final rawDate = data['date'];
-                    if (rawDate is Timestamp) {
-                      date = rawDate.toDate();
-                    } else if (rawDate is String) {
-                      date = DateTime.tryParse(rawDate) ?? DateTime.now();
-                    } else {
-                      date = DateTime.now();
-                    }
-
-                    return _recentAttemptCard(
-                      category: category,
-                      percentage: percentage,
-                      date: date,
-                    );
-                  }).toList(),
                 ),
               ],
             ),
@@ -190,49 +285,76 @@ class HistoryScreen extends StatelessWidget {
     );
   }
 
-  // ===================== WIDGETS =====================
   Widget _statCard({
     required String value,
     required String label,
+    required IconData icon,
     required Color color,
   }) {
-    return Column(
-      children: [
-        Text(
-          value,
-          style: TextStyle(
-            color: color,
-            fontSize: 28,
-            fontWeight: FontWeight.bold,
+    return Container(
+      padding: const EdgeInsets.all(20),
+      decoration: BoxDecoration(
+        color: const Color(0xFF1A1F3A),
+        borderRadius: BorderRadius.circular(20),
+        border: Border.all(
+          color: color.withOpacity(0.3),
+          width: 1.5,
+        ),
+      ),
+      child: Column(
+        children: [
+          Icon(icon, color: color, size: 32),
+          const SizedBox(height: 12),
+          Text(
+            value,
+            style: TextStyle(
+              color: color,
+              fontSize: 26,
+              fontWeight: FontWeight.bold,
+            ),
           ),
-        ),
-        const SizedBox(height: 5),
-        Text(
-          label,
-          style: const TextStyle(color: Colors.white70),
-        ),
-      ],
+          const SizedBox(height: 6),
+          Text(
+            label,
+            style: const TextStyle(
+              color: Colors.white60,
+              fontSize: 13,
+            ),
+            textAlign: TextAlign.center,
+          ),
+        ],
+      ),
     );
   }
 
-  Widget _recentAttemptCard({
+  Widget _quizCard({
     required String category,
+    required int score,
+    required int total,
     required double percentage,
     required DateTime date,
   }) {
     final formattedDate = DateFormat('dd MMM • HH:mm').format(date);
+    final color = _getPercentageColor(percentage);
 
     return Container(
-      margin: const EdgeInsets.only(bottom: 15),
+      margin: const EdgeInsets.only(bottom: 12),
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-        color: const Color(0xFF2A2A3B),
+        color: const Color(0xFF1A1F3A),
         borderRadius: BorderRadius.circular(16),
       ),
       child: Row(
         children: [
-          const Icon(Icons.quiz, color: Colors.blueAccent, size: 28),
-          const SizedBox(width: 15),
+          Container(
+            padding: const EdgeInsets.all(10),
+            decoration: BoxDecoration(
+              color: color.withOpacity(0.2),
+              borderRadius: BorderRadius.circular(12),
+            ),
+            child: Icon(Icons.quiz, color: color, size: 24),
+          ),
+          const SizedBox(width: 16),
           Expanded(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -241,17 +363,29 @@ class HistoryScreen extends StatelessWidget {
                   category,
                   style: const TextStyle(
                     color: Colors.white,
-                    fontSize: 18,
+                    fontSize: 16,
                     fontWeight: FontWeight.w600,
                   ),
                 ),
                 const SizedBox(height: 4),
-                Text(
-                  formattedDate,
-                  style: const TextStyle(
-                    color: Colors.white54,
-                    fontSize: 14,
-                  ),
+                Row(
+                  children: [
+                    Text(
+                      formattedDate,
+                      style: const TextStyle(
+                        color: Colors.white,
+                        fontSize: 13,
+                      ),
+                    ),
+                    const SizedBox(width: 8),
+                    Text(
+                      "• $score/$total",
+                      style: const TextStyle(
+                        color: Colors.white,
+                        fontSize: 13,
+                      ),
+                    ),
+                  ],
                 ),
               ],
             ),
@@ -259,8 +393,8 @@ class HistoryScreen extends StatelessWidget {
           Text(
             "${percentage.round()}%",
             style: TextStyle(
-              color: _getPercentageColor(percentage),
-              fontSize: 22,
+              color: color,
+              fontSize: 20,
               fontWeight: FontWeight.bold,
             ),
           ),
@@ -270,8 +404,8 @@ class HistoryScreen extends StatelessWidget {
   }
 
   Color _getPercentageColor(double percentage) {
-    if (percentage >= 80) return Colors.greenAccent;
-    if (percentage >= 60) return Colors.orangeAccent;
-    return Colors.redAccent;
+    if (percentage >= 80) return Colors.green;
+    if (percentage >= 60) return Colors.orange;
+    return Colors.red;
   }
 }

@@ -43,6 +43,7 @@ dependencies:
   firebase_storage: ^12.3.0
   cached_network_image: ^3.4.0
   intl: ^0.20.2
+  firebase_auth_web: ^5.3.1
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -130,7 +131,9 @@ flutter:
     - assets/images/logs/facile/
     - assets/images/logs/moyenne/
 
+    - assets/data/اعرف المسلسل/questions.json
     - assets/data/series_tunisienne/questions.json
+    - assets/data/seriesTunisienne/questions.json
     - assets/images/series_tunisienne/difficile/
     - assets/images/series_tunisienne/facile/
     - assets/images/series_tunisienne/moyenne/

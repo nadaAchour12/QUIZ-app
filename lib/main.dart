@@ -1,16 +1,37 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/foundation.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:quizmaster/screens/onBoarding/splash_screen.dart';
 import 'firebase_options.dart';
 import 'home/home_screen.dart';
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+
+  // ✅ NE PAS utiliser Platform sur le web
+  if (!kIsWeb) {
+    FlutterError.onError = (FlutterErrorDetails details) {
+      if (details.exception.toString().contains('platform thread')) {
+        debugPrint('Ignoré: ${details.exception}');
+        return;
+      }
+      FlutterError.presentError(details);
+    };
+  }
+
+  // ✅ Firebase initialisé AVANT runApp
   await Firebase.initializeApp(
-      options: DefaultFirebaseOptions.currentPlatform);
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
+
+  debugPrint("🔥 Firebase initialisé");
+
   runApp(const MyApp());
 }
+
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
   @override
@@ -67,3 +88,4 @@ class AuthCheck extends StatelessWidget {
     );
   }
 }
+

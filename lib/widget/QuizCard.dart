@@ -5,7 +5,6 @@ import '../models/quiz_model.dart';
 class QuizCard extends StatelessWidget {
   final Quiz quiz;
   final VoidCallback onTap;
-
   const QuizCard({Key? key, required this.quiz, required this.onTap}) : super(key: key);
 
   @override

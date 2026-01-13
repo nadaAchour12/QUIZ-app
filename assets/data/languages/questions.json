@@ -240,6 +240,98 @@
     ]
   },
 
+  {
+    "category": "languages",
+    "difficulty": "facile",
+    "text": "Dans quel pays le mandarin est-il la langue la plus parlée ?",
+    "image": "assets/images/languages/facile/q21.png",
+    "answers": [
+      { "text": "Chine", "isCorrect": true },
+      { "text": "Inde", "isCorrect": false },
+      { "text": "Japon", "isCorrect": false },
+      { "text": "Corée du Sud", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "languages",
+    "difficulty": "facile",
+    "text": "Quel alphabet est utilisé pour écrire la langue russe ?",
+    "image": "assets/images/languages/facile/q22.png",
+    "answers": [
+      { "text": "Cyrillique", "isCorrect": true },
+      { "text": "Latin", "isCorrect": false },
+      { "text": "Grec", "isCorrect": false },
+      { "text": "Arabe", "isCorrect": false }
+    ]
+  },
+
+
+  {
+    "category": "languages",
+    "difficulty": "facile",
+    "text": "Quelle langue utilise les caractères 'Hola' pour dire bonjour ?",
+    "image": "assets/images/languages/facile/q23.png",
+    "answers": [
+      { "text": "Espagnol", "isCorrect": true },
+      { "text": "Italien", "isCorrect": false },
+      { "text": "Portugais", "isCorrect": false },
+      { "text": "Français", "isCorrect": false }
+    ]
+  },
+
+  {
+    "category": "languages",
+    "difficulty": "facile",
+    "text": "Comment dit-on 'Oui' en allemand ?",
+    "image": "assets/images/languages/facile/q24.png",
+    "answers": [
+      { "text": "Ja", "isCorrect": true },
+      { "text": "Si", "isCorrect": false },
+      { "text": "Da", "isCorrect": false },
+      { "text": "Yes", "isCorrect": false }
+    ]
+  },
+
+  {
+    "category": "languages",
+    "difficulty": "facile",
+    "text": "Dans quelle langue écrit-on de droite à gauche ?",
+    "image": "assets/images/languages/facile/q25.png",
+    "answers": [
+      { "text": "Arabe", "isCorrect": true },
+      { "text": "Français", "isCorrect": false },
+      { "text": "Anglais", "isCorrect": false },
+      { "text": "Russe", "isCorrect": false }
+    ]
+  },
+  {
+    "category": "languages",
+    "difficulty": "facile",
+    "text": "Quelle langue parle-t-on au Mexique ?",
+    "image": "assets/images/languages/facile/q26.png",
+    "answers": [
+      { "text": "Espagnol", "isCorrect": true },
+      { "text": "Mexicain", "isCorrect": false },
+      { "text": "Portugais", "isCorrect": false },
+      { "text": "Français", "isCorrect": false }
+    ]
+  },
+
+  {
+    "category": "languages",
+    "difficulty": "facile",
+    "text": "Quelle est la langue officielle de l'Australie ?",
+    "image": "assets/images/languages/facile/q27.png",
+    "answers": [
+      { "text": "Anglais", "isCorrect": true },
+      { "text": "Australien", "isCorrect": false },
+      { "text": "Maori", "isCorrect": false },
+      { "text": "Français", "isCorrect": false }
+    ]
+  },
+
+
+
     {
       "category": "languages",
       "difficulty": "moyenne",
@@ -459,11 +551,11 @@
     {
       "category": "languages",
       "difficulty": "moyenne",
-      "text": "Quelle est la langue officielle de l'Israël ?",
+      "text": "Quelle est la langue officielle de Palastine ?",
       "image": "assets/images/languages/moyenne/q19.png",
       "answers": [
-        { "text": "Hébreu", "isCorrect": true },
-        { "text": "Arabe", "isCorrect": false },
+        { "text": "Hébreu", "isCorrect": false },
+        { "text": "Arabe", "isCorrect": true },
         { "text": "Anglais", "isCorrect": false },
         { "text": "Français", "isCorrect": false }
       ]

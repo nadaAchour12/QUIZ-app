@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
+import '../constants/avatar_constants.dart';
 import '../models/question_model.dart';
 import '../quiz_screen.dart';
 import '../screens/history_screen.dart';
@@ -22,22 +23,19 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   int _selectedIndex = 0;
 
-  // ⚠️ Plus de const ici car les widgets ne sont pas tous const
   late final List<Widget> _pages;
 
   @override
   void initState() {
     super.initState();
 
-    // Initialisation des pages (non-const)
     _pages = [
       const QuizHomePage(),
       const MultiplayerScreen(),
       const HistoryScreen(),
-       ProfileScreen(), // même si pas const, c'est OK ici
+      const ProfileScreen(),
     ];
 
-    // Redirection si non connecté
     final user = FirebaseAuth.instance.currentUser;
     WidgetsBinding.instance.addPostFrameCallback((_) {
       if (user == null && mounted) {
@@ -90,7 +88,6 @@ class _HomeScreenState extends State<HomeScreen> {
 class QuizHomePage extends StatelessWidget {
   const QuizHomePage({super.key});
 
-  // ✅ Ces listes sont vraiment constantes → on garde const
   static const List<Map<String, dynamic>> categories = [
     {
       "key": "sport",
@@ -183,23 +180,8 @@ class QuizHomePage extends StatelessWidget {
       "icon": Icons.account_balance,
       "imageUrl": "assets/screen/logs.png"
     },
-
   ];
 
-  static const List<String> avatarAssets = [
-    'assets/avatar/avatar1.png',
-    'assets/avatar/avatar2.png',
-    'assets/avatar/avatar3.png',
-    'assets/avatar/avatar4.png',
-    'assets/avatar/avatar5.png',
-    'assets/avatar/avatar6.png',
-    'assets/avatar/avatar7.png',
-    'assets/avatar/avatar8.png',
-    'assets/avatar/avatar9.png',
-    'assets/avatar/avatar10.png',
-  ];
-
-  // Calcul correct de la semaine ISO 8601
   String _getIsoWeekKey(DateTime date) {
     final thursday = date.add(Duration(days: 4 - (date.weekday % 7)));
     final yearThursday = DateTime(thursday.year, 1, 4);
@@ -258,9 +240,11 @@ class QuizHomePage extends StatelessWidget {
       );
     } catch (e) {
       if (context.mounted) Navigator.pop(context);
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text("Erreur : $e")),
-      );
+      if (context.mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text("Erreur : $e")),
+        );
+      }
     }
   }
 
@@ -303,9 +287,11 @@ class QuizHomePage extends StatelessWidget {
       );
     } catch (e) {
       if (context.mounted) Navigator.pop(context);
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text("Erreur : $e")),
-      );
+      if (context.mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text("Erreur : $e")),
+        );
+      }
     }
   }
 
@@ -323,19 +309,15 @@ class QuizHomePage extends StatelessWidget {
         int avatarIndex = 0;
         int currentScore = 0;
         int weeklyIncrease = 0;
-        int coins = 0; // ← NOUVEAU : coins
+        int coins = 0;
 
         if (snapshot.hasData && snapshot.data!.exists) {
           final data = snapshot.data!.data()!;
           username = data['username'] ?? 'Joueur';
           avatarUrl = data['avatarUrl'] as String?;
-          avatarIndex = (data['avatarIndex'] is int &&
-              data['avatarIndex'] >= 0 &&
-              data['avatarIndex'] < avatarAssets.length)
-              ? data['avatarIndex'] as int
-              : 0;
+          avatarIndex = data['avatarIndex'] ?? 0;
           currentScore = (data['dailyScore'] ?? 0) as int;
-          coins = (data['coins'] ?? 0) as int; // ← Récupération des coins
+          coins = (data['coins'] ?? 0) as int;
 
           final weeklyScores = Map<String, dynamic>.from(data['weeklyScores'] ?? {});
           weeklyIncrease = _calculateWeeklyIncrease(weeklyScores);
@@ -360,7 +342,14 @@ class QuizHomePage extends StatelessWidget {
                     backgroundColor: Colors.grey.shade800,
                     backgroundImage: avatarUrl != null ? NetworkImage(avatarUrl) : null,
                     child: avatarUrl == null
-                        ? Image.asset(avatarAssets[avatarIndex], fit: BoxFit.cover)
+                        ? ClipOval(
+                      child: Image.asset(
+                        AvatarConstants.getAvatarAsset(avatarIndex),
+                        fit: BoxFit.cover,
+                        width: 68,
+                        height: 68,
+                      ),
+                    )
                         : null,
                   ),
                   const SizedBox(width: 16),
@@ -368,8 +357,18 @@ class QuizHomePage extends StatelessWidget {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text("Bonjour, @$username !", style: const TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold)),
-                        const Text("Prêt à tester tes connaissances ?", style: const TextStyle(color: Colors.white70, fontSize: 15)),
+                        Text(
+                          "Bonjour, @$username !",
+                          style: const TextStyle(
+                            color: Colors.white,
+                            fontSize: 20,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                        const Text(
+                          "Prêt à tester tes connaissances ?",
+                          style: TextStyle(color: Colors.white70, fontSize: 15),
+                        ),
                       ],
                     ),
                   ),
@@ -384,7 +383,13 @@ class QuizHomePage extends StatelessWidget {
               decoration: BoxDecoration(
                 color: const Color(0xFF1A1A2E),
                 borderRadius: BorderRadius.circular(24),
-                boxShadow: [BoxShadow(color: Colors.black.withOpacity(0.3), blurRadius: 10, offset: const Offset(0, 5))],
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.black.withOpacity(0.3),
+                    blurRadius: 10,
+                    offset: const Offset(0, 5),
+                  ),
+                ],
               ),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -393,17 +398,35 @@ class QuizHomePage extends StatelessWidget {
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      const Text("CURRENT SCORE", style: TextStyle(color: Colors.white54, fontSize: 14)),
+                      const Text(
+                        "CURRENT SCORE",
+                        style: TextStyle(color: Colors.white54, fontSize: 14),
+                      ),
                       const SizedBox(height: 8),
-                      Text("$currentScore pts", style: const TextStyle(color: Colors.cyan, fontSize: 32, fontWeight: FontWeight.bold)),
+                      Text(
+                        "$currentScore pts",
+                        style: const TextStyle(
+                          color: Colors.cyan,
+                          fontSize: 32,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
                       const SizedBox(height: 8),
                       Row(
                         children: [
-                          Icon(weeklyIncrease >= 0 ? Icons.trending_up : Icons.trending_down,
-                              color: weeklyIncrease >= 0 ? Colors.green : Colors.red, size: 20),
+                          Icon(
+                            weeklyIncrease >= 0 ? Icons.trending_up : Icons.trending_down,
+                            color: weeklyIncrease >= 0 ? Colors.green : Colors.red,
+                            size: 20,
+                          ),
                           const SizedBox(width: 4),
-                          Text("${weeklyIncrease >= 0 ? '+' : ''}$weeklyIncrease cette semaine",
-                              style: TextStyle(color: weeklyIncrease >= 0 ? Colors.green : Colors.red, fontSize: 14)),
+                          Text(
+                            "${weeklyIncrease >= 0 ? '+' : ''}$weeklyIncrease cette semaine",
+                            style: TextStyle(
+                              color: weeklyIncrease >= 0 ? Colors.green : Colors.red,
+                              fontSize: 14,
+                            ),
+                          ),
                         ],
                       ),
                     ],
@@ -436,9 +459,16 @@ class QuizHomePage extends StatelessWidget {
               ),
             ),
 
-            // ... le reste du code reste exactement le même
             const SizedBox(height: 30),
-            const Text("Prêt à te challenger aujourd'hui ?", style: TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.w600), textAlign: TextAlign.center),
+            const Text(
+              "Prêt à te challenger aujourd'hui ?",
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 18,
+                fontWeight: FontWeight.w600,
+              ),
+              textAlign: TextAlign.center,
+            ),
             const SizedBox(height: 20),
 
             SizedBox(
@@ -446,11 +476,16 @@ class QuizHomePage extends StatelessWidget {
               child: ElevatedButton.icon(
                 onPressed: () => _startDailyQuiz(context),
                 icon: const Icon(Icons.play_circle_fill, size: 28),
-                label: const Text("Lancer le Daily Quiz", style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+                label: const Text(
+                  "Lancer le Daily Quiz",
+                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                ),
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.cyan,
                   padding: const EdgeInsets.symmetric(vertical: 18),
-                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(30),
+                  ),
                   elevation: 10,
                   shadowColor: Colors.cyan.withOpacity(0.5),
                 ),
@@ -458,7 +493,14 @@ class QuizHomePage extends StatelessWidget {
             ),
 
             const SizedBox(height: 40),
-            const Text("Choisis un thème", style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold, color: Colors.white)),
+            const Text(
+              "Choisis un thème",
+              style: TextStyle(
+                fontSize: 24,
+                fontWeight: FontWeight.bold,
+                color: Colors.white,
+              ),
+            ),
             const SizedBox(height: 16),
 
             GridView.builder(
@@ -479,7 +521,12 @@ class QuizHomePage extends StatelessWidget {
                       context: context,
                       builder: (_) => QuizSettingsDialog(
                         onStart: (difficulty, count) {
-                          _startQuiz(context, cat["key"] as String, difficulty, count);
+                          _startQuiz(
+                            context,
+                            cat["key"] as String,
+                            difficulty,
+                            count,
+                          );
                         },
                       ),
                     );
@@ -494,7 +541,13 @@ class QuizHomePage extends StatelessWidget {
                           fit: BoxFit.cover,
                           errorBuilder: (_, __, ___) => Container(
                             color: const Color(0xFF2A2A3B),
-                            child: Center(child: Icon(cat["icon"] as IconData, color: cat["color"] as Color, size: 50)),
+                            child: Center(
+                              child: Icon(
+                                cat["icon"] as IconData,
+                                color: cat["color"] as Color,
+                                size: 50,
+                              ),
+                            ),
                           ),
                         ),
                       ),
@@ -514,9 +567,20 @@ class QuizHomePage extends StatelessWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Icon(cat["icon"] as IconData, color: cat["color"] as Color, size: 32),
+                            Icon(
+                              cat["icon"] as IconData,
+                              color: cat["color"] as Color,
+                              size: 32,
+                            ),
                             const SizedBox(height: 4),
-                            Text(cat["name"] as String, style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.white)),
+                            Text(
+                              cat["name"] as String,
+                              style: const TextStyle(
+                                fontSize: 20,
+                                fontWeight: FontWeight.bold,
+                                color: Colors.white,
+                              ),
+                            ),
                           ],
                         ),
                       ),

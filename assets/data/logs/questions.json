@@ -185,10 +185,10 @@
     "text": "Quel logo est représenté sur l'image ?",
     "image": "assets/images/logs/facile/q16.png",
     "answers": [
-      { "text": "Nike", "isCorrect": true },
+      { "text": "Nike", "isCorrect": false },
       { "text": "Adidas", "isCorrect": false },
       { "text": "Puma", "isCorrect": false },
-      { "text": "Reebok", "isCorrect": false }
+      { "text": "Reebok", "isCorrect": true }
     ]
   },
   {
@@ -428,8 +428,8 @@
       "text": "Quel logo est représenté sur l'image ?",
       "image": "assets/images/logs/moyenne/q16.png",
       "answers": [
-        { "text": "Canon", "isCorrect": true },
-        { "text": "Nikon", "isCorrect": false },
+        { "text": "Canon", "isCorrect": false },
+        { "text": "Nikon", "isCorrect": true },
         { "text": "Sony", "isCorrect": false },
         { "text": "Panasonic", "isCorrect": false }
       ]
@@ -491,9 +491,9 @@
       "text": "Quel logo est représenté sur l'image ?",
       "image": "assets/images/logs/difficile/q1.png",
       "answers": [
-        { "text": "Kia", "isCorrect": true },
+        { "text": "Kia", "isCorrect": false },
         { "text": "Hyundai", "isCorrect": false },
-        { "text": "Tata", "isCorrect": false },
+        { "text": "Tata", "isCorrect": true },
         { "text": "Suzuki", "isCorrect": false }
       ]
     },
@@ -695,8 +695,8 @@
       "text": "Quel logo est représenté sur l'image ?",
       "image": "assets/images/logs/difficile/q18.png",
       "answers": [
-        { "text": "Spotify", "isCorrect": true },
-        { "text": "Tidal", "isCorrect": false },
+        { "text": "Spotify", "isCorrect": false },
+        { "text": "Tidal", "isCorrect": true },
         { "text": "Apple Music", "isCorrect": false },
         { "text": "Deezer", "isCorrect": false }
       ]
@@ -707,10 +707,10 @@
       "text": "Quel logo est représenté sur l'image ?",
       "image": "assets/images/logs/difficile/q19.png",
       "answers": [
-        { "text": "Monster Energy", "isCorrect": true },
+        { "text": "Monster Energy", "isCorrect": false },
         { "text": "Red Bull", "isCorrect": false },
         { "text": "Rockstar", "isCorrect": false },
-        { "text": "Burn", "isCorrect": false }
+        { "text": "Burn", "isCorrect": true }
       ]
     },
     {
